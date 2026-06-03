@@ -34,6 +34,16 @@
         multiple
         variant="outlined"
     />
+    <v-select
+        clearable
+        chips
+        color="primary"
+        density="compact"
+        label="Kurslänge"
+        :items="['Alle', '1h', '3h', 'kp']"
+        multiple
+        variant="outlined"
+    />
   </v-container>
 </template>
 
