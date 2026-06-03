@@ -1,0 +1,25 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <v-card
+      text="AI Quests vermittelt Schülern im Alter von 11 bis 14 Jahren durch fesselnde Abenteuer Kenntnisse im Bereich der künstlichen Intelligenz."
+      title="AI Quest"
+      variant="outlined"
+  >
+      <template v-slot:actions>
+        <v-btn
+            color="purple"
+            href="https://research.google/ai-quests/intl/en_gb"
+            varinat="elevated"
+        >
+          Zum Kurs
+        </v-btn>
+      </template>
+  </v-card>
+</template>
+
+<style scoped>
+
+</style>
