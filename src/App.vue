@@ -1,13 +1,13 @@
 <script lang="ts" setup>
-import HelloWorld from '@/components/HelloWorld.vue'
 import Header from '@/components/Header.vue'
+import Uebersicht from '@/components/Uebersicht.vue'
 </script>
 
 <template>
   <v-app>
     <v-main>
       <Header />
-      <HelloWorld />
+      <Uebersicht />
     </v-main>
 <!--    <v-btn-->
 <!--      class="ma-2"-->
@@ -18,3 +18,11 @@ import Header from '@/components/Header.vue'
 <!--    />-->
   </v-app>
 </template>
+
+<style>
+.ueberschrift {
+  color: #1E398F;
+  font-weight: bold;
+  //font-family: cargan, Consolas, Menlo, Monaco, Courier, monospace;
+}
+</style>
