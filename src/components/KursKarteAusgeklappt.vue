@@ -1,5 +1,17 @@
 <script setup lang="ts">
 
+const emit = defineEmits(['toggle-karte'])
+
+function karteEinklappen() {
+  emit('toggle-karte', props.meinIndex)
+}
+
+const props = defineProps({
+  titel: String,
+  beschreibung: String,
+  meinIndex: Number,
+})
+
 </script>
 
 <template>
@@ -16,6 +28,10 @@
         >
           Zum Kurs
         </v-btn>
+        <v-btn
+            icon="mdi-chevron-up"
+            @click="karteEinklappen()"
+        />
       </template>
   </v-card>
 </template>

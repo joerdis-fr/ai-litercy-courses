@@ -1,10 +1,26 @@
 <script setup lang="ts">
 import Filter from "@/components/Filter.vue";
 import KursKarteEingeklappt from "./KursKarteEingeklappt.vue";
-import {ref} from "vue";
+import {onMounted, ref} from "vue";
 import KursKarteAusgeklappt from "@/components/KursKarteAusgeklappt.vue";
+import type {Course} from "@/types.ts";
 
+// Steuervariabeln
 const karteAusgeklappt = ref(false);
+const courses = ref<Course[]>([]);
+
+// Einlesen der Daten
+async function loadJson(): Promise<Course[]> {
+  const content = await fetch("/courses-test.json");
+  return await content.json() as Course[];
+}
+
+onMounted(async () => {
+  courses.value = await loadJson();
+  console.log(courses);
+
+  console.log(courses.value[0].tool.name)
+})
 </script>
 
 <template>
@@ -18,7 +34,10 @@ const karteAusgeklappt = ref(false);
     <h2>Ergebnisse </h2>
     <KursKarteEingeklappt
         v-if="!karteAusgeklappt"
-        @click="karteAusgeklappt = true"
+        titel="test"
+        beschreibung="test"
+        :mein-index="0"
+        @toggle-karte="karteAusgeklappt = true"
     />
     <KursKarteAusgeklappt
       v-else

@@ -1,11 +1,22 @@
 <script setup lang="ts">
 
+const emit = defineEmits(['toggle-karte'])
+
+function karteAusklappen() {
+  emit('toggle-karte', props.meinIndex)
+}
+
+const props = defineProps({
+  titel: String,
+  beschreibung: String,
+  meinIndex: Number,
+})
 </script>
 
 <template>
   <v-card
-      text="AI Quests vermittelt Schülern im Alter von 11 bis 14 Jahren durch fesselnde Abenteuer Kenntnisse im Bereich der künstlichen Intelligenz."
-      title="AI Quest"
+      :text="props.beschreibung"
+      :title="props.titel"
       variant="outlined"
   >
       <template v-slot:actions>
@@ -16,6 +27,10 @@
         >
           Zum Kurs
         </v-btn>
+        <v-btn
+            icon="mdi-chevron-down"
+            @click="karteAusklappen()"
+        />
       </template>
   </v-card>
 </template>
