@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import Filter from "@/components/Filter.vue";
-import KursKarte from "@/components/KursKarte.vue";
+import KursKarteEingeklappt from "./KursKarteEingeklappt.vue";
+import {ref} from "vue";
+import KursKarteAusgeklappt from "@/components/KursKarteAusgeklappt.vue";
+
+const karteAusgeklappt = ref(false);
 </script>
 
 <template>
@@ -12,7 +16,14 @@ import KursKarte from "@/components/KursKarte.vue";
     <Filter />
     <v-divider />
     <h2>Ergebnisse </h2>
-    <KursKarte />
+    <KursKarteEingeklappt
+        v-if="!karteAusgeklappt"
+        @click="karteAusgeklappt = true"
+    />
+    <KursKarteAusgeklappt
+      v-else
+      @click="karteAusgeklappt = false"
+    />
   </v-container>
 </template>
 
