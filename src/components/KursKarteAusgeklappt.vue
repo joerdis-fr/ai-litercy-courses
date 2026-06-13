@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import type {Course} from "@/types.ts";
+import acmLogo from "../assets/acm-logo.webp";
+import scienceDirectLogo from "../assets/elsevier-logo.svg";
+import springerLogo from "../assets/logo-springer-nature-link.svg";
+import aaaiLogo from "../assets/aaai-logo.png";
+import mitLogo from "../assets/mit-logo.png";
+import {useDisplay} from "vuetify/framework";
 
 const emit = defineEmits(['toggle-karte'])
 
@@ -11,6 +17,8 @@ const props = defineProps<{
   meinIndex: number,
   course: Course
 }>();
+
+const display = useDisplay();
 
 const kurs = props.course
 const paper = kurs.paper || null
@@ -46,6 +54,26 @@ const forschungsfragen = () => {
   else return [];
 }
 
+// Logo Auswahl
+const richtigesLogo = () => {
+  if (paper) {
+    switch (paper.datenbank) {
+      case "ACM":
+        return acmLogo;
+      case "Science Direct":
+        return scienceDirectLogo;
+      case "Springer":
+        return springerLogo;
+      case "AAAI":
+        return aaaiLogo;
+      case "MIT Media Lab":
+        return mitLogo;
+      default:
+        return undefined;
+    }
+  }
+  else return undefined;
+}
 </script>
 
 <template>
@@ -62,7 +90,19 @@ const forschungsfragen = () => {
       </ul>
       <div v-if="paper != null">
         <v-divider />
-        <h4>Infos zum zugehörigen Paper</h4>
+        <v-row>
+          <v-col cols="auto">
+            <h4>Infos zum zugehörigen Paper</h4>
+          </v-col>
+          <v-spacer />
+          <v-col cols="3">
+            <v-img
+                :class="display.smAndUp? 'mt-4' : ''"
+                :src="richtigesLogo()"
+                min-width="100"
+            />
+          </v-col>
+        </v-row>
         <h3>{{ paper.titel }}</h3>
         <p class="text-body-medium text-grey-darken-1 mt-n4"> {{ paper.veroeffentlichungsdatum }} </p>
         <ul>
@@ -70,7 +110,6 @@ const forschungsfragen = () => {
           <li>Methode zur Datenerhebung: {{ paper.methode }}</li>
           <li>Sample: {{ paper.sample }}</li>
           <li>Ergebnisse: {{ paper.ergebnisse }}</li>
-          <li>von {{ paper.datenbank }}</li>
           <li
               v-if="laender().length == 1"
           >
