@@ -3,13 +3,12 @@
 const emit = defineEmits(['toggle-karte'])
 
 function karteAusklappen() {
-  emit('toggle-karte', props.meinIndex)
+  emit('toggle-karte')
 }
 
 const props = defineProps<{
   titel: string,
   beschreibung: string,
-  meinIndex: number,
 }>();
 </script>
 

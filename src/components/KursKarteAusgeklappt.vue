@@ -10,11 +10,10 @@ import {useDisplay} from "vuetify/framework";
 const emit = defineEmits(['toggle-karte'])
 
 function karteEinklappen() {
-  emit('toggle-karte', props.meinIndex)
+  emit('toggle-karte')
 }
 
 const props = defineProps<{
-  meinIndex: number,
   course: Course
 }>();
 
