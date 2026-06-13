@@ -8,7 +8,7 @@ import type {Course} from "@/types.ts";
 // Steuervariabeln
 const ausgeklappteKartenIds = ref<Array<number>>([]);
 const courses = ref<Course[]>([]);
-const loading =ref(true)
+const loading = ref(true)
 
 // Einlesen der Daten
 async function loadJson(): Promise<Course[]> {
@@ -19,13 +19,17 @@ async function loadJson(): Promise<Course[]> {
 onMounted(async () => {
   courses.value = await loadJson();
   for (const course of courses.value as Course[]) {
-    if (course.tool.name == "/"){
-      if (course.paper) course.tool.name = course.paper.titel
+    if (Array.isArray(course.tool)) {
+      console.log(course);
     }
+    else {
+      if (course.tool.name == "/"){
+        if (course.paper) course.tool.name = course.paper.titel
+      }
+    }
+
   }
   loading.value = false;
-
-  console.log(courses.value[0].tool.name)
 })
 
 // Karten Ein- und Ausklappen steuern
@@ -36,6 +40,12 @@ const karteAusklappen = (id: number) => {
   if (!ausgeklappteKartenIds.value.includes(id)) {
     ausgeklappteKartenIds.value.push(id);
   }
+}
+const alleAusklappen = () => {
+  courses.value.forEach((course) => {karteAusklappen(course.id)});
+}
+const alleEinklappen = () => {
+  ausgeklappteKartenIds.value = []
 }
 
 </script>
@@ -48,7 +58,26 @@ const karteAusklappen = (id: number) => {
     <h2>Filter </h2>
     <Filter />
     <v-divider />
-    <h2>Ergebnisse </h2>
+    <v-row>
+      <v-col>
+        <h2>Ergebnisse </h2>
+      </v-col>
+      <v-spacer />
+      <v-col cols="auto">
+        <v-btn
+            class="ma-2"
+            color="purple"
+            icon="mdi-arrow-expand-all"
+            @click="alleAusklappen()"
+        />
+        <v-btn
+            class="ma-2"
+            color="orange"
+            icon="mdi-arrow-collapse-all"
+            @click="alleEinklappen()"
+        />
+      </v-col>
+    </v-row>
     <v-skeleton-loader
         v-if="loading"
         type="article"

@@ -4,7 +4,7 @@ export interface Course {
     laenge: Lenght | null;
     erwaehntIn: Array<string>;
     paper: Paper | null;
-    tool: Tool,
+    tool: Tool | Array<Tool>,
     kategorie: Array<string>;
     thema: Array<string>;
 }

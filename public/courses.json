@@ -72,11 +72,21 @@
       "forschungsfrage": [],
       "ergebnisse": "Together, the results show how middle school students can begin forming intuitions about generative AI, recommender systems, and synthetic media. Across activities, students showed early understanding of bias, trade-offs, and manipulation."
     },
-    "tool": {
-      "name": "Bandit Explorer, SpotAI, PromptPeek",
-      "beschreibung": "PromptPeek: Prompting, Bias, & Negation, Schüler schreiben Prompts, reverse-engineer Prompts, und untersuchen wie GenAI mit Bias umgeht und an Negation scheitert. Bandit Explorer: Empfehlungssytsem-Kompromisse, eine Simulation des Erkundungs- und Ausbeutungskompromisses unter Verwendung der epsilon-greedy Policy. Schüler passen ϵ (epsilon) an, um zu sehen, wie Empfehlungen auf Grundlage ihrer Umgebung sich verändern.",
+    "tool": [
+      {
+      "name": "Bandit Explorer",
+      "beschreibung": "Empfehlungssytsem-Kompromisse, eine Simulation des Erkundungs- und Ausbeutungskompromisses unter Verwendung der epsilon-greedy Policy. Schüler passen ϵ (epsilon) an, um zu sehen, wie Empfehlungen auf Grundlage ihrer Umgebung sich verändern.",
       "link": "https://github.com/saniavn/ai-literacy-tools"
-    },
+      },
+      {
+        "name": "SpotAI",
+        "beschreibung": "",
+        "link": "https://github.com/saniavn/ai-literacy-tools"
+      },
+      {"name": "PromptPeek",
+        "beschreibung": "PromptPeek: Prompting, Bias, & Negation, Schüler schreiben Prompts, reverse-engineer Prompts, und untersuchen wie GenAI mit Bias umgeht und an Negation scheitert.",
+        "link": "https://github.com/saniavn/ai-literacy-tools"}
+    ],
     "thema": "Bandit Explorer: AI Literacy, Empfehlungssysteme, ML; SpotAI: AI erkennen; PromptPeek: NLP, sozialer Einfluss",
     "kategorie": ["Webanwendung"]
   },
