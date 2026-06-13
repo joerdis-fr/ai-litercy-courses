@@ -18,6 +18,11 @@ async function loadJson(): Promise<Course[]> {
 
 onMounted(async () => {
   courses.value = await loadJson();
+  for (const course of courses.value as Course[]) {
+    if (course.tool.name == "/"){
+      if (course.paper) course.tool.name = course.paper.titel
+    }
+  }
   loading.value = false;
 
   console.log(courses.value[0].tool.name)

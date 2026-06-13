@@ -2,68 +2,74 @@
   {
     "id": 2,
     "zielgruppe": "Schüler der Mittelstufe",
-    "laenge": "2x 20m",
-    "erwaehntIn": "/",
+    "kategorie": ["Kognitives Werkzeug"],
+    "thema": "AI Literacy: Empfehlungssysteme",
+    "laenge": {
+      "anzahlSessions": 2,
+      "zeitInMinutes": 20
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Designing Embodied Metaphors and Analogies for AI Literacy: An Iterative Study with Experts, Teachers, and Children",
       "bemerkung": "BeeTrap, Webseite zwar nicht verlinkt, aber die Metaphern funktionieren auch ohne die Implementierung",
-      "Link": "https://dl.acm.org/doi/10.1145/3773901",
+      "link": "https://dl.acm.org/doi/10.1145/3773901",
       "veroeffentlichungsdatum": "21.04.2026",
-      "land": "USA & China",
+      "land": ["USA", "China"],
       "methode": "Pre- und Post Umfragen, Interviews, Bildschirmaufnahmen, Videoaufnahmen der Sytsteminteraktionen der Teilnehmenden",
       "sample": "14 Schüler der Mittelstufe (10-14) und 4 STEM Lehrer",
-      "forschungsfrage": "How can an iterative, multi‐phase design pipeline produce and refine embodied analogies for teaching AI literacy? RQ1. Ideation: What design concepts emerge from brainstorming with AI experts? RQ2. Formative evaluation: What learning challenges and affordances do middle‐school students reveal when using the AR prototype? RQ3. Refinement: How does teacher feedback from focus‐group interviews inform the next design iteration?",
+      "forschungsfrage": ["How can an iterative, multi‐phase design pipeline produce and refine embodied analogies for teaching AI literacy?", "RQ1. Ideation: What design concepts emerge from brainstorming with AI experts?", "RQ2. Formative evaluation: What learning challenges and affordances do middle‐school students reveal when using the AR prototype?", "RQ3. Refinement: How does teacher feedback from focus‐group interviews inform the next design iteration?"],
       "ergebnisse": "Analogical Representations—Garden and Bee Analogies for the Mechanisms of Recommendation Systems. Flowers, visualized by multiple features (e.g., color, petal size, height), represent items in the\nrecommendation system. Bees pollinating flowers in the garden is the analogy for consumers of the\nrecommendation system, and bee pollination represents user acceptance of a recommended item."
     },
     "tool": {
       "name": "Bee Trap",
-      "beschreibung": "Eine Metapher, bei der Blumen und Bienen für Empfehlungssysteme und Filterblasen stehen. Leider konnte kein link zu der passenden Webanwendung gefunden werden, wodurch das sprachliche Bild in diesem Fall alles ist, was zur Verfügung steht.",
-      "link": "s. beschreibungen in PP2"
-    },
-    "thema": "AI Literacy: Empfehlungssysteme",
-    "kategorie": "Kognitives Werkzeug"
+      "beschreibung": "Eine Metapher, bei der Blumen und Bienen für Empfehlungssysteme und Filterblasen stehen. Leider konnte kein Zugang zu der passenden Webanwendung gefunden werden, wodurch das sprachliche Bild in diesem Fall alles ist, was zur Verfügung steht.",
+      "link": null
+    }
   },
   {
     "id": 3,
     "zielgruppe": "Sechstklässler",
-    "laenge": "1x ca. 45m",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 45
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Supporting Holistic AI Ethics Literacy Education Through Critical Reflection: Three Recommendations for Fostering Children's Ethical Growth",
       "bemerkung": "Szenarien für ethische AI Prinzipien, funktioniert ohne source Code",
       "Link": "https://dl.acm.org/doi/10.1145/3772318.3791477",
       "veroeffentlichungsdatum": "13.04.2026",
-      "land": "UK",
+      "land": ["UK"],
       "methode": "Co-Design, Power Analyse, Post- und Pre Umfragen, Semi-strukturierte Interviews(Design Fiction)",
       "sample": "66 Schüler zwischen 10 und 11",
-      "forschungsfrage": "RQ1: How do children understand and articulate ethical issues and principles related to AI? RQ2: In what ways do children’s attitudes towards the scenarios evolve over the course of the study?",
+      "forschungsfrage": ["RQ1: How do children understand and articulate ethical issues and principles related to AI?", "RQ2: In what ways do children’s attitudes towards the scenarios evolve over the course of the study?"],
       "ergebnisse": "1. an empirical map of where unaided reflection clusters and thins across key ethical principles; 2. evidence that short, design fiction-based scenarios can reliably induce measured caution rather than outright rejection in AI ethics literacy education; and 3. three practicable recommendations for future holistic AI ethics literacy research with Children"
     },
     "tool": {
       "name": "/",
       "beschreibung": "Design Fiction Szenarien, an UNESCO’s etshischen Prinzipien für KI ausgerichtet, wir haben 10 Design Fiction Szenarien aus bekannten Kontexten verwendet, um Reflektion anzuspornen.",
-      "link": "s. Tabelle 1 und Appendix A, Figure 4."
+      "link": null
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": "Kognitives Werkzeug"
+    "kategorie": ["Kognitives Werkzeug"]
   },
   {
     "id": 4,
     "zielgruppe": "Schüler der Mittelstufe",
-    "laenge": "Nicht genannt",
-    "erwaehntIn": "/",
+    "laenge": null,
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Interactive tools for Middle School Students AI Literacy",
       "bemerkung": "PromptPeek, Bandit Explorer, SpotAI",
       "Link": "https://dl.acm.org/doi/10.1145/3770761.3777205",
       "veroeffentlichungsdatum": "17.02.2026",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen",
       "sample": "7 Schüler der Mittelstufe",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "Together, the results show how middle school students can begin forming intuitions about generative AI, recommender systems, and synthetic media. Across activities, students showed early understanding of bias, trade-offs, and manipulation."
     },
     "tool": {
@@ -72,23 +78,26 @@
       "link": "https://github.com/saniavn/ai-literacy-tools"
     },
     "thema": "Bandit Explorer: AI Literacy, Empfehlungssysteme, ML; SpotAI: AI erkennen; PromptPeek: NLP, sozialer Einfluss",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 5,
     "zielgruppe": "Schüler der Mittelstufe",
-    "laenge": "2 Sitzungen nach der Schule",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 2,
+      "zeitInMinutes": null
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Think Like AI: Hands-On Exploration of Sampling Parameters and Prompts for Middle School Students' Generative AI Literacy",
       "bemerkung": "Präsentation von dem tool ThinkLikeAI",
       "Link": "https://dl.acm.org/doi/10.1145/3770762.3772528",
       "veroeffentlichungsdatum": "17.02.2026",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen",
       "sample": "35 Schüler der Mittelstufe",
-      "forschungsfrage": "RQ1: How does interacting with the tool influence middle school students’ conceptual understanding of foundational AI terms (e.g., token, prompt)? RQ2: How do students reason about randomness and probability in language generation after interacting with sampling parameters (temperature and top-p)? RQ3: How do students perceive their influence over AIgenerated content after engaging with Think Like AI?",
+      "forschungsfrage": ["RQ1: How does interacting with the tool influence middle school students’ conceptual understanding of foundational AI terms (e.g., token, prompt)?", "RQ2: How do students reason about randomness and probability in language generation after interacting with sampling parameters (temperature and top-p)?", "RQ3: How do students perceive their influence over AIgenerated content after engaging with Think Like AI?"],
       "ergebnisse": "After using the tool, most described both terms more accurately and recognized how parameter settings shape the sampling pool. They also saw how GPT-4 sometimes failed to follow instructions like negation, helping them recognize AI limitations and begin reasoning about why models can fail."
     },
     "tool": {
@@ -97,23 +106,26 @@
       "link": "https://github.com/saniavn/ThinkLikeAI"
     },
     "thema": "AI Literacy: NLP",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 6,
     "zielgruppe": "Schwarze Teenager Mädchen",
-    "laenge": "3 Tage Workshop (4h pro Tag)",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 3,
+      "zeitInMinutes": 240
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Grillz on a hijabi\": Intersectional Identities in Fostering Critical AI Literacy",
       "bemerkung": "Schwarze muslimische teenager machen fashion und sehen, dass KI an seine Grenzen stößt",
       "Link": "https://dl.acm.org/doi/10.1145/3769994.3770037",
       "veroeffentlichungsdatum": "10.11.2025",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "IRB-akzeptierte Bildungs-Workshop Studie",
       "sample": "5 Schwarze Teenager Mädchen",
-      "forschungsfrage": "RQ: How are different facets of intersectional identities resources to foster critical AI literacy development through creative endeavors with AI?",
+      "forschungsfrage": ["RQ: How are different facets of intersectional identities resources to foster critical AI literacy development through creative endeavors with AI?"],
       "ergebnisse": "Our findings show how teens used GenAI tools to express their intersectional identities, critique algorithmic limitations, and develop emerging forms of critical AI literacy through a culturally responsive, creative activity."
     },
     "tool": {
@@ -122,23 +134,26 @@
       "link": "s. beschreibungen in PP6"
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 7,
     "zielgruppe": "Schüler der Mittelstufe",
-    "laenge": "4-Wochen, 4-Sessions, 8x 45-Minuten Kurse",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 8,
+      "zeitInMinutes": 45
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "AI Education in Middle School: Exploring the Mechanisms and Constraints of Generative AI",
       "bemerkung": "4 Doppelstunden (zeitlich)",
       "Link": "https://dl.acm.org/doi/10.1145/3736181.3747134",
       "veroeffentlichungsdatum": "21.10.2025",
-      "land": "Nigeria",
+      "land": ["Nigeria"],
       "methode": "Pre- and Post Umfragen",
       "sample": "30 Achtklässler",
-      "forschungsfrage": "RQ1. Was there a change in students’ perceptions and attitudes towards AI learning after course completion? RQ2. How does students’ interaction with ChatGPT contribute to their understanding of AI processes and mechanisms, including recognizing its limitations?",
+      "forschungsfrage": ["RQ1. Was there a change in students’ perceptions and attitudes towards AI learning after course completion?", "RQ2. How does students’ interaction with ChatGPT contribute to their understanding of AI processes and mechanisms, including recognizing its limitations?"],
       "ergebnisse": "After completing the four-week curriculum, students’ attitudes and impressions of AI learning significantly improved, according to our findings."
     },
     "tool": {
@@ -147,23 +162,23 @@
       "link": "s. beschreibungen in PP7"
     },
     "thema": "AI Literacy: ChatGPT",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 8,
     "zielgruppe": "Schüler der Mittelstufe bis zu Studierenden",
-    "laenge": "Über mehrere Wochen (aber es wurde hier nicht ein Kurs durchgeführt, sondern immer mal wieder etwas ausprobiert und dann in großer Runde darüber diskutiert)",
-    "erwaehntIn": "/",
+    "laenge": null,
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Accessible AI and HPC Education for All",
       "bemerkung": "Sammlung an verschiedenen Workshops, inklusive Git-Repository",
       "Link": "https://dl.acm.org/doi/10.1145/3708035.3736048",
       "veroeffentlichungsdatum": "18.07.2025",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen",
       "sample": "15 Studierende",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "By offering 14 free and interactive workshops that require no specialized background or infrastructure, this Curriculum lowers traditional barriers and invites students and educators at all levels to engage with HPC and AI."
     },
     "tool": {
@@ -172,23 +187,26 @@
       "link": "https://github.com/DrAlzahrani/HPC-AI-Resources/wiki"
     },
     "thema": "Verschiedene AI und CS Themen",
-    "kategorie": "Sammlung von KI Kursen"
+    "kategorie": ["Sammlung von KI Kursen"]
   },
   {
     "id": 9,
     "zielgruppe": "Klasse 3-8",
-    "laenge": "Eine Session (warscheinlich unter 30 Minuten)",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 30
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Children's Mental Models of AI Reasoning: Implications for AI Literacy Education",
       "bemerkung": "Wie verstehen Kinder AI? Auch hier wurden Kurse duchgeführt: https://www.ai-puzzlers.com/",
       "Link": "https://dl.acm.org/doi/10.1145/3713043.3728856",
       "veroeffentlichungsdatum": "23.06.2025",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Co-Design & Feldstudie",
       "sample": "106 Kinder (Klassen 3-8)",
-      "forschungsfrage": "RQ1: What kinds of reasoning do children believe AI is capable of, and what do they perceive as the limitations of AI reasoning? RQ2: How can we characterize the mental models of AI reasoning held by children? RQ3: What effects do grade level and prior experience with AI have on children’s mental models of AI reasoning? RQ4: How can children’s mental models of AI reasoning inform our approaches to AI literacy about models with limited reasoning capabilities, like OpenAI o3 and DeepSeek R1?",
+      "forschungsfrage": ["RQ1: What kinds of reasoning do children believe AI is capable of, and what do they perceive as the limitations of AI reasoning?", "RQ2: How can we characterize the mental models of AI reasoning held by children?", "RQ3: What effects do grade level and prior experience with AI have on children’s mental models of AI reasoning?", "RQ4: How can children’s mental models of AI reasoning inform our approaches to AI literacy about models with limited reasoning capabilities, like OpenAI o3 and DeepSeek R1?"],
       "ergebnisse": "Our work suggests the promise of using simple technological scaffolds like ARC puzzles to further literacy about AI reasoning."
     },
     "tool": {
@@ -197,23 +215,26 @@
       "link": "https://www.ai-puzzlers.com/"
     },
     "thema": "AI Literacy: Reasoning",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 10,
     "zielgruppe": "Jugendliche (14-17)",
-    "laenge": "Ein 2 Stunden Workshop",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 120
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Beyond the Algorithm: Speculative Approaches to Critical AI Literacies with Diverse Youth",
       "bemerkung": "Zielgruppe passt, es ist  eine cas study in der etwas beigebracht wird",
       "Link": "https://dl.acm.org/doi/10.1145/3713043.3727052",
       "veroeffentlichungsdatum": "23.06.2025",
-      "land": "Canada",
+      "land": ["Canada"],
       "methode": "Explorative Fallstudie",
       "sample": "6 Jugendliche (14-16)",
-      "forschungsfrage": "RQ1: In what ways may youth cultivate critical AI literacies through a speculative design workshop? RQ2: What challenges do youth face in cultivating critical AI literacies through a speculative design workshop?",
+      "forschungsfrage": ["RQ1: In what ways may youth cultivate critical AI literacies through a speculative design workshop?", "RQ2: What challenges do youth face in cultivating critical AI literacies through a speculative design workshop?"],
       "ergebnisse": "By integrating speculative techniques like alternative present narratives and worlbuilding with CAIL prompts and activities, participants scrutinized AI’s socio-technical dimensions, articulated diverse and competing perspectives and made steps towards envisioning more equitable AI futures. These findings reveal speculative design’s potential to help participants move beyond techno-centric views of AI and explore its relational, ethical, and political dimensions."
     },
     "tool": {
@@ -222,23 +243,26 @@
       "link": "s. beschreibungen in PP7"
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 11,
     "zielgruppe": "Schüler (8-14)",
-    "laenge": "4 Tage Workshop, 1h pro Tag",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 4,
+      "zeitInMinutes": 60
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Empowering Children’s AI Literacy Through Co-Creating Stories with LLM",
       "bemerkung": "AIStoryBot, Extended Abstrcat, https://www.aistorybot.com/",
       "Link": "https://dl.acm.org/doi/10.1145/3713043.3731520",
       "veroeffentlichungsdatum": "23.06.2025",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen, Semi strukturierte Interviews",
       "sample": "12 Schüler (8-14)",
-      "forschungsfrage": "RQ1: In what ways does AIStoryBot help students enhance their efficacy and motivation over AI literacy? RQ2: How do students engage and perceive AIStoryBot?",
+      "forschungsfrage": ["RQ1: In what ways does AIStoryBot help students enhance their efficacy and motivation over AI literacy?", "RQ2: How do students engage and perceive AIStoryBot?"],
       "ergebnisse": "Findings reveal that AIStoryBot increased students’ perceived motivation and AI efficacy while promoting constructive student-AI interactions"
     },
     "tool": {
@@ -247,23 +271,26 @@
       "link": "https://www.aistorybot.com/"
     },
     "thema": "AI Nutzung",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 13,
     "zielgruppe": "Schüler aus benachteiligten Gebieten",
-    "laenge": "4x 1h pro Session",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 4,
+      "zeitInMinutes": 60
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "AI Literacy for Underserved Students: Leveraging Cultural Capital from Underserved Communities for AI Education Research",
       "bemerkung": "Tabelle mit Participants identisch zu PP35, Geht um AI-Literacy bei unterversorgten Schülern, Curriculum mit verschiedenen tools zusammengestellt",
       "Link": "https://dl.acm.org/doi/10.1145/3706598.3713173",
       "veroeffentlichungsdatum": "25.04.2025",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Trsnkription während der Sessions und aschließendes Coding",
       "sample": "26 Schüler (Klassen 3-11)",
-      "forschungsfrage": "Research Question: What types of the cultural capital of students from underserved communities have, and how can HCI researchers efectively mobilize it?",
+      "forschungsfrage": ["Research Question: What types of the cultural capital of students from underserved communities have, and how can HCI researchers efectively mobilize it?"],
       "ergebnisse": "Considering the benefts of AI literacy education for students from underserved communities and the importance of their cultural capital, we hope this paper sheds light on a potential way for AI literacy education research to serve underserved students and other members of these communities."
     },
     "tool": {
@@ -272,23 +299,26 @@
       "link": "s. beschreibung in PP 13"
     },
     "thema": "AI Literacy: Sozialer Einfluss",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 14,
     "zielgruppe": "Schüler der Mittelstufe",
-    "laenge": "5 Tage",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 5,
+      "zeitInMinutes": null
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Introducing AI Without Computers: Hands-On Literacy and Ethical Sense-Making for Young Learners",
       "bemerkung": "Introducing AI, Are You Smarter than AI?, Datasets and Data Brokers, and EthiQuest",
       "Link": "https://dl.acm.org/doi/10.1145/3706599.3719876",
       "veroeffentlichungsdatum": "25.04.2025",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen, tägliche Abschlussbefragungen",
       "sample": "24 Schüler der Mittelstufe",
-      "forschungsfrage": "RQ1: How can unplugged activities that center personal relevance and collaborative ethical reasoning empower middle school students to learn about AI? and RQ2: How do these activities support students’ understanding of foundational AI concepts, including how AI works, its strengths and limitations, and ethical implications?",
+      "forschungsfrage": ["RQ1: How can unplugged activities that center personal relevance and collaborative ethical reasoning empower middle school students to learn about AI?", "RQ2: How do these activities support students’ understanding of foundational AI concepts, including how AI works, its strengths and limitations, and ethical implications?"],
       "ergebnisse": "First, we present the design of four novel unplugged activities—Introducing AI, Datasets and Data Brokers, EthiQuest, and Are You Smarter than AI?—that Center personally relevant experiences and foster collaborative ethical reasoning. Second, we analyze student learning outcomes from a five-day summer workshop that piloted these activities. Our findings indicate that the unplugged activities enhanced middle School students’ understanding of foundational AI concepts including recognizing AI, understanding AI’s strengths and limitations, and reasoning about AI ethics."
     },
     "tool": {
@@ -297,23 +327,26 @@
       "link": "s. beschreibung in PP 14, https://web.archive.org/web/20250513162540/https://aiunplugged.lmc.gatech.edu/unplugged-activities/what-is-ai/"
     },
     "thema": "AI Literacy, Ethik, Kritik, ML",
-    "kategorie": "Greifbar"
+    "kategorie": ["Greifbar"]
   },
   {
     "id": 15,
     "zielgruppe": "Schüler (10-12)",
-    "laenge": "3x Workshops, jeweils 90 Minuten (aber alles 9x ausgeführt)",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 3,
+      "zeitInMinutes": 90
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Fairness by Design: Cross-Cultural Perspectives from Children on AI and Fair Data Processing in their Education Futures",
       "bemerkung": "3 Workshop Aktivitäten",
       "Link": "https://dl.acm.org/doi/10.1145/3706598.3714402",
       "veroeffentlichungsdatum": "25.04.2025",
-      "land": "UK & Türkei",
+      "land": ["UK", "Türkei"],
       "methode": "Co-Design & Feldstudie",
       "sample": "72 Kinder (10-12) und 4 Lehrer",
-      "forschungsfrage": "RQ1: What are children’s perceptions of fairness and their expectations towards data handling in AI-EdTech systems? RQ2: How, if at all, do geographical and cultural differences influence children’s perceptions of fair or unfair data handling?",
+      "forschungsfrage": ["RQ1: What are children’s perceptions of fairness and their expectations towards data handling in AI-EdTech systems?", "RQ2: How, if at all, do geographical and cultural differences influence children’s perceptions of fair or unfair data handling?"],
       "ergebnisse": "Our findings show that Children prefer interactive, personalized mechanisms for Managing their data rather than passive privacy notices or automated data deletion. They want tangible and engaging tools, such as gamified elements and culturally relevant features, to better understand and manage their data privacy. Moreover, children expect AI-EdTech systems to be inclusive, accessible, and responsive to diverse needs, incorporating playful design features to make interactions with data both meaningful and enjoyable"
     },
     "tool": {
@@ -322,12 +355,12 @@
       "link": "s. beschreibung in PP15"
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 16,
     "zielgruppe": "Lehrer von Mittelschülern",
-    "laenge": "Verschieden nach Workshop",
+    "laenge": null,
     "erwaehntIn": "",
     "paper": {
       "datenbank": "ACM",
@@ -335,10 +368,10 @@
       "bemerkung": "Sammlung an verschiedenen AI Kursen",
       "Link": "https://dl.acm.org/doi/10.1145/3649165.3690117",
       "veroeffentlichungsdatum": "05.12.2024",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Online Fragebogen und Lehrer Interviews",
       "sample": "265 Personen weltweit, hauptsächlich Lehrer aus den USA",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "We subsequently described a large-scale, global implementation of AI literacy instruction taught under routine conditions by teachers from many disciplines."
     },
     "tool": {
@@ -347,23 +380,26 @@
       "link": "https://dayofai.org/"
     },
     "thema": "Verschiedene AI und CS Themen",
-    "kategorie": "Sammlung von KI Kursen"
+    "kategorie": ["Sammlung von KI Kursen"]
   },
   {
     "id": 17,
     "zielgruppe": "Klasse 10-11",
-    "laenge": "3x 90m pro Session",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 3,
+      "zeitInMinutes": 90
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Leveraging Conceptual Change regarding Artificial Intelligence in Computer Science Education",
       "bemerkung": "",
       "Link": "https://dl.acm.org/doi/10.1145/3699538.3699542",
       "veroeffentlichungsdatum": "13.11.2024",
-      "land": "Deutschland",
+      "land": ["Deutschland"],
       "methode": "Pre- and Post Umfragen",
       "sample": "76 Schüler (Klassen 10-11)",
-      "forschungsfrage": "RQ: To what extent are conceptual change texts suitable for expanding students’ conceptions regarding artificial intelligence (AI) in computer science lessons?",
+      "forschungsfrage": ["RQ: To what extent are conceptual change texts suitable for expanding students’ conceptions regarding artificial intelligence (AI) in computer science lessons?"],
       "ergebnisse": "The results of the study show that conceptual change texts are a promising teaching method for expanding students’ conceptions of AI. This is indicated by the results of the post-test, in which students who worked with the conceptual change text were able to demonstrate greater agreement to the conception presented."
     },
     "tool": {
@@ -372,23 +408,23 @@
       "link": "s. beschreibung in PP17"
     },
     "thema": "AI Literacy: ChatGPT",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 18,
     "zielgruppe": "Klasse 4-8",
-    "laenge": "Modular aufebaut",
-    "erwaehntIn": "/",
+    "laenge": null,
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Investigating the Impact of Programming Activities on Computational Thinking and AI Literacy in Spanish Schools",
       "bemerkung": "Große Studie aus Spanien, in der Kurse durchgeführt werden und anschließend evaluiert werden, https://sites.google.com/view/replicationpackageai/",
       "Link": "https://dl.acm.org/doi/10.1145/3677619.3678111",
       "veroeffentlichungsdatum": "16.09.2024",
-      "land": "Spanien",
+      "land": ["Spanien"],
       "methode": "Pre- and Post Umfragen",
       "sample": "133 Lehrer und über 2.000 Schüler (Klassen 4-8)",
-      "forschungsfrage": "RQ1: Is it possible to achieve reliable measurements, in Terms of internal consistency, of computational thinking and AI literacy among Spanish students from 4th primary grade (K4) to 2nd secondary grade (K8)? RQ2: Can the students of these ages develop their Computational thinking skills and enhance their AI literacy through programming activities with Scratch and ML4K? RQ3: Do programming activities with Scratch and ML4K contribute to dispelling the primary misconceptions associated with AI? RQ4: Is there a gender gap concerning the knowledge and Prior experiences with computational thinking and AI?",
+      "forschungsfrage": ["RQ1: Is it possible to achieve reliable measurements, in Terms of internal consistency, of computational thinking and AI literacy among Spanish students from 4th primary grade (K4) to 2nd secondary grade (K8)?", "RQ2: Can the students of these ages develop their Computational thinking skills and enhance their AI literacy through programming activities with Scratch and ML4K?", "RQ3: Do programming activities with Scratch and ML4K contribute to dispelling the primary misconceptions associated with AI?", "RQ4: Is there a gender gap concerning the knowledge and Prior experiences with computational thinking and AI?"],
       "ergebnisse": "The results showed that: i) quantitative tests can be used to reliably measure, in terms of internal consistency, the level of development of computational thinking and AI literacy in the Spanish school population of these ages; ii) it is possible to develop students’ computational thinking skills and raise their level of AI literacy through programming activities; iii) the Intervention contributed to demystifying the main prejudices regarding AI; iv) a gender gap was found in relation to previous Knowledge and experiences with these topics."
     },
     "tool": {
@@ -397,23 +433,26 @@
       "link": "https://sites.google.com/view/replicationpackageai/"
     },
     "thema": "Verschiedene AI und CS Themen",
-    "kategorie": "Sammlung von KI Kursen"
+    "kategorie": ["Sammlung von KI Kursen"]
   },
   {
     "id": 19,
     "zielgruppe": "K-12 Schüler",
-    "laenge": "1x 1h 15m",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 75
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Nemobot: Crafting Strategic Gaming LLM Agents for K-12 AI Education",
       "bemerkung": "https://nemobot-neue-experiment.vercel.app/functions",
       "Link": "https://dl.acm.org/doi/10.1145/3657604.3664671",
       "veroeffentlichungsdatum": "15.07.2024",
-      "land": "China & Singapur",
+      "land": ["China", "Singapur"],
       "methode": "Verbal Feedback",
       "sample": "30 K-12 Schüler",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "Die ergebnisse weisen darauf hin, dass Nemobot eine seichte Lernkurve ermöglicht"
     },
     "tool": {
@@ -422,23 +461,26 @@
       "link": "https://nemobot-neue-experiment.vercel.app/functions"
     },
     "thema": "AI Literacy: Coding",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 20,
     "zielgruppe": "Schüler der Mittelstufe & Oberstufe",
-    "laenge": "5x 3h pro Sessiosn",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 5,
+      "zeitInMinutes": 180
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "Beyond AI Hype: A Hands-on Workshop Series for Enhancing AI Literacy in Middle and High School Students",
       "bemerkung": "5-day workschop für Mittelschüler: https://github.com/chinasatokolo/BeyondAIHype",
       "Link": "https://dl.acm.org/doi/10.1145/3653666.3656075",
       "veroeffentlichungsdatum": "16.05.2024",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen",
       "sample": "4 Schülerinnen (Klasse 8-10)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "We find that integrating critical reflection assignments along with short lectures, videos, and experimentation with AI tools into the workshop sessions provides students an opportunity to understand their role as consumers of AI and ways they can thoughtfully engage with these systems."
     },
     "tool": {
@@ -447,12 +489,12 @@
       "link": "https://github.com/chinasatokolo/BeyondAIHype"
     },
     "thema": "AI Literacy: Erkennen und Kritisch hinterfragen",
-    "kategorie": "Curriculum, Lehrmaterialien"
+    "kategorie": ["Curriculum", "Lehrmaterialien"]
   },
   {
     "id": 21,
     "zielgruppe": "K-12 Schüler",
-    "laenge": "Nicht genannt",
+    "laenge": null,
     "erwaehntIn": "PP11 [4]",
     "paper": {
       "datenbank": "ACM",
@@ -460,10 +502,10 @@
       "bemerkung": "https://ml-machine.org/",
       "Link": "https://dl.acm.org/doi/10.1145/3613904.3642539",
       "veroeffentlichungsdatum": "11.05.2024",
-      "land": "Dänemark",
+      "land": ["Dänemark"],
       "methode": "Interviews",
       "sample": "Über 5.000 einzigartige Nutzer",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "The fndings from interviews with educators and the relatively wide uptake of ml-machine.org demonstrate the potential of this approach in terms of having engaged a wide community of teachers and teaching infrastructure providers."
     },
     "tool": {
@@ -472,12 +514,15 @@
       "link": "https://ml-machine.org/"
     },
     "thema": "AI Literacy: ML",
-    "kategorie": "Webanwendung, Greifbar"
+    "kategorie": ["Webanwendung", "Greifbar"]
   },
   {
     "id": 22,
     "zielgruppe": "Schüler (6-14)",
-    "laenge": "1x 60m",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 60
+    },
     "erwaehntIn": "PP28 [Williams et al., 2024]",
     "paper": {
       "datenbank": "ACM",
@@ -485,10 +530,10 @@
       "bemerkung": "",
       "Link": "https://dl.acm.org/doi/10.1145/3610977.3634950",
       "veroeffentlichungsdatum": "11.03.2024",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen, Post-Interviews, Beobachtungen",
       "sample": "8 Kinder (9-11)",
-      "forschungsfrage": "(1) How efective was the Autonomous Navigation Curriculum in teaching students about autonomous navigation, and (2) How does the Physical Doodlebot interface compare to the Virtual one?",
+      "forschungsfrage": ["(1) How efective was the Autonomous Navigation Curriculum in teaching students about autonomous navigation", "(2) How does the Physical Doodlebot interface compare to the Virtual one?"],
       "ergebnisse": "As a result, our current prototype contains three machines in one -an autonomous mobile robot, an interactive social agent, and a drawing tool. We developed multiple user interfaces and curricula that explore the breadth of these functions."
     },
     "tool": {
@@ -497,12 +542,12 @@
       "link": "https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html"
     },
     "thema": "AI Literacy: Roboter",
-    "kategorie": "Webanwendung, Greifbar"
+    "kategorie": ["Webanwendung", "Greifbar"]
   },
   {
     "id": 25,
     "zielgruppe": "Familien / Museums-Ausstellung",
-    "laenge": "Nicht genannt",
+    "laenge": null,
     "erwaehntIn": "PP11 [44]",
     "paper": {
       "datenbank": "ACM",
@@ -510,10 +555,10 @@
       "bemerkung": "Familienkontext, aber es muss nicht dadurch ausgeschlossen werden, da es anfangs eh für Ausstellungen geplant war",
       "Link": "https://dl.acm.org/doi/10.1145/3491102.3502091",
       "veroeffentlichungsdatum": "29.04.2022",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Audio- und Videoaufnahmen, Umfragen (für alle, die älter als 7 Jahre alt sind)",
       "sample": "38 Personen, davon n=21 unter 17 Jahre alt und n=17 über 18 Jahre alt)",
-      "forschungsfrage": "RQ1 What types of dialogue do family groups engage in when making sense of and learning about AI? RQ2 How can we design activities to facilitate family group learning about AI literacy competencies in informal learning environments?",
+      "forschungsfrage": ["RQ1 What types of dialogue do family groups engage in when making sense of and learning about AI?", "RQ2 How can we design activities to facilitate family group learning about AI literacy competencies in informal learning environments?"],
       "ergebnisse": "This paper contributes an empirically grounded understanding of these design principles in light of the learning talk analysis we conducted. This paper can be useful to AI educators, designers of tools/interfaces for promoting AI literacy and explainability, and researchers seeking to better understand how people learn about AI."
     },
     "tool": {
@@ -522,12 +567,15 @@
       "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip, LuninAI auch https://dl.acm.org/doi/10.1145/3635636.3664255, https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
     "thema": "AI Literacy: ML, Klassifikation",
-    "kategorie": "Greifbar, Museums Ausstellung"
+    "kategorie": ["Greifbar", "Museums Ausstellung"]
   },
   {
     "id": 26,
     "zielgruppe": "Schüler der Mittelstufe (aus unterpriviligierten Gebieten)",
-    "laenge": "10x 3h pro Sessiosn",
+    "laenge": {
+      "anzahlSessions": 10,
+      "zeitInMinutes": 180
+    },
     "erwaehntIn": "PP35, PP37",
     "paper": {
       "datenbank": "ACM",
@@ -535,10 +583,10 @@
       "bemerkung": "AI Summer Workshop für Mittelschüler, aieducation.mit.edu/daily",
       "Link": "https://dl.acm.org/doi/10.1145/3408877.3432513",
       "veroeffentlichungsdatum": "05.03.2021",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Tägliche Reflektionen und Interviews",
       "sample": "31 Schüler (10-14)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "This workshop aims to develop AI literacy through an integration of AI concepts, ethical and societal implications of AI, and the adoption of AI in future jobs. The workshop also aims to provide a low-barrier to entry for learners with no pre-requisite computing resources or Knowledge of computing systems, thereby enabling learners with no CS background to gain a foundational knowledge of AI concepts"
     },
     "tool": {
@@ -547,23 +595,26 @@
       "link": "aieducation.mit.edu/daily, heute: https://everyday-ai.org/resources/curriculum/daily-curriculum-v20"
     },
     "thema": "AI Literacy: ML, GenAI",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 27,
     "zielgruppe": "Klasse 4-8",
-    "laenge": "Camp: 5 Tage, 2 Sessions pro Tag",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 5,
+      "zeitInMinutes": 120
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Science Direct",
       "titel": "Fostering critical thinkers and future designers: Design fiction pedagogy in AI education",
       "bemerkung": "https://drive.google.com/drive/folders/1hUwM6kdBq3V-U8SGweTzrG69niUOyIFK",
       "Link": "https://doi.org/10.1016/j.tsc.2025.101962",
       "veroeffentlichungsdatum": "03 2026",
-      "land": "Canada",
+      "land": ["Canada"],
       "methode": "Qualitative Fallstudie",
       "sample": "29 Schüler (Klasse 4-8)",
-      "forschungsfrage": "How does DFP facilitate upper elementary school students’ understanding of AI concepts and their societal impacts?",
+      "forschungsfrage": ["How does DFP facilitate upper elementary school students’ understanding of AI concepts and their societal impacts?"],
       "ergebnisse": "By demonstrating the potential of DFP in AI education, this research offers a novel approach to integrating complex technological concepts and social responsibility into educational settings in an engaging and accessible way."
     },
     "tool": {
@@ -572,23 +623,26 @@
       "link": "https://drive.google.com/drive/folders/1hUwM6kdBq3V-U8SGweTzrG69niUOyIFK, https://ai-ed.ca/"
     },
     "thema": "Verschiedene AI und CS Themen",
-    "kategorie": "Lehrmaterialien"
+    "kategorie": ["Lehrmaterialien"]
   },
   {
     "id": 28,
     "zielgruppe": "K-12 Schüler",
-    "laenge": "4 Wochen",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 4,
+      "zeitInMinutes": null
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Science Direct",
       "titel": "Playful design for AI Literacy: Creating inclusive learning and assessment opportunities",
       "bemerkung": "Kein Git, aber die beschreibung der Aktivitäten reicht zum replizieren",
       "Link": "https://doi.org/10.1016/j.ijhcs.2025.103508",
       "veroeffentlichungsdatum": "05 2025",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Beobachtungen, Notizen, bearbeitetet Materialien, Interviews mit Lehrern und Schülern, Coding",
       "sample": "Eine Klasse (Lehrer und Schüler)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "This Approach transcends mere accommodation, creating a safe and low-pressure environment that encourages active engagement and interaction among students. Our findings are also aligned with the existing body of research that supports affordances of playful ways of teaching Computer science and AI Literacy"
     },
     "tool": {
@@ -597,23 +651,26 @@
       "link": "s. beschreibung in PP28"
     },
     "thema": "AI Literacy: ML, Empfehlunssysteme",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 29,
     "zielgruppe": "Grundschüler",
-    "laenge": "4x 90m Sessions",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 4,
+      "zeitInMinutes": 90
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Science Direct",
       "titel": "Artificial intelligence literacy in primary education: An arts-based approach to overcoming age and gender barriers",
       "bemerkung": "",
       "Link": "https://doi.org/10.1016/j.caeai.2024.100321",
       "veroeffentlichungsdatum": "12 2024",
-      "land": "Hong Kong",
+      "land": ["Hong Kong"],
       "methode": "Pre- and Post Umfragen, Interviews",
       "sample": "25 Grundschüler (Klasse 3)",
-      "forschungsfrage": "RQ1: What are the effects of an AI curriculum with arts-based pedagogy in helping primary students acquire AI knowledge and increase their conceptual understanding of AI literacy? RQ2: In what ways does arts-based pedagogy enhance the inclusiveness of AI literacy education by enabling students of all genders and ages to participate and benefit? RQ3: How does the art-based approach enhance young student’s engagement with AI literacy?",
+      "forschungsfrage": ["RQ1: What are the effects of an AI curriculum with arts-based pedagogy in helping primary students acquire AI knowledge and increase their conceptual understanding of AI literacy?", "RQ2: In what ways does arts-based pedagogy enhance the inclusiveness of AI literacy education by enabling students of all genders and ages to participate and benefit?", "RQ3: How does the art-based approach enhance young student’s engagement with AI literacy?"],
       "ergebnisse": "Qualitative analyses further revealed the pedagogical benefits of the arts-based approach, demonstrating that students enhance their conceptual understanding of AI literacy by reflecting on their artifacts. This study contributes to the literature by providing evidence with a small sample size that the arts-based approach can overcome age and gender barriers to accessing AI literacy education and can serve as a means to teach AI thinking."
     },
     "tool": {
@@ -622,12 +679,15 @@
       "link": "s. beschreibung in PP29"
     },
     "thema": "AI Literacy, Ethik, Verständnis, Daten",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 30,
     "zielgruppe": "K-12 Schüler",
-    "laenge": "7 Tage",
+    "laenge": {
+      "anzahlSessions": 7,
+      "zeitInMinutes": null
+    },
     "erwaehntIn": "PP11 [32]",
     "paper": {
       "datenbank": "Science Direct",
@@ -635,10 +695,10 @@
       "bemerkung": "",
       "Link": "https://doi.org/10.1016/j.caeai.2022.100054",
       "veroeffentlichungsdatum": 2022,
-      "land": "Hong Kong",
+      "land": ["Hong Kong"],
       "methode": "Interviews, Analyse der ergebnisse der Schüler",
       "sample": "82 Grundschüler",
-      "forschungsfrage": "Q1. How does digital story writing foster upper primary students’ AI literacy? Q2. What inquiry-based learning processes did students demonstrate through digital story creation to learn AI?",
+      "forschungsfrage": ["Q1. How does digital story writing foster upper primary students’ AI literacy?", "Q2. What inquiry-based learning processes did students demonstrate through digital story creation to learn AI?"],
       "ergebnisse": "Overall, DSW as an inquiry could effectively foster students’ AI literacy in using and applying AI knowledge to solve real-life problems, far beyond merely knowing and understanding related concepts. We suggest that using DSW as a pedagogy has the potential to support students to scaffold students’ AI understanding, particularly for young children."
     },
     "tool": {
@@ -647,23 +707,26 @@
       "link": "s. beschreibung in PP30"
     },
     "thema": "AI Literacy",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 33,
     "zielgruppe": "Kinder (10-12)",
-    "laenge": "5x 45m Sessions",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 5,
+      "zeitInMinutes": 45
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
       "titel": "Cultivating AI literacy in young learners: a blockchain enhanced framework for trustworthy and privacy preserving educational experiences",
       "bemerkung": "",
       "Link": "https://link.springer.com/article/10.1007/s44436-026-00029-3",
       "veroeffentlichungsdatum": "10.03.2026",
-      "land": "Finnland",
+      "land": ["Finnland"],
       "methode": "Pre- and Post Umfragen",
       "sample": "10-12 Experten, 20-25 Kinder (10-12)",
-      "forschungsfrage": "1. How can the architectural principles of blockchain be utilized as a pedagogical tool to make abstract concepts of trust, privacy, and accountability in AI tangible for young learners? 2. To what extent can a framework combining Blockchain and privacy-preserving techniques create a verifiably trustworthy educational environment for children interacting with GenAI? 3. What is the potential impact of such a framework on children’s development of critical AI literacy competencies, such as evaluating information sources and understanding data rights?",
+      "forschungsfrage": ["1. How can the architectural principles of blockchain be utilized as a pedagogical tool to make abstract concepts of trust, privacy, and accountability in AI tangible for young learners?", "2. To what extent can a framework combining Blockchain and privacy-preserving techniques create a verifiably trustworthy educational environment for children interacting with GenAI?", "3. What is the potential impact of such a framework on children’s development of critical AI literacy competencies, such as evaluating information sources and understanding data rights?"],
       "ergebnisse": "Our findings demonstrate that blockchain’s architectural principles can serve as powerful pedagogical tools when thoughtfully integrated into child-centered platforms, fostering substantial improvements in provenance comprehension (35% to 80%), privacy awareness (52% increase), and critical Evaluation skills (28% to 70%)."
     },
     "tool": {
@@ -672,23 +735,26 @@
       "link": "s. beschreibung in PP33"
     },
     "thema": "AI Literacy: Blockchain",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 34,
     "zielgruppe": "Kinder (6-8)",
-    "laenge": "1x 45-60m",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 60
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
       "titel": "Education for sustainability and artificial intelligence based on computational thinking: a nature care play for early childhood",
       "bemerkung": "https://jhonalesilva.github.io/AI-Fish/",
       "Link": "https://link.springer.com/article/10.1007/s44217-026-01131-7",
       "veroeffentlichungsdatum": "02.03.2026",
-      "land": "Chile",
+      "land": ["Chile"],
       "methode": "Umfragen mit Experten, Test des Kurses wurfe fotografiert und aufgenommen, Feldnotizen",
       "sample": "5 Experten, 15 Kinder (6-8)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "In terms of computational and algorithmic thinking, we observed that children were able to analyze and decompose a problem closely linked to their social, cultural, and environmental reality. Regarding the intersection between computational and statistical thinking, the results indicate that children developed early statistical notions such as counting, constructing proportionality rules, using percentages, and applying decision thresholds"
     },
     "tool": {
@@ -697,23 +763,23 @@
       "link": "https://jhonalesilva.github.io/AI-Fish/"
     },
     "thema": "AI Literacy: Klassifikation",
-    "kategorie": "Lehrmaterialien"
+    "kategorie": ["Lehrmaterialien"]
   },
   {
     "id": 35,
     "zielgruppe": "K-8 Schüler",
-    "laenge": "Nicht genannt",
-    "erwaehntIn": "/",
+    "laenge": null,
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
       "titel": "Designing a critical AI literacy program for K-8 STEM education: Adopting a community-centered approach",
       "bemerkung": "Tabelle mit Participants identisch zu PP13, https://ailiteracy.msu.edu/",
       "Link": "https://link.springer.com/article/10.1186/s43031-026-00155-1",
       "veroeffentlichungsdatum": "14.02.2026",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Semi-strukturierte Interviews,",
       "sample": "26 Schüler (Klasse 3-11)",
-      "forschungsfrage": "1. What design process can we follow to develop a critical AI literacy program adopting a communitycentered approach for informal STEM education? 2. How does implementing a critical AI literacy program illustrate emerging dimensions of AI literacy in public library settings?",
+      "forschungsfrage": ["1. What design process can we follow to develop a critical AI literacy program adopting a communitycentered approach for informal STEM education?", "2. How does implementing a critical AI literacy program illustrate emerging dimensions of AI literacy in public library settings?"],
       "ergebnisse": "Specifically, our work focuses on identifying and implementing a community-centered approach that has proven effective in serving populations whose knowledge is often marginalized and who face systemic inequalities"
     },
     "tool": {
@@ -722,23 +788,26 @@
       "link": "https://ailiteracy.msu.edu/"
     },
     "thema": "Kritische AI Literacy",
-    "kategorie": "Curriculum, Lehrmaterialien"
+    "kategorie": ["Curriculum", "Lehrmaterialien"]
   },
   {
     "id": 36,
     "zielgruppe": "Menschen ohne technische Vorkenntnisse",
-    "laenge": "3x 2,5h Sessions (ungefähr)",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 3,
+      "zeitInMinutes": 150
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
       "titel": "Supporting AI Literacy Through Experiential Learning: An Exploratory Study",
       "bemerkung": "Gibt keine konkrete Zielgruppe, aber Mittelschüler werden dadurch auch nicht ausgeschlossen",
       "Link": "https://link.springer.com/chapter/10.1007/978-3-031-93746-0_17",
       "veroeffentlichungsdatum": "25.05.2025",
-      "land": "Deutschland",
+      "land": ["Deutschland"],
       "methode": "Pre- and Post Umfragen, beschreibungen der Teilnehmenden, Gemalted der Teilnehmenden, Arbeitsblätter, Notizen der Forscher, etc.",
       "sample": "9 Schüler",
-      "forschungsfrage": "RQ1: What should people understand about AI as a basic form of AI literacy? RQ2: How can interactive learning experiences be designed to enable experiential learning for AI literacy?",
+      "forschungsfrage": ["RQ1: What should people understand about AI as a basic form of AI literacy?", "RQ2: How can interactive learning experiences be designed to enable experiential learning for AI literacy?"],
       "ergebnisse": "The results from the performed exploratory evaluation support the effectiveness of the developed solution for facilitating the development of core AI competences. Partic-ipants demonstrated an improved conceptual understanding of AI systems, which also empowered them to assess potential risks"
     },
     "tool": {
@@ -747,23 +816,23 @@
       "link": "s. beschreibung in PP36"
     },
     "thema": "AI Literacy: Grundlagen",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 37,
     "zielgruppe": "Von Mittelstufe bis Hochschulbildung",
-    "laenge": "Nicht genannt",
-    "erwaehntIn": "/",
+    "laenge": null,
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
       "titel": "Education in the AI era: a long-term classroom technology based on intelligent robotics",
       "bemerkung": "Es wurden mehrere Workkshops durchgeführt",
       "Link": "https://link.springer.com/article/10.1057/s41599-024-03953-y",
       "veroeffentlichungsdatum": "25.10.2024",
-      "land": "Slowenien",
+      "land": ["Slowenien"],
       "methode": "Fragebögen",
       "sample": "30 Schüler (13-19), 12 Lehrer",
-      "forschungsfrage": "RQ1: Is the Robobo Project a suitable tool for learning the fundamentals of AI in the long-term? RQ2: Is the methodological approach and the materials adequate to learn intelligent robotics?",
+      "forschungsfrage": ["RQ1: Is the Robobo Project a suitable tool for learning the fundamentals of AI in the long-term?", "RQ2: Is the methodological approach and the materials adequate to learn intelligent robotics?"],
       "ergebnisse": "Although the main part of the students’ work was carried out in simulation in this level, the ease of transfer to the real robot was also very engaging and motivating for students, that could try their solutions in the real world."
     },
     "tool": {
@@ -772,23 +841,26 @@
       "link": "https://aim4vet.udc.es/modules/ , https://github.com/mintforpeople/robobo-programming/wiki , evt noch mehr Links aus dem paper PP37"
     },
     "thema": "AI Literacy: Roboter",
-    "kategorie": "Framework"
+    "kategorie": ["Sonstige"]
   },
   {
     "id": 38,
     "zielgruppe": "Klasse 6",
-    "laenge": "8x 3h Sessions",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 8,
+      "zeitInMinutes": 180
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
       "titel": "Integrating unplugged and plugged activities for holistic AI education: An embodied constructionist pedagogical approach",
       "bemerkung": "Durchgeführte Workshops leider nur in Form einer beschreibenden Tabelle zu Verfügung",
       "Link": "https://link.springer.com/article/10.1007/s10639-024-13043-w",
       "veroeffentlichungsdatum": "11.10.2024",
-      "land": "Hong Kong",
+      "land": ["Hong Kong"],
       "methode": "Design Based Research, Fallstudie, Aufnahmen der Kurse, Notizen, Interviews",
       "sample": "107 Schüler (Klasse 6)",
-      "forschungsfrage": "How does the embodied constructionist approach impact upper primary students’ AI literacy in comparison with their pre-instructional conceptions?",
+      "forschungsfrage": ["How does the embodied constructionist approach impact upper primary students’ AI literacy in comparison with their pre-instructional conceptions?"],
       "ergebnisse": "By qualitatively comparing student Performance before and after the study, we found that overall, the participating students had general growth in their conceptual understanding, technical proficiency, ethical awareness, and critical attitudes; but they also struggled with complex programming and technical tasks."
     },
     "tool": {
@@ -797,23 +869,23 @@
       "link": "s. beschreibung in PP38"
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 41,
     "zielgruppe": "Junge Menschen (8-18) aus unpriviligierten Gebieten",
-    "laenge": "Nicht genannt",
-    "erwaehntIn": "/",
+    "laenge": null,
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
       "titel": "Informal Education Practices for Human–AI Creative Pedagogy for Accessibility and Inclusivity",
       "bemerkung": "",
       "Link": "https://link.springer.com/chapter/10.1007/978-3-031-55272-4_7",
       "veroeffentlichungsdatum": "19.05.2024",
-      "land": "Belgien",
+      "land": ["Belgien"],
       "methode": "Selbst aufgenommene Videos der Schüler, in denen sie im Interviewformat über ihre Erfahrungen berichten",
       "sample": "2 Gruppen von Schülern (ingesamt 17)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "An evaluation with the young people at the end of the year confirmed that they had enjoyed participating in the work-shops."
     },
     "tool": {
@@ -822,23 +894,23 @@
       "link": "https://lascientotheque.github.io/ressources-ia, https://www.lascientotheque.be/pour-les-pros/nos-ressources-steam/intelligence-artificielle/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Sammlung von KI Kursen"
+    "kategorie": ["Sammlung von KI Kursen"]
   },
   {
     "id": 42,
     "zielgruppe": "Schüler, Kinder, Eltern, Arbeitende und Lehrer",
-    "laenge": "Nicht genannt",
-    "erwaehntIn": "/",
+    "laenge": null,
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
       "titel": "Education and Awareness for Artificial Intelligence",
       "bemerkung": "Lange Workshops, aber sehr modular aufgebaut, deswegen passt es wieder",
       "Link": "https://link.springer.com/chapter/10.1007/978-3-031-44900-0_1",
       "veroeffentlichungsdatum": "01.10.2023",
-      "land": "Österreich, plus online auf englisch, deutsch und ungarisch",
+      "land": ["Österreich"],
       "methode": "Online Pre-Umfragen, Pre- and Post Umfragen und weitere Qualitative Metriken",
       "sample": "269 Schüler, 203 Lehrer (kum. 472)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "These results indicate that the workshops had a positive effect on participants’ awareness and general knowledge of AI."
     },
     "tool": {
@@ -847,12 +919,15 @@
       "link": "https://enaris.org/material/en/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Curriculum, Lehrmaterialien"
+    "kategorie": ["Curriculum", "Lehrmaterialien"]
   },
   {
     "id": 43,
     "zielgruppe": "K-12 Schüler, PopBots Jahre 4-6, AI + Ethics Curriculum Mittelschüler, Jibo & Droodle 6-10 Jahre",
-    "laenge": "4 Kurse, 3x 45m Kurse, nicht genannt",
+    "laenge": {
+      "anzahlSessions": 4,
+      "zeitInMinutes": null
+    },
     "erwaehntIn": "PP2 [2, 43]",
     "paper": {
       "datenbank": "MIT Media Lab",
@@ -860,24 +935,27 @@
       "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
       "Link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
       "veroeffentlichungsdatum": 2019,
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen, Beobachtungen",
       "sample": "80 Pre- und Kindergarten Kinder, 225 Mittelschüler (Klasse 5-8), 51 Schüler (6-10)",
-      "forschungsfrage": "How do we best prepare students to flourish in the era of AI?",
+      "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
       "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
     },
     "tool": {
-      "name": "PopBots Curruculum, AI+ Ethics Curriculum, Jibo & Droodle",
+      "name": "PopBots Curruculum, AI+ Ethics Curriculum, Jibo & Droodle --> 4 Kurse, 3x 45m Kurse, nicht genannt",
       "beschreibung": "Das PopBots Curriculum verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: knowledge-based systems, GenAI, und supervised machine learning. Das AI + Ethics Curriculum besteht aus drei Modulen: Grundlagen von KI und Daten, Algorithmen als Meinungen und Stakeholderanalyse unter Verwenden der ethischen Matrix, Erstellng eines Papier Prototypen zum Vorschlagssystem von YouTube. Bei Droodle & Jibo interagieren Kinder mit einem sozialen Rokoter.",
       "link": "s. beschreibungen in PP43"
     },
     "thema": "AI Literacy: ML, Ethik",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 44,
     "zielgruppe": "Jugendliche",
-    "laenge": "1x 3-4h Session",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 240
+    },
     "erwaehntIn": "PP2 [44], PP11 [19]",
     "paper": {
       "datenbank": "ACM",
@@ -885,10 +963,10 @@
       "bemerkung": "",
       "Link": "https://dl.acm.org/doi/10.1145/3544548.3581159",
       "veroeffentlichungsdatum": "19.04.2023",
-      "land": "Korea",
+      "land": ["Korea"],
       "methode": "Gemeinsamer Workshop, Pre- und Post Umfragen, Interviews",
       "sample": "23 Jugendliche (14-24)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "Our findings suggest implications for designing learning experiences to foster critical thinking competency for better coexistence with AI."
     },
     "tool": {
@@ -897,12 +975,15 @@
       "link": "s. beschreibungen in PP44"
     },
     "thema": "AI Literacy: Kritik",
-    "kategorie": "Museums Ausstellung"
+    "kategorie": ["Museums Ausstellung"]
   },
   {
     "id": 45,
     "zielgruppe": "Schüler (14-15)",
-    "laenge": "3 Sessions",
+    "laenge": {
+      "anzahlSessions": 3,
+      "zeitInMinutes": null
+    },
     "erwaehntIn": "PP3 [1]",
     "paper": {
       "datenbank": "ACM",
@@ -910,10 +991,10 @@
       "bemerkung": "",
       "Link": "https://dl.acm.org/doi/10.1145/3459990.3465193",
       "veroeffentlichungsdatum": "24.06.2021",
-      "land": "Dänemark",
+      "land": ["Dänemark"],
       "methode": "Semi-strukturierte Interviews, Feldnotizen",
       "sample": "2 Schülerinnen (14-15)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "The combination of constructionist and design fiction approaches seems to be a promising path in developing students’ critical perspectives on ML."
     },
     "tool": {
@@ -922,12 +1003,15 @@
       "link": "s. beschreibungen in PP45"
     },
     "thema": "AI Literacy",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 46,
     "zielgruppe": "K-12 Schüler",
-    "laenge": "1x 20m reines Gameplay",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 20
+    },
     "erwaehntIn": "PP3 [2]",
     "paper": {
       "datenbank": "AAAI",
@@ -935,10 +1019,10 @@
       "bemerkung": "",
       "Link": "https://ojs.aaai.org/index.php/AAAI/article/view/26897",
       "veroeffentlichungsdatum": "15.07.2024",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Beobachtungen, Post-Interview",
       "sample": "5 Erwachsene (21-30)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "We designed a card game for middle and high school students to reflect on the ethical implications of everyday AI systems. The competitive game facilitates children’s learning about how AI-powered businesses can have negative impacts and how these businesses can mitigate those impacts."
     },
     "tool": {
@@ -947,12 +1031,15 @@
       "link": "https://bit.ly/3BxW3M1"
     },
     "thema": "AI Literacy: Ethik, soziale Folgen",
-    "kategorie": "Greifbar"
+    "kategorie": ["Greifbar"]
   },
   {
     "id": 47,
     "zielgruppe": "Schüler der Mittelstufe",
-    "laenge": "5x 2,5h Sessions",
+    "laenge": {
+      "anzahlSessions": 5,
+      "zeitInMinutes": 150
+    },
     "erwaehntIn": "PP6 [20]",
     "paper": {
       "datenbank": "AAAI",
@@ -960,10 +1047,10 @@
       "bemerkung": "",
       "Link": "https://doi.org/10.1609/aaai.v35i17.17831",
       "veroeffentlichungsdatum": "18.05.2021",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Analyse der ergebnisse der Schüler, Beobachtungen, Feedback der Lehrer",
       "sample": "46 Schüler (9-14)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "Through student Observation and teacher feedback, we found that students were highly engaged in designing natural interactions, were able to devise and build personally meaningful projects, and were able to use these tools as a capstone to apply lessons on ethics from curriculum material on dataset bias and ethical design of AI systems."
     },
     "tool": {
@@ -972,12 +1059,15 @@
       "link": "https://dancingwithai.media.mit.edu/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Webanwendung, Curriculum"
+    "kategorie": ["Webanwendung", "Curriculum"]
   },
   {
     "id": 48,
     "zielgruppe": "Kinder (8-13)",
-    "laenge": "3 Sessions",
+    "laenge": {
+      "anzahlSessions": 3,
+      "zeitInMinutes": null
+    },
     "erwaehntIn": "PP11 [10]",
     "paper": {
       "datenbank": "ACM",
@@ -985,10 +1075,10 @@
       "bemerkung": "",
       "Link": "https://dl.acm.org/doi/10.1145/3613904.3642692",
       "veroeffentlichungsdatum": "11.05.2024",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Interviews mit den Kindern, Beobachtungen, ergebnisse",
       "sample": "10 Kinder (8-13) und 9 Erwachsene",
-      "forschungsfrage": "RQ1: What are the key aspects characterizing children’s formulated AI problems? RQ2: What are the most prevalent design metaphors for AI in children’s ideas? RQ3: Which personal values do children incorporate into their designs?",
+      "forschungsfrage": ["RQ1: What are the key aspects characterizing children’s formulated AI problems?", "RQ2: What are the most prevalent design metaphors for AI in children’s ideas?", "RQ3: Which personal values do children incorporate into their designs?"],
       "ergebnisse": "Our fndings and exploratory insights contribute to the design of learning activities that use teachable machines. Particularly, they could beneft from allowing children to formulate their machine learning problems, using children’s values to be usable and enjoyable, and showcasing their utility to support children’s goals."
     },
     "tool": {
@@ -997,23 +1087,26 @@
       "link": "s. beschreibungen in PP48"
     },
     "thema": "AI Literacy",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 49,
     "zielgruppe": "Schüler der Mittelstufe (Klasse 6-8)",
-    "laenge": "1x 60m",
-    "erwaehntIn": "/",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 60
+    },
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "AAAI",
       "titel": "The Contour to Classification Game",
       "bemerkung": "",
       "Link": "https://doi.org/10.1609/aaai.v35i17.17835",
       "veroeffentlichungsdatum": "18.05.2021",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Neural Network scale of the AI Concept Inventory",
       "sample": "38 Schüler (10-16)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "We describe our findings from play-testing a previous version of the Neural Network game and the game’s Evolution to the Contour to Classification game. We describe the design and gameplay of the Contour to Classification game. While the current version of the application is specifically designed to teach middle school students about neural networks, the contour drawing mechanism and multilayer feedback simulation can serve as inspiration for educators and programmers for developing tools and interactions to teach learners about other machine learning algorithms such as Recurrent Neural Networks (or RNNs)"
     },
     "tool": {
@@ -1022,12 +1115,12 @@
       "link": "https://contours2classification.herokuapp.com/"
     },
     "thema": "AI Literacy: Neural Networks, Klassifikation",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 50,
     "zielgruppe": "K-12 und Personen ohne technische Kenntnisse",
-    "laenge": "Museum, also selsbt entscheidbar. Co-Design: 2x 2h Sessions",
+    "laenge": null,
     "erwaehntIn": "PP11 [23]",
     "paper": {
       "datenbank": "ACM",
@@ -1035,10 +1128,10 @@
       "bemerkung": "",
       "Link": "https://dl.acm.org/doi/10.1145/3476034",
       "veroeffentlichungsdatum": "18.10.2021",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Co-Design, Aufnahmen und Notizen während der Museumsausstellung",
       "sample": "11 Kinder (davon 10 6 Jahre und älter) und 9 Erwachsene",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "Our findings suggest directions for future research in understanding the effects of preconceptions on learning and interest development in AI, new topics for AI-related exhibits that may address participants’ interests, concerns, and spark enthusiasm, and design considerations for developing AI literacy exhibits in informal spaces. The five exhibit designs that we present in this paper can also serve as inspiration for other researchers looking to develop informal learning experiences surrounding AI for family groups or K-12 students."
     },
     "tool": {
@@ -1047,12 +1140,15 @@
       "link": "https://web.archive.org/web/20250525214420/https://aiunplugged.lmc.gatech.edu/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Museums Ausstellung"
+    "kategorie": ["Museums Ausstellung"]
   },
   {
     "id": 51,
     "zielgruppe": "Kinder (8-11)",
-    "laenge": "1x 60-80m",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 80
+    },
     "erwaehntIn": "PP13 [71], PP19 [3], PP28",
     "paper": {
       "datenbank": "AAAI",
@@ -1060,10 +1156,10 @@
       "bemerkung": "Aus 2020, aber aufgenommen, weil es viel von anderen papern zitiert wird",
       "Link": "https://doi.org/10.1609/aaai.v34i09.7061",
       "veroeffentlichungsdatum": "03.04.2020",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Pre- and Post Umfragen",
       "sample": "14 Kinder (8-11)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "Overall, we observed that Zhorai was engaging and effective. Children taught Zhorai different Facts about animals and then observed the agent using its Knowledge to infer which ecosystems those animals belong to. By training an agent, witnessing its mistakes, and retraining the agent, children were able to make sense of the agent’s intelligence."
     },
     "tool": {
@@ -1072,12 +1168,15 @@
       "link": "https://zhorai.readyai.org/intro"
     },
     "thema": "AI Literacy: ML",
-    "kategorie": "Webanwendung, Curriculum"
+    "kategorie": ["Webanwendung", "Curriculum"]
   },
   {
     "id": 52,
     "zielgruppe": "Frühe Kindheit",
-    "laenge": "1 Session, Länge unbekannt",
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": null
+    },
     "erwaehntIn": "PP13 [116], PP22 [47], PP31, PP43",
     "paper": {
       "datenbank": "ACM",
@@ -1085,10 +1184,10 @@
       "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
       "Link": "https://dl.acm.org/doi/10.1145/3290605.3300677",
       "veroeffentlichungsdatum": "02.05.2019",
-      "land": "USA",
+      "land": ["USA"],
       "methode": "Fragebögen, Video Aufnahmen, Beobachtungen",
       "sample": "80 Kinder (4-6)",
-      "forschungsfrage": "In this paper, we sought to understand how did developmental factors, like perspective taking skills, impact what Children could learn about AI? and how did children’s perceptions of “thinking machines\" change after they engaged in educational AI activities?",
+      "forschungsfrage": ["In this paper, we sought to understand how did developmental factors, like perspective taking skills, impact what Children could learn about AI? and how did children’s perceptions of “thinking machines\" change after they engaged in educational AI activities?"],
       "ergebnisse": "Younger children came to see robots as toys that were smarter than them, but their older counterparts saw them more as people that were not as smart as them. Children who performed worse on the AI assessments believed that robots were like toys that were not as smart as them, however children who did better on the assessments saw robots as people who were smarter than them. We believe early AI education can empower children to understand the AI devices that are increasingly in their lives."
     },
     "tool": {
@@ -1097,12 +1196,15 @@
       "link": "https://dl.acm.org/doi/suppl/10.1145/3290605.3300677/suppl_file/pn3787.zip 7"
     },
     "thema": "AI Literacy: Grundlagen",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 53,
     "zielgruppe": "Primary bis High School",
-    "laenge": "6x 45Minuten Sessions",
+    "laenge": {
+      "anzahlSessions": 6,
+      "zeitInMinutes": 45
+    },
     "erwaehntIn": "PP22 [33]",
     "paper": {
       "datenbank": "AAAI",
@@ -1110,10 +1212,10 @@
       "bemerkung": "",
       "Link": "https://doi.org/10.1609/aaai.v35i17.17841",
       "veroeffentlichungsdatum": "18.05.2021",
-      "land": "Deutschland",
+      "land": ["Deutschland"],
       "methode": "Fragebogen, Interviews, geschriebenes Feedback",
       "sample": "24 Kinder (Klasse 3-9)",
-      "forschungsfrage": "/",
+      "forschungsfrage": [],
       "ergebnisse": "The vast majority of children in all three age groups perceived the topics as exciting and easy to follow, and they expressed the Intention to learn more about AI and machine learning."
     },
     "tool": {
@@ -1122,62 +1224,12 @@
       "link": "https://github.com/vlebedynska/openroberta-lab/"
     },
     "thema": "AI Literacy: Roboter",
-    "kategorie": "Curriculum"
-  },
-  {
-    "id": 54,
-    "zielgruppe": "zielgruppe",
-    "laenge": "laenge",
-    "erwaehntIn": "https://dl.acm.org/doi/10.1145/3772318.3790471#core-fn1-1",
-    "paper": {
-      "datenbank": "",
-      "titel": "",
-      "bemerkung": "",
-      "Link": "",
-      "veroeffentlichungsdatum": "",
-      "land": "",
-      "methode": "",
-      "sample": "",
-      "forschungsfrage": "",
-      "ergebnisse": ""
-    },
-    "tool": {
-      "name": "AI Quest (Google)",
-      "beschreibung": "AI Quests bringt Schülern im Alter von 11 bis 14 Jahren AI literacy durch immersive Abenteuer bei.",
-      "link": "https://research.google/ai-quests/intl/en_gb"
-    },
-    "thema": "AI Literacy",
-    "kategorie": "Webanwendung"
-  },
-  {
-    "id": "id",
-    "zielgruppe": "zielgruppe",
-    "laenge": "laenge",
-    "erwaehntIn": "erwaehntIn",
-    "paper": {
-      "datenbank": "datenbank",
-      "titel": "titel",
-      "bemerkung": "bemerkung",
-      "link": "Link",
-      "veroeffentlichungsdatum": "veroeffentlichungsdatum",
-      "land": "land",
-      "methode": "methode",
-      "sample": "sample",
-      "forschungsfrage": "forschungsfrage",
-      "ergebnisse": "ergebnisse"
-    },
-    "tool": {
-      "name": "name vom tool",
-      "beschreibung": "beschreibung vom tool",
-      "link": "link"
-    },
-    "thema": "thema",
-    "kategorie": "kategorie"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 54,
     "zielgruppe": "11 bis 14",
-    "laenge": "laenge",
+    "laenge": null,
     "erwaehntIn": "https://dl.acm.org/doi/10.1145/3772318.3790471#core-fn1-1",
     "tool": {
       "name": "AI Quest (Google)",
@@ -1185,12 +1237,12 @@
       "link": "https://research.google/ai-quests/intl/en_gb"
     },
     "thema": "AI Literacy",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 55,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP4 [1], PP5[3], PP16, PP32, PP35, PP37",
     "tool": {
       "name": "Code.org",
@@ -1198,12 +1250,12 @@
       "link": "https://code.org/de"
     },
     "thema": "AI Literacy",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 56,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP3 [84]",
     "tool": {
       "name": "AI-VIS EthiCards",
@@ -1211,12 +1263,12 @@
       "link": "https://aivisethicards.github.io/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Greifbar"
+    "kategorie": ["Greifbar"]
   },
   {
     "id": 57,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP5 [1], PP6 [4], PP13 [16], PP20 [17], PP28, PP31, PP32, PP38, PP43",
     "tool": {
       "name": "Teachable Machine",
@@ -1224,12 +1276,12 @@
       "link": "https://teachablemachine.withgoogle.com/"
     },
     "thema": "AI Literacy: Klassifikation",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 58,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP6 [23], PP12 (Fußnote 1), PP18 [18, 25], PP31, PP37, PP38",
     "tool": {
       "name": "Machine Learning for Kids",
@@ -1237,12 +1289,12 @@
       "link": "https://machinelearningforkids.co.uk/#!/login"
     },
     "thema": "AI Literacy: ML",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 59,
     "zielgruppe": "K-12",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP13 [72], PP22 [27], PP42",
     "tool": {
       "name": "AI Unplugged",
@@ -1250,12 +1302,12 @@
       "link": "https://www.aiunplugged.org/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Curriculum"
+    "kategorie": ["Curriculum"]
   },
   {
     "id": 60,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP13 [92]",
     "tool": {
       "name": "RapidMiner",
@@ -1263,12 +1315,12 @@
       "link": "https://docs.rapidminer.com/9.9/studio/installation/"
     },
     "thema": "AI Literacy: Analyse",
-    "kategorie": "Sonstige"
+    "kategorie": ["Sonstige"]
   },
   {
     "id": 61,
     "zielgruppe": "Kinder",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP13 [92], PP18 [32, 39], PP23 [2], PP31, PP38\n",
     "tool": {
       "name": "Scratch",
@@ -1276,12 +1328,12 @@
       "link": "https://scratch.mit.edu/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 62,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP20 [44]",
     "tool": {
       "name": "Discover AI in Daily Life",
@@ -1289,12 +1341,12 @@
       "link": "https://edu.exceedlms.com/student/path/1605996"
     },
     "thema": "AI Literacy",
-    "kategorie": "Sammlung von KI Kursen"
+    "kategorie": ["Sammlung von KI Kursen"]
   },
   {
     "id": 63,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP13 [92]",
     "tool": {
       "name": "Cognimates",
@@ -1302,12 +1354,12 @@
       "link": "https://docs.rapidminer.com/9.9/studio/installation/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 64,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP31 [Kahn & Winters, 2017]",
     "tool": {
       "name": "eCraft2Learn",
@@ -1315,12 +1367,12 @@
       "link": "https://ecraft2learn.github.io/ai/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 65,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP31",
     "tool": {
       "name": "AI experiments (Google)",
@@ -1328,12 +1380,12 @@
       "link": "https://experiments.withgoogle.com/collection/ai"
     },
     "thema": "AI Literacy",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   },
   {
     "id": 66,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP37, PP42",
     "tool": {
       "name": "Elements of AI",
@@ -1341,12 +1393,12 @@
       "link": "https://www.elementsofai.com/"
     },
     "thema": "AI Literacy",
-    "kategorie": "Sammlung von KI Kursen, Curriculum"
+    "kategorie": ["Sammlung von KI Kursen", "Curriculum"]
   },
   {
     "id": 67,
     "zielgruppe": "",
-    "laenge": "",
+    "laenge": null,
     "erwaehntIn": "PP37",
     "tool": {
       "name": "ISTE",
@@ -1354,6 +1406,6 @@
       "link": "https://iste-ascd.org/ai"
     },
     "thema": "AI Literacy",
-    "kategorie": "Webanwendung"
+    "kategorie": ["Webanwendung"]
   }
 ]
