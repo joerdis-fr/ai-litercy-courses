@@ -72,6 +72,7 @@ const paperLink = () => {
         <v-btn
             color="purple"
             varinat="outlined"
+            :href="kursLink()"
             :disabled="kursDisabled()"
         >
           Zum Kurs
