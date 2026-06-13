@@ -1,9 +1,29 @@
 <script setup lang="ts">
 
+const kategorien = [
+    'Webanwendung',
+    'Greifbar',
+    'Curriculum',
+    'Kognitives Werkzeug',
+    'Sammlung von KI Kursen',
+    'Lehrmaterialien',
+    'Museums Ausstellung',
+    'Sonstige'
+]
 </script>
 
 <template>
   <v-container>
+    <v-select
+        clearable
+        chips
+        color="primary"
+        density="compact"
+        label="Kategorie"
+        :items="kategorien"
+        multiple
+        variant="outlined"
+    />
     <v-select
       clearable
       chips
@@ -13,16 +33,6 @@
       :items="['Alle', 'AI Grundlagen', 'NLP', 'Ethik', 'Robotik', 'Computer Vision']"
       multiple
       variant="outlined"
-    />
-    <v-select
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        label="Kategorie"
-        :items="['Alle', 'Webanwendung', 'Greifbar', 'Curriculum', 'Roboter']"
-        multiple
-        variant="outlined"
     />
     <v-select
         clearable

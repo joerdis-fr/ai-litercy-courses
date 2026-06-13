@@ -6,6 +6,7 @@ export interface Course {
     paper: Paper | null;
     tool: Tool,
     kategorie: Array<string>;
+    thema: Array<string>;
 }
 
 export interface Lenght {

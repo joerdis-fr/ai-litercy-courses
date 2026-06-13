@@ -12,7 +12,7 @@ const loading =ref(true)
 
 // Einlesen der Daten
 async function loadJson(): Promise<Course[]> {
-  const content = await fetch("/courses-test.json");
+  const content = await fetch("/courses.json");
   return await content.json() as Course[];
 }
 
@@ -57,12 +57,13 @@ const karteAusklappen = (id: number) => {
             @toggle-karte="karteEinklappen(course.id)"
         />
         <KursKarteEingeklappt
-            v-else
+            v-else-if="courses"
             class="mt-4"
             :titel="course.tool.name"
             :beschreibung="course.tool.beschreibung"
             @toggle-karte="karteAusklappen(course.id)"
         />
+
       </template>
     </div>
   </v-container>
