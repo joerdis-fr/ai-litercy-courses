@@ -7,7 +7,6 @@ import type {Course} from "@/types.ts";
 
 // Steuervariabeln
 const ausgeklappteKartenIds = ref<Array<number>>([]);
-const karteAusgeklappt = ref(false);
 const courses = ref<Course[]>([]);
 const loading =ref(true)
 
@@ -24,7 +23,7 @@ onMounted(async () => {
   console.log(courses.value[0].tool.name)
 })
 
-// Karten steuern
+// Karten Ein- und Ausklappen steuern
 const karteEinklappen = (id: number) => {
   ausgeklappteKartenIds.value = ausgeklappteKartenIds.value.filter(kartenId => kartenId !== id);
 }
@@ -53,13 +52,13 @@ const karteAusklappen = (id: number) => {
       <template v-for="course in courses" :key="course.id">
         <KursKarteAusgeklappt
             v-if="ausgeklappteKartenIds.includes(course.id)"
-            class="mb-4"
+            class="mt-4"
             :course="course"
             @toggle-karte="karteEinklappen(course.id)"
         />
         <KursKarteEingeklappt
             v-else
-            class="mb-4"
+            class="mt-4"
             :titel="course.tool.name"
             :beschreibung="course.tool.beschreibung"
             @toggle-karte="karteAusklappen(course.id)"
