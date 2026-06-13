@@ -2,7 +2,7 @@
   {
     "id": 2,
     "zielgruppe": "Schüler der Mittelstufe",
-    "kategorie": "Kognitives Werkzeug",
+    "kategorie": ["Kognitives Werkzeug"],
     "laenge": {
       "anzahlSessions": 2,
       "zeitInMinutes": 20

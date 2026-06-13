@@ -6,11 +6,11 @@ function karteAusklappen() {
   emit('toggle-karte', props.meinIndex)
 }
 
-const props = defineProps({
-  titel: String,
-  beschreibung: String,
-  meinIndex: Number,
-})
+const props = defineProps<{
+  titel: string,
+  beschreibung: string,
+  meinIndex: number,
+}>();
 </script>
 
 <template>
@@ -20,13 +20,7 @@ const props = defineProps({
       variant="outlined"
   >
       <template v-slot:actions>
-        <v-btn
-            color="purple"
-            href="https://research.google/ai-quests/intl/en_gb"
-            varinat="elevated"
-        >
-          Zum Kurs
-        </v-btn>
+        <v-spacer />
         <v-btn
             icon="mdi-chevron-down"
             @click="karteAusklappen()"

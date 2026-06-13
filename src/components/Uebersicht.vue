@@ -8,6 +8,7 @@ import type {Course} from "@/types.ts";
 // Steuervariabeln
 const karteAusgeklappt = ref(false);
 const courses = ref<Course[]>([]);
+const loading =ref(true)
 
 // Einlesen der Daten
 async function loadJson(): Promise<Course[]> {
@@ -17,7 +18,7 @@ async function loadJson(): Promise<Course[]> {
 
 onMounted(async () => {
   courses.value = await loadJson();
-  console.log(courses);
+  loading.value = false;
 
   console.log(courses.value[0].tool.name)
 })
@@ -32,16 +33,22 @@ onMounted(async () => {
     <Filter />
     <v-divider />
     <h2>Ergebnisse </h2>
+    <v-skeleton-loader
+        v-if="loading"
+        type="article"
+    />
     <KursKarteEingeklappt
-        v-if="!karteAusgeklappt"
-        titel="test"
-        beschreibung="test"
+        v-else-if="!loading && !karteAusgeklappt"
+        :titel="courses[0].tool.name"
+        :beschreibung="courses[0].tool.beschreibung"
         :mein-index="0"
         @toggle-karte="karteAusgeklappt = true"
     />
     <KursKarteAusgeklappt
-      v-else
-      @click="karteAusgeklappt = false"
+      v-else-if="!loading && karteAusgeklappt"
+      :course="courses[0]"
+      :mein-index="0"
+      @toggle-karte="karteAusgeklappt = false"
     />
   </v-container>
 </template>

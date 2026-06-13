@@ -5,7 +5,7 @@ export interface Course {
     erwaehntIn: Array<string>;
     paper: Paper | null;
     tool: Tool,
-    kategorie: string;
+    kategorie: Array<string>;
 }
 
 export interface Lenght {
@@ -15,7 +15,7 @@ export interface Lenght {
 
 export interface Paper {
     datenbank: "ACM" | "Science Direct" | "Springer" | "MIT Media Lab" | "AAAI";
-    title: string;
+    titel: string;
     bemerkung: string;
     link: string;
     veroeffentlichungsdatum: string;
