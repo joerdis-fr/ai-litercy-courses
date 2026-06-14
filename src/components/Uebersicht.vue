@@ -73,15 +73,12 @@ const alleEinklappen = () => {
 }
 
 // Filter steuern
-const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
-  activeFilters.value = newFilters
+const handleFilterUpdate = (newFilters: { kategorien: string[] }) => {
+  activeFilters.value.kategorien = newFilters.kategorien;
 }
-
 const gefilterteKurse = computed(() => {
-    // --- DEBUG LOGS (Öffne deine Browser-Konsole mit F12) ---
     console.log("Filter-Zustand:", activeFilters.value.kategorien);
     console.log("Switch-Zustand (nurMitPaper):", nurMitPaper.value);
-    // --------------------------------------------------------
     return courses.value.filter(kurs => {
       // 1. Filter nach Kategorien
       const matchesKategorie =

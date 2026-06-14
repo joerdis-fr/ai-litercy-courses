@@ -23,6 +23,7 @@ const kategorien = [
 ]
 
 watch(selectedFilters, (newFilters) => {
+  console.log("Log aus dem Filter, newFilters:", newFilters)
   emit('update:filters', { ...newFilters })
 }, { deep: true })
 </script>
@@ -30,6 +31,7 @@ watch(selectedFilters, (newFilters) => {
 <template>
   <v-container>
     <v-select
+        v-model="selectedFilters.kategorien"
         clearable
         chips
         color="primary"
