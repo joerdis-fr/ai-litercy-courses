@@ -80,11 +80,11 @@
       },
       {
         "name": "SpotAI",
-        "beschreibung": "",
+        "beschreibung": "Deepfake Ethik und Medien Bewusstsein, Schüler erkennen, bearbeiten und denken über echte vs. manipulierte Medien nach. Sie beschäftigen sich mit Diskussionen über ethische Szenarien zum Thema KI-generierter Inhalt.",
         "link": "https://github.com/saniavn/ai-literacy-tools"
       },
       {"name": "PromptPeek",
-        "beschreibung": "PromptPeek: Prompting, Bias, & Negation, Schüler schreiben Prompts, reverse-engineer Prompts, und untersuchen wie GenAI mit Bias umgeht und an Negation scheitert.",
+        "beschreibung": "Prompting, Bias, & Negation, Schüler schreiben Prompts, reverse-engineer Prompts, und untersuchen wie GenAI mit Bias umgeht und an Negation scheitert.",
         "link": "https://github.com/saniavn/ai-literacy-tools"}
     ],
     "thema": "Bandit Explorer: AI Literacy, Empfehlungssysteme, ML; SpotAI: AI erkennen; PromptPeek: NLP, sozialer Einfluss",
