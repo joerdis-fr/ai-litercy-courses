@@ -3,11 +3,11 @@ import Filter from "@/components/Filter.vue";
 import KursKarteEingeklappt from "./KursKarteEingeklappt.vue";
 import {computed, onMounted, ref} from "vue";
 import KursKarteAusgeklappt from "@/components/KursKarteAusgeklappt.vue";
-import type {Course, Tool} from "@/types.ts";
+import type {Course, CourseOptimiert, Tool} from "@/types.ts";
 
 // Steuervariabeln
 const ausgeklappteKartenIds = ref<Array<number>>([]);
-const courses = ref<Course[]>([]);
+const courses = ref<CourseOptimiert[]>([]);
 const loading = ref(true)
 const activeFilters = ref({
   kategorien: [] as string[]
@@ -22,7 +22,7 @@ async function loadJson(): Promise<Course[]> {
 
 onMounted(async () => {
   const rawCourses = await loadJson();
-  const flattenedCourses: Course[] = [];
+  const flattenedCourses: CourseOptimiert[] = [];
 
   rawCourses.forEach((course: Course) => {
     // 1. Vorbereiten: Wenn es ein einzelnes Tool ist, machen wir ein Array daraus,
@@ -39,17 +39,15 @@ onMounted(async () => {
           singleTool = { ...singleTool, name: course.paper.titel };
         }
       }
-
       // Eindeutige ID generieren:
       const uniqueId = course.id * 100 + index;
-
       // Wir erstellen eine flache Kopie des Kurses, ersetzen aber ID und Tool
       const newCourseCard: Course = {
         ...course,
         id: uniqueId,
         tool: singleTool
       };
-      flattenedCourses.push(newCourseCard);
+      flattenedCourses.push(<CourseOptimiert>newCourseCard);
     });
   });
 
@@ -78,6 +76,7 @@ const alleEinklappen = () => {
 const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
   activeFilters.value = newFilters
 }
+
 const gefilterteKurse = computed(() => {
   return courses.value.filter(kurs => {
     // 1. Filter nach Kategorien (Schnittmenge prüfen)
@@ -148,7 +147,7 @@ const gefilterteKurse = computed(() => {
             @toggle-karte="karteEinklappen(course.id)"
         />
         <KursKarteEingeklappt
-            v-else-if="courses"
+            v-else
             class="mt-4"
             :titel="course.tool.name"
             :beschreibung="course.tool.beschreibung"

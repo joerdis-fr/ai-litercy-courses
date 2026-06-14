@@ -9,6 +9,17 @@ export interface Course {
     thema: Array<string>;
 }
 
+export interface CourseOptimiert {
+    id: number;
+    zielgruppe: string;
+    laenge: Lenght | null;
+    erwaehntIn: Array<string>;
+    paper: Paper | null;
+    tool: Tool,
+    kategorie: Array<string>;
+    thema: Array<string>;
+}
+
 export interface Lenght {
     anzahlSessions: number;
     zeitInMinutes: number;
