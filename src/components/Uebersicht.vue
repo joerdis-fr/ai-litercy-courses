@@ -78,18 +78,19 @@ const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
 }
 
 const gefilterteKurse = computed(() => {
-  return courses.value.filter(kurs => {
-    // 1. Filter nach Kategorien (Schnittmenge prüfen)
-    // .some() prüft, ob MINDESTENS EINE Kategorie des Kurses in den ausgewählten Filtern steckt.
-    const matchesKategorie =
-        activeFilters.value.kategorien.length === 0 || // Wenn nichts ausgewählt ist -> alles anzeigen
-        kurs.kategorie.some(kat => activeFilters.value.kategorien.includes(kat))
-
-    // 2. Filter für deinen "Nur Tools mit Paper" Switch im Parent
-    const matchesPaper = !nurMitPaper.value || kurs.paper !== null
-
-    return matchesKategorie && matchesPaper
-  })
+    // --- DEBUG LOGS (Öffne deine Browser-Konsole mit F12) ---
+    console.log("Filter-Zustand:", activeFilters.value.kategorien);
+    console.log("Switch-Zustand (nurMitPaper):", nurMitPaper.value);
+    // --------------------------------------------------------
+    return courses.value.filter(kurs => {
+      // 1. Filter nach Kategorien
+      const matchesKategorie =
+          activeFilters.value.kategorien.length === 0 ||
+          kurs.kategorie.some(kat => activeFilters.value.kategorien.includes(kat))
+      // 2. Filter für "Nur Tools mit Paper"
+      const matchesPaper = !nurMitPaper.value || (kurs.paper !== null && kurs.paper !== undefined)
+      return matchesKategorie && matchesPaper
+    })
 })
 
 </script>
