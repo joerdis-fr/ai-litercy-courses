@@ -32,3 +32,10 @@ export interface Tool {
     beschreibung: string;
     link: string | null;
 }
+
+export interface FilterState {
+    kategorien: string[]
+    // themen: string[]
+    // alter: string[]
+    // kurslaenge: string[]
+}

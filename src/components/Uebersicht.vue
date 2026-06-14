@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Filter from "@/components/Filter.vue";
 import KursKarteEingeklappt from "./KursKarteEingeklappt.vue";
-import {onMounted, ref} from "vue";
+import {computed, onMounted, ref} from "vue";
 import KursKarteAusgeklappt from "@/components/KursKarteAusgeklappt.vue";
 import type {Course} from "@/types.ts";
 
@@ -9,6 +9,10 @@ import type {Course} from "@/types.ts";
 const ausgeklappteKartenIds = ref<Array<number>>([]);
 const courses = ref<Course[]>([]);
 const loading = ref(true)
+const activeFilters = ref({
+  kategorien: [] as string[]
+})
+const nurMitPaper = ref(false)
 
 // Einlesen der Daten
 async function loadJson(): Promise<Course[]> {
@@ -17,18 +21,29 @@ async function loadJson(): Promise<Course[]> {
 }
 
 onMounted(async () => {
-  courses.value = await loadJson();
-  for (const course of courses.value as Course[]) {
+  const rawCourses = await loadJson();
+  const flattenedCourses: Course[] = [];
+
+  rawCourses.forEach((course: Course) => {
     if (Array.isArray(course.tool)) {
+      course.tool.forEach(tool => {
+        if (tool.name === "/") {
+          if (course.paper) {
+            // Wir kopieren das Tool-Objekt, um das Original nicht zu verändern
+            tool = { ...tool, name: course.paper.titel };
+          }
+        }
+      })
       console.log(course);
+      //TODO: Wie bereinige ich es, wenn es mehrere Tools gibt?
     }
     else {
       if (course.tool.name == "/"){
         if (course.paper) course.tool.name = course.paper.titel
       }
     }
-
-  }
+  })
+  courses.value = rawCourses;
   loading.value = false;
 })
 
@@ -48,6 +63,25 @@ const alleEinklappen = () => {
   ausgeklappteKartenIds.value = []
 }
 
+// Filter steuern
+const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
+  activeFilters.value = newFilters
+}
+const gefilterteKurse = computed(() => {
+  return courses.value.filter(kurs => {
+    // 1. Filter nach Kategorien (Schnittmenge prüfen)
+    // .some() prüft, ob MINDESTENS EINE Kategorie des Kurses in den ausgewählten Filtern steckt.
+    const matchesKategorie =
+        activeFilters.value.kategorien.length === 0 || // Wenn nichts ausgewählt ist -> alles anzeigen
+        kurs.kategorie.some(kat => activeFilters.value.kategorien.includes(kat))
+
+    // 2. Filter für deinen "Nur Tools mit Paper" Switch im Parent
+    const matchesPaper = !nurMitPaper.value || kurs.paper !== null
+
+    return matchesKategorie && matchesPaper
+  })
+})
+
 </script>
 
 <template>
@@ -56,13 +90,25 @@ const alleEinklappen = () => {
       AI Literacy Kurse
     </h1>
     <h2>Filter </h2>
-    <Filter />
+    <Filter
+        @update:filters="handleFilterUpdate"
+    />
     <v-divider />
     <v-row>
       <v-col>
-        <h2>Ergebnisse </h2>
+        <h2>{{gefilterteKurse.length}} Ergebnisse </h2>
       </v-col>
       <v-spacer />
+      <v-col>
+        <v-switch
+            v-model="nurMitPaper"
+            color="success"
+            class="mt-2"
+            label="Nur Tools mit Paper anzeigen"
+            true-icon="mdi-check"
+            false-icon="mdi-close"
+        ></v-switch>
+      </v-col>
       <v-col cols="auto">
         <v-btn
             class="ma-2"
@@ -83,7 +129,7 @@ const alleEinklappen = () => {
         type="article"
     />
     <div v-else>
-      <template v-for="course in courses" :key="course.id">
+      <template v-for="course in gefilterteKurse" :key="course.id">
         <KursKarteAusgeklappt
             v-if="ausgeklappteKartenIds.includes(course.id)"
             class="mt-4"
