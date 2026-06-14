@@ -34,6 +34,18 @@ const kursLink = () => {
   else return "#"
 }
 
+// Falls die Kurslänge fehlt
+const kursLaenge = () => {
+  if (kurs.laenge)
+    if (kurs.laenge.zeitInMinutes)
+      return kurs.laenge.anzahlSessions.toString().concat("x ", kurs.laenge.zeitInMinutes.toString(), "m");
+    else if (kurs.laenge.anzahlSessions > 1)
+      return kurs.laenge.anzahlSessions.toString().concat(" Sessions")
+    else
+      return kurs.laenge.anzahlSessions.toString().concat(" Session")
+  else return "Unbekannt"
+}
+
 // Falls das Paper fehlt
 const paperDisabled = () => {
   return !paper;
@@ -74,10 +86,6 @@ const richtigesLogo = () => {
   }
   else return undefined;
 }
-
-onMounted(() => {
-  console.log(props.course.paper)
-})
 </script>
 
 <template>
@@ -90,15 +98,16 @@ onMounted(() => {
       <ul>
         <li>Zielgruppe: {{kurs.zielgruppe}}</li>
         <li>Kategorie: {{kurs.kategorie[0]}}</li>
-        <li>Länge: {{ kurs.laenge?.anzahlSessions }}x {{ kurs.laenge?.zeitInMinutes }} m</li>
+        <li>
+          Länge: {{kursLaenge()}}</li>
       </ul>
       <div v-if="paper != null">
         <v-divider />
         <v-row>
-          <v-col cols="auto">
+          <v-col cols="9">
             <h4>Infos zum zugehörigen Paper</h4>
+            <h3>{{ paper.titel }}</h3>
           </v-col>
-          <v-spacer />
           <v-col cols="3">
             <v-img
                 :class="display.smAndUp? 'mt-4' : ''"
@@ -107,7 +116,6 @@ onMounted(() => {
             />
           </v-col>
         </v-row>
-        <h3>{{ paper.titel }}</h3>
         <p class="text-body-medium text-grey-darken-1 mt-n4"> {{ paper.veroeffentlichungsdatum }} </p>
         <ul>
           <li>Bemerkung: {{ paper.bemerkung }}</li>
