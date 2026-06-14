@@ -3,7 +3,7 @@ import Filter from "@/components/Filter.vue";
 import KursKarteEingeklappt from "./KursKarteEingeklappt.vue";
 import {computed, onMounted, ref} from "vue";
 import KursKarteAusgeklappt from "@/components/KursKarteAusgeklappt.vue";
-import type {Course} from "@/types.ts";
+import type {Course, Tool} from "@/types.ts";
 
 // Steuervariabeln
 const ausgeklappteKartenIds = ref<Array<number>>([]);
@@ -25,27 +25,38 @@ onMounted(async () => {
   const flattenedCourses: Course[] = [];
 
   rawCourses.forEach((course: Course) => {
-    if (Array.isArray(course.tool)) {
-      course.tool.forEach(tool => {
-        if (tool.name === "/") {
-          if (course.paper) {
-            // Wir kopieren das Tool-Objekt, um das Original nicht zu verändern
-            tool = { ...tool, name: course.paper.titel };
-          }
+    // 1. Vorbereiten: Wenn es ein einzelnes Tool ist, machen wir ein Array daraus,
+    // damit wir danach beide Fälle mit derselben Logik behandeln können.
+    const toolsArray = Array.isArray(course.tool) ? course.tool : [course.tool];
+
+    // 2. Für jedes Tool in diesem Kurs erstellen wir eine eigene Karte (ein eigenes Objekt)
+    toolsArray.forEach((singleTool: Tool, index: number) => {
+
+      // Bereinigungslogik
+      if (singleTool.name === "/") {
+        if (course.paper) {
+          // Wir kopieren das Tool-Objekt, um das Original nicht zu verändern
+          singleTool = { ...singleTool, name: course.paper.titel };
         }
-      })
-      console.log(course);
-      //TODO: Wie bereinige ich es, wenn es mehrere Tools gibt?
-    }
-    else {
-      if (course.tool.name == "/"){
-        if (course.paper) course.tool.name = course.paper.titel
       }
-    }
-  })
-  courses.value = rawCourses;
+
+      // Eindeutige ID generieren:
+      const uniqueId = course.id * 100 + index;
+
+      // Wir erstellen eine flache Kopie des Kurses, ersetzen aber ID und Tool
+      const newCourseCard: Course = {
+        ...course,
+        id: uniqueId,
+        tool: singleTool
+      };
+      flattenedCourses.push(newCourseCard);
+    });
+  });
+
+  // Jetzt enthält `courses.value` für jedes Tool eine eigene Karte mit eindeutiger ID
+  courses.value = flattenedCourses;
   loading.value = false;
-})
+});
 
 // Karten Ein- und Ausklappen steuern
 const karteEinklappen = (id: number) => {
