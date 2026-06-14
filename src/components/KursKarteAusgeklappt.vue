@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import type {Course} from "@/types.ts";
+import type {Course, CourseOptimiert} from "@/types.ts";
 import acmLogo from "../assets/acm-logo.webp";
 import scienceDirectLogo from "../assets/elsevier-logo.svg";
 import springerLogo from "../assets/logo-springer-nature-link.svg";
 import aaaiLogo from "../assets/aaai-logo.png";
 import mitLogo from "../assets/mit-logo.png";
 import {useDisplay} from "vuetify/framework";
+import {onMounted} from "vue";
 
 const emit = defineEmits(['toggle-karte'])
 
@@ -14,7 +15,7 @@ function karteEinklappen() {
 }
 
 const props = defineProps<{
-  course: Course
+  course: CourseOptimiert
 }>();
 
 const display = useDisplay();
@@ -73,6 +74,10 @@ const richtigesLogo = () => {
   }
   else return undefined;
 }
+
+onMounted(() => {
+  console.log(props.course.paper)
+})
 </script>
 
 <template>
