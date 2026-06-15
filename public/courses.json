@@ -141,7 +141,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Ein dreitägiger Workshop, bei dem schwarze Teenagerinnen GenAI-tools nutzen, um Modekollektionen zu entwerfen. Wir stellen fest, dass die kreativen Erkundungen der Teilnehmerinnen Gelegenheit zu aufschlussreicher kritischer Reflexion über die Grenzen der KI boten. Die Lernenden nutzten ihr vorhandenes Wissen, um das Verhalten der KI zu bewerten, während sie sich kreativen Aufgaben widmeten. Als die Lernenden als handlungsfähige Schöpferinnen positioniert wurden (d. h. GenAI war ein Werkzeug, das ihnen zur Verfügung stand, und sie waren die treibenden Visionärinnen), akzeptierten, verwarfen, kritisierten und entwickelten sie aktiv und durchdacht Strategien zur Gestaltung der GenAI-ergebnisse.",
-      "link": "s. beschreibungen in PP6"
+      "link": null
     },
     "thema": "AI Literacy: Ethik",
     "kategorie": ["Curriculum"]
@@ -169,7 +169,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "KI Kurs für Mittelschüler, der Kenntnisse fokussiert zum thema ChatGPT vermuttelt.",
-      "link": "s. beschreibungen in PP7"
+      "link": null
     },
     "thema": "AI Literacy: ChatGPT",
     "kategorie": ["Curriculum"]
@@ -250,7 +250,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Speculative Design Workshop für kritische AI Literacy",
-      "link": "s. beschreibungen in PP7"
+      "link": null
     },
     "thema": "AI Literacy: Ethik",
     "kategorie": ["Curriculum"]
@@ -954,7 +954,7 @@
     "tool": {
       "name": "PopBots Curruculum, AI+ Ethics Curriculum, Jibo & Droodle --> 4 Kurse, 3x 45m Kurse, nicht genannt",
       "beschreibung": "Das PopBots Curriculum verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: knowledge-based systems, GenAI, und supervised machine learning. Das AI + Ethics Curriculum besteht aus drei Modulen: Grundlagen von KI und Daten, Algorithmen als Meinungen und Stakeholderanalyse unter Verwenden der ethischen Matrix, Erstellng eines Papier Prototypen zum Vorschlagssystem von YouTube. Bei Droodle & Jibo interagieren Kinder mit einem sozialen Rokoter.",
-      "link": "s. beschreibungen in PP43"
+      "link": null
     },
     "thema": "AI Literacy: ML, Ethik",
     "kategorie": ["Curriculum"]
@@ -982,7 +982,7 @@
     "tool": {
       "name": "AI with Weird Wonderland",
       "beschreibung": "Wir haben die Ausstellung „AI with Weird Wonderland“ konzipiert, um Jugendlichen die Möglichkeit zu geben, kritisches Denken zu entwickeln und diese Kompetenz in ihrem Alltag anzuwenden.",
-      "link": "s. beschreibungen in PP44"
+      "link": null
     },
     "thema": "AI Literacy: Kritik",
     "kategorie": ["Museums Ausstellung"]
@@ -1010,7 +1010,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Ziel der Sitzungen im Rahmen dieser Studie war es, auf Design Fiction basierende Aktivitäten im Zusammenhang mit überwachtem maschinellem Lernen (mit Schwerpunkt auf Gesichtsanalyse) vorzustellen und zu testen.",
-      "link": "s. beschreibungen in PP45"
+      "link": null
     },
     "thema": "AI Literacy",
     "kategorie": ["Curriculum"]
@@ -1094,7 +1094,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Co-design a teachable machine: Im Mittelpunkt steht die Arbeit mit sogenannten \"teachable machines\" – also KI-Systemen, die von Nutzer:innen selbst trainiert werden können. Das Curriculum ist in mehrere Co-Design-Sitzungen gegliedert und nutzt eine strukturierte Storyboarding-methode (\"Big paper\"), um die Kinder bei der Entwicklung eigener KI-Ideen zu unterstützen.",
-      "link": "s. beschreibungen in PP48"
+      "link": null
     },
     "thema": "AI Literacy",
     "kategorie": ["Curriculum"]
