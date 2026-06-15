@@ -40,7 +40,7 @@ onMounted(async () => {
         }
       }
       // Eindeutige ID generieren:
-      const uniqueId = course.id * 100 + index;
+      const uniqueId = course.id * 1000 + index;
       // Wir erstellen eine flache Kopie des Kurses, ersetzen aber ID und Tool
       const newCourseCard: Course = {
         ...course,

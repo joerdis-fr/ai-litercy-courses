@@ -19,7 +19,7 @@
       "methode": "Pre- und Post Umfragen, Interviews, Bildschirmaufnahmen, Videoaufnahmen der Sytsteminteraktionen der Teilnehmenden",
       "sample": "14 Schüler der Mittelstufe (10-14) und 4 STEM Lehrer",
       "forschungsfrage": ["How can an iterative, multi‐phase design pipeline produce and refine embodied analogies for teaching AI literacy?", "RQ1. Ideation: What design concepts emerge from brainstorming with AI experts?", "RQ2. Formative evaluation: What learning challenges and affordances do middle‐school students reveal when using the AR prototype?", "RQ3. Refinement: How does teacher feedback from focus‐group interviews inform the next design iteration?"],
-      "ergebnisse": "Analogical Representations—Garden and Bee Analogies for the Mechanisms of Recommendation Systems. Flowers, visualized by multiple features (e.g., color, petal size, height), represent items in the\nrecommendation system. Bees pollinating flowers in the garden is the analogy for consumers of the\nrecommendation system, and bee pollination represents user acceptance of a recommended item."
+      "ergebnisse": "Analogical Representations—Garden and Bee Analogies for the Mechanisms of Recommendation Systems. Flowers, visualized by multiple features (e.g., color, petal size, height), represent items in the recommendation system. Bees pollinating flowers in the garden is the analogy for consumers of the\nrecommendation system, and bee pollination represents user acceptance of a recommended item."
     },
     "tool": {
       "name": "Bee Trap",
@@ -49,7 +49,7 @@
     },
     "tool": {
       "name": "/",
-      "beschreibung": "Design Fiction Szenarien, an UNESCO’s etshischen Prinzipien für KI ausgerichtet, wir haben 10 Design Fiction Szenarien aus bekannten Kontexten verwendet, um Reflektion anzuspornen.",
+      "beschreibung": "Design Fiction Szenarien, an UNESCO’s ethischen Prinzipien für KI ausgerichtet, wir haben 10 Design Fiction Szenarien aus bekannten Kontexten verwendet, um Reflektion anzuspornen.",
       "link": null
     },
     "thema": "AI Literacy: Ethik",
@@ -1417,5 +1417,18 @@
     },
     "thema": "AI Literacy",
     "kategorie": ["Webanwendung"]
+  },
+  {
+    "id": 68,
+    "zielgruppe": "K-12",
+    "laenge": null,
+    "erwaehntIn": "",
+    "tool": {
+      "name": "AI4K12",
+      "beschreibung": "Im Rahmen dieser Initiative werden (1) nationale Leitlinien für den KI-Unterricht für K-12 Schüler, (2) ein kuratiertes Online-Verzeichnis mit Ressourcen zur Unterstützung des KI-Unterrichts sowie (3) eine Gemeinschaft aus Praktikern, Forschern und Entwicklern von Ressourcen und Tools aufgebaut, die sich speziell an die Zielgruppe K-12 richtet.",
+      "link": "https://ai4k12.org/resources/list-of-resources/"
+    },
+    "thema": "AI Literacy",
+    "kategorie": ["Sammlung von KI Kursen"]
   }
 ]

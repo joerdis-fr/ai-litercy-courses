@@ -155,6 +155,8 @@ const richtigesLogo = () => {
         <v-btn
             color="purple"
             varinat="outlined"
+            target="_blank"
+            rel="noopener noreferrer"
             :href="kursLink()"
             :disabled="kursDisabled()"
         >
@@ -163,6 +165,8 @@ const richtigesLogo = () => {
         <v-btn
             color="orange"
             varinat="elevated"
+            target="_blank"
+            rel="noopener noreferrer"
             :href="paperLink()"
             :disabled="paperDisabled()"
         >
