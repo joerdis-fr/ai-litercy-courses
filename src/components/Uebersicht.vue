@@ -3,14 +3,15 @@ import Filter from "@/components/Filter.vue";
 import KursKarteEingeklappt from "./KursKarteEingeklappt.vue";
 import {computed, onMounted, ref} from "vue";
 import KursKarteAusgeklappt from "@/components/KursKarteAusgeklappt.vue";
-import type {Course, CourseOptimiert, Tool} from "@/types.ts";
+import type {Altersspanne, Course, CourseOptimiert, Tool} from "@/types.ts";
 
 // Steuervariabeln
 const ausgeklappteKartenIds = ref<Array<number>>([]);
 const courses = ref<CourseOptimiert[]>([]);
 const loading = ref(true)
 const activeFilters = ref({
-  kategorien: [] as string[]
+  kategorien: [] as string[],
+  altersstufen: [] as Altersspanne[],
 })
 const nurMitPaper = ref(false)
 
@@ -73,11 +74,13 @@ const alleEinklappen = () => {
 }
 
 // Filter steuern
-const handleFilterUpdate = (newFilters: { kategorien: string[] }) => {
+const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
   activeFilters.value.kategorien = newFilters.kategorien;
+  activeFilters.value.altersstufen = newFilters.altersstufen;
 }
+
 const gefilterteKurse = computed(() => {
-    console.log("Filter-Zustand:", activeFilters.value.kategorien);
+    console.log("Filter-Zustand:", activeFilters.value);
     console.log("Switch-Zustand (nurMitPaper):", nurMitPaper.value);
     return courses.value.filter(kurs => {
       // 1. Filter nach Kategorien
@@ -86,7 +89,19 @@ const gefilterteKurse = computed(() => {
           kurs.kategorie.some(kat => activeFilters.value.kategorien.includes(kat))
       // 2. Filter für "Nur Tools mit Paper"
       const matchesPaper = !nurMitPaper.value || (kurs.paper !== null && kurs.paper !== undefined)
-      return matchesKategorie && matchesPaper
+      // 3. Altersstufen Filter
+      const matchesAlter =
+          activeFilters.value.altersstufen.length === 0 ||
+          activeFilters.value.altersstufen.some(spanne => {
+            if ('generell' in spanne) {
+              return kurs.alter === null || kurs.alter === undefined;
+            }
+            if (kurs.alter && kurs.alter.min !== undefined && kurs.alter.max !== undefined) {
+              return kurs.alter.min <= spanne.max && kurs.alter.max >= spanne.min;
+            }
+            return false;
+          });
+      return matchesKategorie && matchesPaper && matchesAlter
     })
 })
 

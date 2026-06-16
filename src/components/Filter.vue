@@ -8,7 +8,8 @@ const emit = defineEmits<{
 }>()
 
 const selectedFilters = ref<FilterState>({
-  kategorien: []
+  kategorien: [],
+  altersstufen: []
 })
 
 const kategorien = [
@@ -20,6 +21,15 @@ const kategorien = [
     'Lehrmaterialien',
     'Museums Ausstellung',
     'Sonstige'
+]
+
+const altersstufen = [
+  {title: "Kindergarten und Pre-K (0-6)", value: {min: 0, max: 6}},
+  {title: "Grundschule (6-11)", value: {min: 6, max: 11}},
+  {title: "Mittelstufe (11-15)", value: {min: 11, max: 15}},
+  {title: "Oberstufe (15-18)", value: {min: 15, max: 18}},
+  {title: "Hochschulbildung (18-30)", value: {min: 18, max: 30}},
+  {title: "Generelle Kurse oder Unbekannt", value: {generell: true}},
 ]
 
 watch(selectedFilters, (newFilters) => {
@@ -42,6 +52,17 @@ watch(selectedFilters, (newFilters) => {
         variant="outlined"
     />
     <v-select
+        v-model="selectedFilters.altersstufen"
+        clearable
+        chips
+        color="primary"
+        density="compact"
+        label="Alter"
+        :items="altersstufen"
+        multiple
+        variant="outlined"
+    />
+    <v-select
       clearable
       chips
       color="primary"
@@ -51,17 +72,6 @@ watch(selectedFilters, (newFilters) => {
       :items="['Alle', 'AI Grundlagen', 'NLP', 'Ethik', 'Robotik', 'Computer Vision']"
       multiple
       variant="outlined"
-    />
-    <v-select
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        disabled
-        label="Alter"
-        :items="['Alle', 'Grundschüler (6-11)', 'Mittelschüler(12-16)', 'Generell']"
-        multiple
-        variant="outlined"
     />
     <v-select
         clearable
