@@ -366,7 +366,7 @@
     "paper": {
       "datenbank": "ACM",
       "titel": "Introducing AI Without Computers: Hands-On Literacy and Ethical Sense-Making for Young Learners",
-      "bemerkung": "Introducing AI, Are You Smarter than AI?, Datasets and Data Brokers, and EthiQuest",
+      "bemerkung": "",
       "link": "https://dl.acm.org/doi/10.1145/3706599.3719876",
       "veroeffentlichungsdatum": "25.04.2025",
       "land": ["USA"],
@@ -378,7 +378,7 @@
     "tool": {
       "name": "Introducing AI, Datasets and Data Brokers, EthiQuest, Are You Smarter than AI?",
       "beschreibung": "Fünf verschiedene Aktivitäten, die verschiedene KI Konzepte und Kenntnisse vermitteln.",
-      "link": "s. beschreibung in PP 14, https://web.archive.org/web/20250513162540/https://aiunplugged.lmc.gatech.edu/unplugged-activities/what-is-ai/"
+      "link": "https://web.archive.org/web/20250513162540/https://aiunplugged.lmc.gatech.edu/unplugged-activities/what-is-ai/"
     },
     "thema": "AI Literacy, Ethik, Kritik, ML",
     "kategorie": ["Greifbar"],
@@ -427,7 +427,7 @@
     "paper": {
       "datenbank": "ACM",
       "titel": "AI Mastery May Not Be For Everyone, But AI Literacy Should Be",
-      "bemerkung": "Sammlung an verschiedenen AI Kursen",
+      "bemerkung": "Eine empirische Studie zu den A Day of AI Kursen. Diese sind eine Sammlung von verschiedenen Kursen.",
       "link": "https://dl.acm.org/doi/10.1145/3649165.3690117",
       "veroeffentlichungsdatum": "05.12.2024",
       "land": ["USA"],
@@ -437,8 +437,8 @@
       "ergebnisse": "We subsequently described a large-scale, global implementation of AI literacy instruction taught under routine conditions by teachers from many disciplines."
     },
     "tool": {
-      "name": "/",
-      "beschreibung": "Eine empirische Studie zu den A Day of AI Kursen. Diese sind eine Sammlung von verschiedenen Kursen.",
+      "name": "Day of AI",
+      "beschreibung": "Day of AI hat 2021 am MIT begonnen, es wurde von der Fakultät und von Forschern am MIT RAISE (Responsible AI for Social Empowerment and Education) erstellt, um K–12 Schüler aller Hintergründe darauf vorzubereiten in einer KI-getriebenen Welt sich zu entfalten. In Zusammenarbeit mit i2 Learning bietet das Programm kostenlose, hands-on AI literacy Lektionen und professionelle Entwicklung für Lehrer. Im August 2024 wurde Day of AI zu einer eigenständigen gemeinnützigen Organisation und erweiterte sein Leitbild über die Vermittlung von KI-Kompetenzen an Schüler hinaus: Nun gehört auch die Unterstützung von Lehrkräften beim verantwortungsvollen Umgang mit KI-Tools sowie die Unterstützung von Schulleitern bei der Konzeption gerechter Programme zur Vermittlung von KI-Kompetenzen dazu, während die enge Zusammenarbeit mit MIT RAISE fortgesetzt wird.",
       "link": "https://dayofai.org/"
     },
     "thema": "Verschiedene AI und CS Themen",
@@ -647,11 +647,21 @@
       "forschungsfrage": ["RQ1 What types of dialogue do family groups engage in when making sense of and learning about AI?", "RQ2 How can we design activities to facilitate family group learning about AI literacy competencies in informal learning environments?"],
       "ergebnisse": "This paper contributes an empirically grounded understanding of these design principles in light of the learning talk analysis we conducted. This paper can be useful to AI educators, designers of tools/interfaces for promoting AI literacy and explainability, and researchers seeking to better understand how people learn about AI."
     },
-    "tool": {
-      "name": "Knowledge Net, Creature Features, LuminAI",
-      "beschreibung": "„Knowledge Net“ ist eine Aktivität, bei der die Lernenden mithilfe einer greifbaren Oberfläche aus Kacheln und Pfeilen gemeinsam semantische Netzwerke (eine Form der Wissensdarstellung in der KI) aufbauen können.  „Creature Features“ ist ein Prototyp, bei dem die Lernenden mithilfe eines Kartenspiels und Gewichtsmarkern einen Trainingsdatensatz für einen merkmalsbasierten Algorithmus zur Vogelklassifizierung im maschinellen Lernen erstellen können. LuminAI ist eine interaktive Kunstinstallation, bei der die Teilnehmer durch improvisierte Bewegungen mit einem KI-Tanzpartner zusammenarbeiten können.",
-      "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip, LuninAI auch https://dl.acm.org/doi/10.1145/3635636.3664255, https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
-    },
+    "tool": [
+      {
+      "name": "Knowledge Net",
+      "beschreibung": "„Knowledge Net“ ist eine Aktivität, bei der die Lernenden mithilfe einer greifbaren Oberfläche aus Kacheln und Pfeilen gemeinsam semantische Netzwerke (eine Form der Wissensdarstellung in der KI) aufbauen können.",
+      "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
+    },{
+        "name": "Creature Features",
+        "beschreibung": "„Creature Features“ ist ein Prototyp, bei dem die Lernenden mithilfe eines Kartenspiels und Gewichtsmarkern einen Trainingsdatensatz für einen merkmalsbasierten Algorithmus zur Vogelklassifizierung im maschinellen Lernen erstellen können.",
+        "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
+      },{
+        "name": "LuminAI",
+        "beschreibung": "LuminAI ist eine interaktive Kunstinstallation, bei der die Teilnehmer durch improvisierte Bewegungen mit einem KI-Tanzpartner zusammenarbeiten können. Weiteres Paper zu LuminAI: https://dl.acm.org/doi/10.1145/3635636.3664255 ",
+        "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
+      }
+    ],
     "thema": "AI Literacy: ML, Klassifikation",
     "kategorie": ["Greifbar", "Museums Ausstellung"]
   },
@@ -677,8 +687,8 @@
     },
     "tool": {
       "name": "DAILy",
-      "beschreibung": "Das DAILy-Curriculum, das von Forschern und Pädagogen des MIT in Zusammenarbeit mit erfahrenen Moderatoren entwickelt wurde, umfasst praktische und computergestützte Aktivitäten zu KI-Konzepten, ethischen Fragen im Zusammenhang mit KI, kreativem Ausdruck mithilfe von KI sowie dazu, wie KI mit der Zukunft der Schüler zusammenhängt. Die Schüler lernen, wie man maschinelles Lernen trainiert und einsetzt, um Vorhersagen zu treffen, untersuchen Verzerrungen in Anwendungen des maschinellen Lernens, nutzen generative gegnerische Netzwerke, um neuartige Kunstwerke zu schaffen, und lernen, die KI zu erkennen, mit der sie täglich und in ihrer Umgebung interagieren.",
-      "link": "aieducation.mit.edu/daily, heute: https://everyday-ai.org/resources/curriculum/daily-curriculum-v20"
+      "beschreibung": "Das DAILy-Curriculum, das von Forschern und Pädagogen des MIT in Zusammenarbeit mit erfahrenen Moderatoren entwickelt wurde, umfasst praktische und computergestützte Aktivitäten zu KI-Konzepten, ethischen Fragen im Zusammenhang mit KI, kreativem Ausdruck mithilfe von KI sowie dazu, wie KI mit der Zukunft der Schüler zusammenhängt. Die Schüler lernen, wie man maschinelles Lernen trainiert und einsetzt, um Vorhersagen zu treffen, untersuchen Verzerrungen in Anwendungen des maschinellen Lernens, nutzen generative gegnerische Netzwerke, um neuartige Kunstwerke zu schaffen, und lernen, die KI zu erkennen, mit der sie täglich und in ihrer Umgebung interagieren. Link früher: aieducation.mit.edu/daily",
+      "link": "https://everyday-ai.org/resources/curriculum/daily-curriculum-v20"
     },
     "thema": "AI Literacy: ML, GenAI",
     "kategorie": ["Curriculum"],
@@ -1053,7 +1063,7 @@
   },
   {
     "id": 43,
-    "zielgruppe": "K-12 Schüler, PopBots Jahre 4-6, AI + Ethics Curriculum Mittelschüler, Jibo & Droodle 6-10 Jahre",
+    "zielgruppe": "4-6 Jährige",
     "laenge": {
       "anzahlSessions": 4,
       "zeitInMinutes": null
@@ -1067,20 +1077,81 @@
       "veroeffentlichungsdatum": 2019,
       "land": ["USA"],
       "methode": "Pre- and Post Umfragen, Beobachtungen",
-      "sample": "80 Pre- und Kindergarten Kinder, 225 Mittelschüler (Klasse 5-8), 51 Schüler (6-10)",
+      "sample": "80 Pre- und Kindergarten Kinder",
       "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
       "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
     },
     "tool": {
-      "name": "PopBots Curriculum, AI+ Ethics Curriculum, Jibo & Droodle --> 4 Kurse, 3x 45m Kurse, nicht genannt",
-      "beschreibung": "Das PopBots Curriculum verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: knowledge-based systems, GenAI, und supervised machine learning. Das AI + Ethics Curriculum besteht aus drei Modulen: Grundlagen von KI und Daten, Algorithmen als Meinungen und Stakeholderanalyse unter Verwenden der ethischen Matrix, Erstellng eines Papier Prototypen zum Vorschlagssystem von YouTube. Bei Droodle & Jibo interagieren Kinder mit einem sozialen Rokoter.",
+      "name": "PopBots Curriculum",
+      "beschreibung": "Das PopBots Curriculum verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: knowledge-based systems, GenAI, und supervised machine learning.",
       "link": null
     },
     "thema": "AI Literacy: ML, Ethik",
     "kategorie": ["Curriculum"],
     "alter" : {
-      "min": 5,
-      "max": 18
+      "min": 4,
+      "max": 6
+    }
+  },
+  {
+    "id": 1,
+    "zielgruppe": "Mittelschüler",
+    "laenge": {
+      "anzahlSessions": 3,
+      "zeitInMinutes": 45
+    },
+    "erwaehntIn": "PP2 [2, 43]",
+    "paper": {
+      "datenbank": "MIT Media Lab",
+      "titel": "Constructionism, Ethics, and Creativity: Developing Primary and Middle School Artificial Intelligence Education",
+      "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
+      "link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
+      "veroeffentlichungsdatum": 2019,
+      "land": ["USA"],
+      "methode": "Pre- and Post Umfragen, Beobachtungen",
+      "sample": "225 Mittelschüler (Klasse 5-8)",
+      "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
+      "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
+    },
+    "tool": {
+      "name": "AI+ Ethics Curriculum",
+      "beschreibung": "Das AI + Ethics Curriculum besteht aus drei Modulen: Grundlagen von KI und Daten, Algorithmen als Meinungen und Stakeholderanalyse unter Verwenden der ethischen Matrix, Erstellng eines Papier Prototypen zum Vorschlagssystem von YouTube.",
+      "link": null
+    },
+    "thema": "AI Literacy: ML, Ethik",
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 10,
+      "max": 14
+    }
+  },
+  {
+    "id": 12,
+    "zielgruppe": "6-10 Jahre",
+    "laenge": null,
+    "erwaehntIn": "PP2 [2, 43]",
+    "paper": {
+      "datenbank": "MIT Media Lab",
+      "titel": "Constructionism, Ethics, and Creativity: Developing Primary and Middle School Artificial Intelligence Education",
+      "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
+      "link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
+      "veroeffentlichungsdatum": 2019,
+      "land": ["USA"],
+      "methode": "Pre- and Post Umfragen, Beobachtungen",
+      "sample": "51 Schüler (6-10)",
+      "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
+      "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
+    },
+    "tool": {
+      "name": "Jibo & Droodle",
+      "beschreibung": "Bei Droodle & Jibo interagieren Kinder mit einem sozialen Roboter.",
+      "link": null
+    },
+    "thema": "AI Literacy: ML, Ethik",
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 6,
+      "max": 10
     }
   },
   {
