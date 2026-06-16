@@ -1,0 +1,56 @@
+[
+  {
+    "id": 2,
+    "zielgruppe": "Schüler der Mittelstufe",
+    "kategorie": ["Kognitives Werkzeug"],
+    "laenge": {
+      "anzahlSessions": 2,
+      "zeitInMinutes": 20
+    },
+    "erwaehntIn": [],
+    "paper": {
+      "datenbank": "ACM",
+      "titel": "Designing Embodied Metaphors and Analogies for AI Literacy: An Iterative Study with Experts, Teachers, and Children",
+      "bemerkung": "BeeTrap, Webseite zwar nicht verlinkt, aber die Metaphern funktionieren auch ohne die Implementierung",
+      "link": "https://dl.acm.org/doi/10.1145/3773901",
+      "veroeffentlichungsdatum": "21.04.2026",
+      "land": ["USA", "China"],
+      "methode": "Pre- und Post Umfragen, Interviews, Bildschirmaufnahmen, Videoaufnahmen der Sytsteminteraktionen der Teilnehmenden",
+      "sample": "14 Schüler der Mittelstufe (10-14) und 4 STEM Lehrer",
+      "forschungsfrage": ["How can an iterative, multi‐phase design pipeline produce and refine embodied analogies for teaching AI literacy?", "RQ1. Ideation: What design concepts emerge from brainstorming with AI experts?", "RQ2. Formative evaluation: What learning challenges and affordances do middle‐school students reveal when using the AR prototype?", "RQ3. Refinement: How does teacher feedback from focus‐group interviews inform the next design iteration?"],
+      "ergebnisse": "Analogical Representations—Garden and Bee Analogies for the Mechanisms of Recommendation Systems. Flowers, visualized by multiple features (e.g., color, petal size, height), represent items in the\nrecommendation system. Bees pollinating flowers in the garden is the analogy for consumers of the\nrecommendation system, and bee pollination represents user acceptance of a recommended item."
+    },
+    "tool": {
+      "name": "Bee Trap",
+      "beschreibung": "Eine Metapher, bei der Blumen und Bienen für Empfehlungssysteme und Filterblasen stehen. Leider konnte kein Zugang zu der passenden Webanwendung gefunden werden, wodurch das sprachliche Bild in diesem Fall alles ist, was zur Verfügung steht.",
+      "link": null
+    }
+  },
+  {
+    "id": 1,
+    "zielgruppe": "Schüler der Mittelstufe",
+    "kategorie": ["Kognitives Werkzeug"],
+    "laenge": {
+      "anzahlSessions": 2,
+      "zeitInMinutes": 20
+    },
+    "erwaehntIn": [],
+    "paper": {
+      "datenbank": "AAAI",
+      "titel": "Designing Embodied Metaphors and Analogies for AI Literacy: An Iterative Study with Experts, Teachers, and Children",
+      "bemerkung": "BeeTrap, Webseite zwar nicht verlinkt, aber die Metaphern funktionieren auch ohne die Implementierung",
+      "link": "https://dl.acm.org/doi/10.1145/3773901",
+      "veroeffentlichungsdatum": "21.04.2026",
+      "land": ["USA", "China"],
+      "methode": "Pre- und Post Umfragen, Interviews, Bildschirmaufnahmen, Videoaufnahmen der Sytsteminteraktionen der Teilnehmenden",
+      "sample": "14 Schüler der Mittelstufe (10-14) und 4 STEM Lehrer",
+      "forschungsfrage": ["How can an iterative, multi‐phase design pipeline produce and refine embodied analogies for teaching AI literacy?", "RQ1. Ideation: What design concepts emerge from brainstorming with AI experts?", "RQ2. Formative evaluation: What learning challenges and affordances do middle‐school students reveal when using the AR prototype?", "RQ3. Refinement: How does teacher feedback from focus‐group interviews inform the next design iteration?"],
+      "ergebnisse": "Analogical Representations—Garden and Bee Analogies for the Mechanisms of Recommendation Systems. Flowers, visualized by multiple features (e.g., color, petal size, height), represent items in the\nrecommendation system. Bees pollinating flowers in the garden is the analogy for consumers of the\nrecommendation system, and bee pollination represents user acceptance of a recommended item."
+    },
+    "tool": {
+      "name": "Bee Trap 2",
+      "beschreibung": "Eine Metapher, bei der Blumen und Bienen für Empfehlungssysteme und Filterblasen stehen. Leider konnte kein Zugang zu der passenden Webanwendung gefunden werden, wodurch das sprachliche Bild in diesem Fall alles ist, was zur Verfügung steht.",
+      "link": null
+    }
+  }
+]
