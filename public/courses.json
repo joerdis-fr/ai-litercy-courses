@@ -25,6 +25,10 @@
       "name": "Bee Trap",
       "beschreibung": "Eine Metapher, bei der Blumen und Bienen für Empfehlungssysteme und Filterblasen stehen. Leider konnte kein Zugang zu der passenden Webanwendung gefunden werden, wodurch das sprachliche Bild in diesem Fall alles ist, was zur Verfügung steht.",
       "link": null
+    },
+    "alter" : {
+      "min": 11,
+      "max": 15
     }
   },
   {
@@ -53,7 +57,11 @@
       "link": null
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": ["Kognitives Werkzeug"]
+    "kategorie": ["Kognitives Werkzeug"],
+    "alter" : {
+      "min": 11,
+      "max": 12
+    }
   },
   {
     "id": 4,
@@ -88,7 +96,11 @@
         "link": "https://github.com/saniavn/ai-literacy-tools"}
     ],
     "thema": "Bandit Explorer: AI Literacy, Empfehlungssysteme, ML; SpotAI: AI erkennen; PromptPeek: NLP, sozialer Einfluss",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
   },
   {
     "id": 5,
@@ -116,7 +128,11 @@
       "link": "https://github.com/saniavn/ThinkLikeAI"
     },
     "thema": "AI Literacy: NLP",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
   },
   {
     "id": 6,
@@ -144,7 +160,11 @@
       "link": null
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 13,
+      "max": 19
+    }
   },
   {
     "id": 7,
@@ -172,7 +192,11 @@
       "link": null
     },
     "thema": "AI Literacy: ChatGPT",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
   },
   {
     "id": 8,
@@ -197,7 +221,11 @@
       "link": "https://github.com/DrAlzahrani/HPC-AI-Resources/wiki"
     },
     "thema": "Verschiedene AI und CS Themen",
-    "kategorie": ["Sammlung von KI Kursen"]
+    "kategorie": ["Sammlung von KI Kursen"],
+    "alter" : {
+      "min": 11,
+      "max": 30
+    }
   },
   {
     "id": 9,
@@ -225,7 +253,11 @@
       "link": "https://www.ai-puzzlers.com/"
     },
     "thema": "AI Literacy: Reasoning",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 8,
+      "max": 14
+    }
   },
   {
     "id": 10,
@@ -253,7 +285,11 @@
       "link": null
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 14,
+      "max": 17
+    }
   },
   {
     "id": 11,
@@ -281,7 +317,11 @@
       "link": "https://www.aistorybot.com/"
     },
     "thema": "AI Nutzung",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 8,
+      "max": 14
+    }
   },
   {
     "id": 13,
@@ -309,7 +349,11 @@
       "link": "s. beschreibung in PP 13"
     },
     "thema": "AI Literacy: Sozialer Einfluss",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    }
   },
   {
     "id": 14,
@@ -337,7 +381,11 @@
       "link": "s. beschreibung in PP 14, https://web.archive.org/web/20250513162540/https://aiunplugged.lmc.gatech.edu/unplugged-activities/what-is-ai/"
     },
     "thema": "AI Literacy, Ethik, Kritik, ML",
-    "kategorie": ["Greifbar"]
+    "kategorie": ["Greifbar"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
   },
   {
     "id": 15,
@@ -365,7 +413,11 @@
       "link": "s. beschreibung in PP15"
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 10,
+      "max": 12
+    }
   },
   {
     "id": 16,
@@ -418,7 +470,11 @@
       "link": "s. beschreibung in PP17"
     },
     "thema": "AI Literacy: ChatGPT",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 15,
+      "max": 17
+    }
   },
   {
     "id": 18,
@@ -443,7 +499,11 @@
       "link": "https://sites.google.com/view/replicationpackageai/"
     },
     "thema": "Verschiedene AI und CS Themen",
-    "kategorie": ["Sammlung von KI Kursen"]
+    "kategorie": ["Sammlung von KI Kursen"],
+    "alter" : {
+      "min": 9,
+      "max": 14
+    }
   },
   {
     "id": 19,
@@ -471,7 +531,11 @@
       "link": "https://nemobot-neue-experiment.vercel.app/functions"
     },
     "thema": "AI Literacy: Coding",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    }
   },
   {
     "id": 20,
@@ -499,7 +563,11 @@
       "link": "https://github.com/chinasatokolo/BeyondAIHype"
     },
     "thema": "AI Literacy: Erkennen und Kritisch hinterfragen",
-    "kategorie": ["Curriculum", "Lehrmaterialien"]
+    "kategorie": ["Curriculum", "Lehrmaterialien"],
+    "alter" : {
+      "min": 11,
+      "max": 18
+    }
   },
   {
     "id": 21,
@@ -524,7 +592,11 @@
       "link": "https://ml-machine.org/"
     },
     "thema": "AI Literacy: ML",
-    "kategorie": ["Webanwendung", "Greifbar"]
+    "kategorie": ["Webanwendung", "Greifbar"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    }
   },
   {
     "id": 22,
@@ -552,7 +624,11 @@
       "link": "https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html"
     },
     "thema": "AI Literacy: Roboter",
-    "kategorie": ["Webanwendung", "Greifbar"]
+    "kategorie": ["Webanwendung", "Greifbar"],
+    "alter" : {
+      "min": 6,
+      "max": 14
+    }
   },
   {
     "id": 25,
@@ -605,7 +681,11 @@
       "link": "aieducation.mit.edu/daily, heute: https://everyday-ai.org/resources/curriculum/daily-curriculum-v20"
     },
     "thema": "AI Literacy: ML, GenAI",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
   },
   {
     "id": 27,
@@ -633,7 +713,11 @@
       "link": "https://drive.google.com/drive/folders/1hUwM6kdBq3V-U8SGweTzrG69niUOyIFK, https://ai-ed.ca/"
     },
     "thema": "Verschiedene AI und CS Themen",
-    "kategorie": ["Lehrmaterialien"]
+    "kategorie": ["Lehrmaterialien"],
+    "alter" : {
+      "min": 9,
+      "max": 14
+    }
   },
   {
     "id": 28,
@@ -661,7 +745,11 @@
       "link": "s. beschreibung in PP28"
     },
     "thema": "AI Literacy: ML, Empfehlunssysteme",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    }
   },
   {
     "id": 29,
@@ -689,7 +777,11 @@
       "link": "s. beschreibung in PP29"
     },
     "thema": "AI Literacy, Ethik, Verständnis, Daten",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 6,
+      "max": 11
+    }
   },
   {
     "id": 30,
@@ -717,7 +809,11 @@
       "link": "s. beschreibung in PP30"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    }
   },
   {
     "id": 33,
@@ -745,7 +841,11 @@
       "link": "s. beschreibung in PP33"
     },
     "thema": "AI Literacy: Blockchain",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 10,
+      "max": 12
+    }
   },
   {
     "id": 34,
@@ -773,7 +873,11 @@
       "link": "https://jhonalesilva.github.io/AI-Fish/"
     },
     "thema": "AI Literacy: Klassifikation",
-    "kategorie": ["Lehrmaterialien"]
+    "kategorie": ["Lehrmaterialien"],
+    "alter" : {
+      "min": 6,
+      "max": 8
+    }
   },
   {
     "id": 35,
@@ -798,7 +902,11 @@
       "link": "https://ailiteracy.msu.edu/"
     },
     "thema": "Kritische AI Literacy",
-    "kategorie": ["Curriculum", "Lehrmaterialien"]
+    "kategorie": ["Curriculum", "Lehrmaterialien"],
+    "alter" : {
+      "min": 5,
+      "max": 14
+    }
   },
   {
     "id": 36,
@@ -851,7 +959,11 @@
       "link": "https://aim4vet.udc.es/modules/ , https://github.com/mintforpeople/robobo-programming/wiki , evt noch mehr links aus dem paper PP37"
     },
     "thema": "AI Literacy: Roboter",
-    "kategorie": ["Sonstige"]
+    "kategorie": ["Sonstige"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
   },
   {
     "id": 38,
@@ -879,7 +991,11 @@
       "link": "s. beschreibung in PP38"
     },
     "thema": "AI Literacy: Ethik",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 11,
+      "max": 12
+    }
   },
   {
     "id": 41,
@@ -904,7 +1020,11 @@
       "link": "https://lascientotheque.github.io/ressources-ia, https://www.lascientotheque.be/pour-les-pros/nos-ressources-steam/intelligence-artificielle/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Sammlung von KI Kursen"]
+    "kategorie": ["Sammlung von KI Kursen"],
+    "alter" : {
+      "min": 8,
+      "max": 18
+    }
   },
   {
     "id": 42,
@@ -913,7 +1033,7 @@
     "erwaehntIn": [],
     "paper": {
       "datenbank": "Springer",
-      "titel": "Education and Awareness for Artificial Intelligence",
+      "titel": "Education and Awareness for Artificial Intelligence",
       "bemerkung": "Lange Workshops, aber sehr modular aufgebaut, deswegen passt es wieder",
       "link": "https://link.springer.com/chapter/10.1007/978-3-031-44900-0_1",
       "veroeffentlichungsdatum": "01.10.2023",
@@ -952,12 +1072,16 @@
       "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
     },
     "tool": {
-      "name": "PopBots Curruculum, AI+ Ethics Curriculum, Jibo & Droodle --> 4 Kurse, 3x 45m Kurse, nicht genannt",
+      "name": "PopBots Curriculum, AI+ Ethics Curriculum, Jibo & Droodle --> 4 Kurse, 3x 45m Kurse, nicht genannt",
       "beschreibung": "Das PopBots Curriculum verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: knowledge-based systems, GenAI, und supervised machine learning. Das AI + Ethics Curriculum besteht aus drei Modulen: Grundlagen von KI und Daten, Algorithmen als Meinungen und Stakeholderanalyse unter Verwenden der ethischen Matrix, Erstellng eines Papier Prototypen zum Vorschlagssystem von YouTube. Bei Droodle & Jibo interagieren Kinder mit einem sozialen Rokoter.",
       "link": null
     },
     "thema": "AI Literacy: ML, Ethik",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    }
   },
   {
     "id": 44,
@@ -985,7 +1109,11 @@
       "link": null
     },
     "thema": "AI Literacy: Kritik",
-    "kategorie": ["Museums Ausstellung"]
+    "kategorie": ["Museums Ausstellung"],
+    "alter" : {
+      "min": 13,
+      "max": 19
+    }
   },
   {
     "id": 45,
@@ -1013,7 +1141,11 @@
       "link": null
     },
     "thema": "AI Literacy",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 14,
+      "max": 15
+    }
   },
   {
     "id": 46,
@@ -1041,7 +1173,11 @@
       "link": "https://bit.ly/3BxW3M1"
     },
     "thema": "AI Literacy: Ethik, soziale Folgen",
-    "kategorie": ["Greifbar"]
+    "kategorie": ["Greifbar"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    }
   },
   {
     "id": 47,
@@ -1069,7 +1205,11 @@
       "link": "https://dancingwithai.media.mit.edu/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung", "Curriculum"]
+    "kategorie": ["Webanwendung", "Curriculum"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
   },
   {
     "id": 48,
@@ -1097,7 +1237,11 @@
       "link": null
     },
     "thema": "AI Literacy",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 8,
+      "max": 13
+    }
   },
   {
     "id": 49,
@@ -1125,7 +1269,11 @@
       "link": "https://contours2classification.herokuapp.com/"
     },
     "thema": "AI Literacy: Neural Networks, Klassifikation",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
   },
   {
     "id": 50,
@@ -1178,7 +1326,11 @@
       "link": "https://zhorai.readyai.org/intro"
     },
     "thema": "AI Literacy: ML",
-    "kategorie": ["Webanwendung", "Curriculum"]
+    "kategorie": ["Webanwendung", "Curriculum"],
+    "alter" : {
+      "min": 8,
+      "max": 11
+    }
   },
   {
     "id": 52,
@@ -1206,7 +1358,11 @@
       "link": "https://dl.acm.org/doi/suppl/10.1145/3290605.3300677/suppl_file/pn3787.zip 7"
     },
     "thema": "AI Literacy: Grundlagen",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 5,
+      "max": 11
+    }
   },
   {
     "id": 53,
@@ -1234,7 +1390,11 @@
       "link": "https://github.com/vlebedynska/openroberta-lab/"
     },
     "thema": "AI Literacy: Roboter",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    }
   },
   {
     "id": 54,
@@ -1247,7 +1407,11 @@
       "link": "https://research.google/ai-quests/intl/en_gb"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 11,
+      "max": 14
+    }
   },
   {
     "id": 55,
@@ -1338,7 +1502,11 @@
       "link": "https://scratch.mit.edu/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "alter": {
+      "min": 5,
+      "max": 11
+    }
   },
   {
     "id": 62,
@@ -1429,6 +1597,10 @@
       "link": "https://ai4k12.org/resources/list-of-resources/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Sammlung von KI Kursen"]
+    "kategorie": ["Sammlung von KI Kursen"],
+    "alter": {
+      "min": 5,
+      "max": 18
+    }
   }
 ]

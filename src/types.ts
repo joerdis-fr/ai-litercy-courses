@@ -7,6 +7,7 @@ export interface Course {
     tool: Tool | Array<Tool>,
     kategorie: Array<string>;
     thema: Array<string>;
+    alter: Altersspanne;
 }
 
 export interface CourseOptimiert {
@@ -49,4 +50,9 @@ export interface FilterState {
     // themen: string[]
     // alter: string[]
     // kurslaenge: string[]
+}
+
+export interface Altersspanne {
+    min: number;
+    max: number;
 }
