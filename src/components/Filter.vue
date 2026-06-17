@@ -9,7 +9,8 @@ const emit = defineEmits<{
 
 const selectedFilters = ref<FilterState>({
   kategorien: [],
-  altersstufen: []
+  altersstufen: [],
+  kurslaengen: []
 })
 
 const kategorien = [
@@ -29,6 +30,16 @@ const altersstufen = [
   {title: "Mittelstufe (11-15)", value: {min: 11, max: 15}},
   {title: "Oberstufe (15-18)", value: {min: 15, max: 18}},
   {title: "Hochschulbildung (18-30)", value: {min: 18, max: 30}},
+  {title: "Generelle Kurse oder Unbekannt", value: {generell: true}},
+]
+
+const kurslaengen = [
+  {title: "Unter einer Stunde", value: {min: 0, max: 60}},
+  {title: "1 bis 2 Stunden", value: {min: 60, max: 120}},
+  {title: "2 bis 3 Stunden", value: {min: 120, max: 180}},
+  {title: "3 bis 5 Stunden", value: {min: 180, max: 300}},
+  {title: "5 bis 10 Stunden", value: {min: 300, max: 600}},
+  {title: "Über 10 Stunden", value: {min: 600, max: null}},
   {title: "Generelle Kurse oder Unbekannt", value: {generell: true}},
 ]
 
@@ -63,6 +74,17 @@ watch(selectedFilters, (newFilters) => {
         variant="outlined"
     />
     <v-select
+        v-model="selectedFilters.kurslaengen"
+        clearable
+        chips
+        color="primary"
+        density="compact"
+        label="Kurslänge"
+        :items="kurslaengen"
+        multiple
+        variant="outlined"
+    />
+    <v-select
       clearable
       chips
       color="primary"
@@ -72,17 +94,6 @@ watch(selectedFilters, (newFilters) => {
       :items="['Alle', 'AI Grundlagen', 'NLP', 'Ethik', 'Robotik', 'Computer Vision']"
       multiple
       variant="outlined"
-    />
-    <v-select
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        disabled
-        label="Kurslänge"
-        :items="['Alle', '1h', '3h', 'kp']"
-        multiple
-        variant="outlined"
     />
   </v-container>
 </template>

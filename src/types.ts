@@ -49,11 +49,16 @@ export interface Tool {
 export interface FilterState {
     kategorien: string[]
     altersstufen: Altersspanne[]
+    kurslaengen: Kurslaenge[]
     // themen: string[]
-    // kurslaenge: string[]
 }
 
 export interface Altersspanne {
+    min: number;
+    max: number;
+}
+
+export interface Kurslaenge {
     min: number;
     max: number;
 }

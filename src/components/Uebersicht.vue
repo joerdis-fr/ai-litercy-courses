@@ -3,7 +3,7 @@ import Filter from "@/components/Filter.vue";
 import KursKarteEingeklappt from "./KursKarteEingeklappt.vue";
 import {computed, onMounted, ref} from "vue";
 import KursKarteAusgeklappt from "@/components/KursKarteAusgeklappt.vue";
-import type {Altersspanne, Course, CourseOptimiert, Tool} from "@/types.ts";
+import type {Altersspanne, Course, CourseOptimiert, Kurslaenge, Tool} from "@/types.ts";
 
 // Steuervariabeln
 const ausgeklappteKartenIds = ref<Array<number>>([]);
@@ -12,6 +12,7 @@ const loading = ref(true)
 const activeFilters = ref({
   kategorien: [] as string[],
   altersstufen: [] as Altersspanne[],
+  kurslaengen: [] as Kurslaenge[]
 })
 const nurMitPaper = ref(false)
 
@@ -77,6 +78,7 @@ const alleEinklappen = () => {
 const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
   activeFilters.value.kategorien = newFilters.kategorien;
   activeFilters.value.altersstufen = newFilters.altersstufen;
+  activeFilters.value.kurslaengen = newFilters.kurslaengen;
 }
 
 const gefilterteKurse = computed(() => {
@@ -101,7 +103,19 @@ const gefilterteKurse = computed(() => {
             }
             return false;
           });
-      return matchesKategorie && matchesPaper && matchesAlter
+      const matchesLength =
+          activeFilters.value.kurslaengen.length === 0 ||
+          activeFilters.value.kurslaengen.some(spanne => {
+            if ('generell' in spanne) {
+              return kurs.laenge === null || kurs.laenge === undefined || kurs.laenge.zeitInMinutes === null || kurs.laenge.zeitInMinutes === undefined;
+            }
+            if (kurs.laenge && kurs.laenge.anzahlSessions !== undefined && kurs.laenge.zeitInMinutes !== undefined) {
+              const zeitInsgesamt = kurs.laenge.anzahlSessions * kurs.laenge.zeitInMinutes
+              return zeitInsgesamt <= spanne.max && zeitInsgesamt >= spanne.min;
+            }
+            return false;
+            })
+      return matchesKategorie && matchesPaper && matchesAlter && matchesLength
     })
 })
 
