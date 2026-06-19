@@ -75,27 +75,78 @@
       "link": "https://dl.acm.org/doi/10.1145/3770761.3777205",
       "veroeffentlichungsdatum": "17.02.2026",
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "7 Schüler der Mittelstufe",
       "forschungsfrage": [],
       "ergebnisse": "Together, the results show how middle school students can begin forming intuitions about generative AI, recommender systems, and synthetic media. Across activities, students showed early understanding of bias, trade-offs, and manipulation."
     },
-    "tool": [
-      {
-      "name": "Bandit Explorer",
-      "beschreibung": "Empfehlungssytsem-Kompromisse, eine Simulation des Erkundungs- und Ausbeutungskompromisses unter Verwendung der epsilon-greedy Policy. Schüler passen ϵ (epsilon) an, um zu sehen, wie Empfehlungen auf Grundlage ihrer Umgebung sich verändern.",
+    "tool":
+    {
+    "name": "Bandit Explorer",
+    "beschreibung": "Empfehlungssytsem-Kompromisse, eine Simulation des Erkundungs- und Ausbeutungskompromisses unter Verwendung der epsilon-greedy Policy. Schüler passen ϵ (epsilon) an, um zu sehen, wie Empfehlungen auf Grundlage ihrer Umgebung sich verändern.",
+    "link": "https://github.com/saniavn/ai-literacy-tools"
+    },
+    "thema": "Empfehlungssysteme",
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
+  },
+  {
+    "id": 23,
+    "zielgruppe": "Schüler der Mittelstufe",
+    "laenge": null,
+    "erwaehntIn": [],
+    "paper": {
+      "datenbank": "ACM",
+      "titel": "Interactive tools for Middle School Students AI Literacy",
+      "bemerkung": "PromptPeek, Bandit Explorer, SpotAI",
+      "link": "https://dl.acm.org/doi/10.1145/3770761.3777205",
+      "veroeffentlichungsdatum": "17.02.2026",
+      "land": ["USA"],
+      "methode": "Pre- und Post Umfragen",
+      "sample": "7 Schüler der Mittelstufe",
+      "forschungsfrage": [],
+      "ergebnisse": "Together, the results show how middle school students can begin forming intuitions about generative AI, recommender systems, and synthetic media. Across activities, students showed early understanding of bias, trade-offs, and manipulation."
+    },
+    "tool":
+    {
+      "name": "SpotAI",
+      "beschreibung": "Deepfake Ethik und Medien Bewusstsein, Schüler erkennen, bearbeiten und denken über echte vs. manipulierte Medien nach. Sie beschäftigen sich mit Diskussionen über ethische Szenarien zum Thema KI-generierter Inhalt.",
       "link": "https://github.com/saniavn/ai-literacy-tools"
-      },
-      {
-        "name": "SpotAI",
-        "beschreibung": "Deepfake Ethik und Medien Bewusstsein, Schüler erkennen, bearbeiten und denken über echte vs. manipulierte Medien nach. Sie beschäftigen sich mit Diskussionen über ethische Szenarien zum Thema KI-generierter Inhalt.",
-        "link": "https://github.com/saniavn/ai-literacy-tools"
-      },
-      {"name": "PromptPeek",
-        "beschreibung": "Prompting, Bias, & Negation, Schüler schreiben Prompts, reverse-engineer Prompts, und untersuchen wie GenAI mit Bias umgeht und an Negation scheitert.",
-        "link": "https://github.com/saniavn/ai-literacy-tools"}
-    ],
-    "thema": "Bandit Explorer: AI Literacy, Empfehlungssysteme, ML; SpotAI: AI erkennen; PromptPeek: NLP, sozialer Einfluss",
+    },
+    "thema": "AI erkennen",
+    "kategorie": ["Webanwendung"],
+    "alter" : {
+      "min": 11,
+      "max": 15
+    }
+  },
+  {
+    "id": 24,
+    "zielgruppe": "Schüler der Mittelstufe",
+    "laenge": null,
+    "erwaehntIn": [],
+    "paper": {
+      "datenbank": "ACM",
+      "titel": "Interactive tools for Middle School Students AI Literacy",
+      "bemerkung": "PromptPeek, Bandit Explorer, SpotAI",
+      "link": "https://dl.acm.org/doi/10.1145/3770761.3777205",
+      "veroeffentlichungsdatum": "17.02.2026",
+      "land": ["USA"],
+      "methode": "Pre- und Post Umfragen",
+      "sample": "7 Schüler der Mittelstufe",
+      "forschungsfrage": [],
+      "ergebnisse": "Together, the results show how middle school students can begin forming intuitions about generative AI, recommender systems, and synthetic media. Across activities, students showed early understanding of bias, trade-offs, and manipulation."
+    },
+    "tool":
+    {
+      "name": "PromptPeek",
+      "beschreibung": "Prompting, Bias, & Negation, Schüler schreiben Prompts, reverse-engineer Prompts, und untersuchen wie GenAI mit Bias umgeht und an Negation scheitert.",
+      "link": "https://github.com/saniavn/ai-literacy-tools"
+    },
+    "thema": "NLP, sozialer Einfluss",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 11,
@@ -117,7 +168,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3770762.3772528",
       "veroeffentlichungsdatum": "17.02.2026",
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "35 Schüler der Mittelstufe",
       "forschungsfrage": ["RQ1: How does interacting with the tool influence middle school students’ conceptual understanding of foundational AI terms (e.g., token, prompt)?", "RQ2: How do students reason about randomness and probability in language generation after interacting with sampling parameters (temperature and top-p)?", "RQ3: How do students perceive their influence over AIgenerated content after engaging with Think Like AI?"],
       "ergebnisse": "After using the tool, most described both terms more accurately and recognized how parameter settings shape the sampling pool. They also saw how GPT-4 sometimes failed to follow instructions like negation, helping them recognize AI limitations and begin reasoning about why models can fail."
@@ -156,7 +207,7 @@
     },
     "tool": {
       "name": "/",
-      "beschreibung": "Ein dreitägiger Workshop, bei dem schwarze Teenagerinnen GenAI-tools nutzen, um Modekollektionen zu entwerfen. Wir stellen fest, dass die kreativen Erkundungen der Teilnehmerinnen Gelegenheit zu aufschlussreicher kritischer Reflexion über die Grenzen der KI boten. Die Lernenden nutzten ihr vorhandenes Wissen, um das Verhalten der KI zu bewerten, während sie sich kreativen Aufgaben widmeten. Als die Lernenden als handlungsfähige Schöpferinnen positioniert wurden (d. h. GenAI war ein Werkzeug, das ihnen zur Verfügung stand, und sie waren die treibenden Visionärinnen), akzeptierten, verwarfen, kritisierten und entwickelten sie aktiv und durchdacht Strategien zur Gestaltung der GenAI-ergebnisse.",
+      "beschreibung": "Ein dreitägiger Workshop, bei dem schwarze Teenagerinnen GenAI-Tools nutzen, um Modekollektionen zu entwerfen. Wir stellen fest, dass die kreativen Erkundungen der Teilnehmerinnen Gelegenheit zu aufschlussreicher kritischer Reflexion über die Grenzen der KI boten. Die Lernenden nutzten ihr vorhandenes Wissen, um das Verhalten der KI zu bewerten, während sie sich kreativen Aufgaben widmeten. Als die Lernenden als handlungsfähige Schöpferinnen positioniert wurden (d. h. GenAI war ein Werkzeug, das ihnen zur Verfügung stand, und sie waren die treibenden Visionärinnen), akzeptierten, verwarfen, kritisierten und entwickelten sie aktiv und durchdacht Strategien zur Gestaltung der GenAI-ergebnisse.",
       "link": null
     },
     "thema": "AI Literacy: Ethik",
@@ -181,7 +232,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3736181.3747134",
       "veroeffentlichungsdatum": "21.10.2025",
       "land": ["Nigeria"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "30 Achtklässler",
       "forschungsfrage": ["RQ1. Was there a change in students’ perceptions and attitudes towards AI learning after course completion?", "RQ2. How does students’ interaction with ChatGPT contribute to their understanding of AI processes and mechanisms, including recognizing its limitations?"],
       "ergebnisse": "After completing the four-week curriculum, students’ attitudes and impressions of AI learning significantly improved, according to our findings."
@@ -210,7 +261,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3708035.3736048",
       "veroeffentlichungsdatum": "18.07.2025",
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "15 Studierende",
       "forschungsfrage": [],
       "ergebnisse": "By offering 14 free and interactive workshops that require no specialized background or infrastructure, this Curriculum lowers traditional barriers and invites students and educators at all levels to engage with HPC and AI."
@@ -249,7 +300,7 @@
     },
     "tool": {
       "name": "AI Puzzlers",
-      "beschreibung": "Mustererkennung, wobei der Nutzer gegen ein selbst auswählbares KI-Modell antritt. Ziel des tools ist es zu zeigen, wie schlecht KI Modelle einfache Muster erkennen können, selbst wenn man einen Erklärungsprompt hinzufügt.",
+      "beschreibung": "Mustererkennung, wobei der Nutzer gegen ein selbst auswählbares KI-Modell antritt. Ziel des Tools ist es zu zeigen, wie schlecht KI Modelle einfache Muster erkennen können, selbst wenn man einen Erklärungsprompt hinzufügt.",
       "link": "https://www.ai-puzzlers.com/"
     },
     "thema": "AI Literacy: Reasoning",
@@ -306,7 +357,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3713043.3731520",
       "veroeffentlichungsdatum": "23.06.2025",
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen, Semi strukturierte Interviews",
+      "methode": "Pre- und Post Umfragen, Semi strukturierte Interviews",
       "sample": "12 Schüler (8-14)",
       "forschungsfrage": ["RQ1: In what ways does AIStoryBot help students enhance their efficacy and motivation over AI literacy?", "RQ2: How do students engage and perceive AIStoryBot?"],
       "ergebnisse": "Findings reveal that AIStoryBot increased students’ perceived motivation and AI efficacy while promoting constructive student-AI interactions"
@@ -338,15 +389,15 @@
       "link": "https://dl.acm.org/doi/10.1145/3706598.3713173",
       "veroeffentlichungsdatum": "25.04.2025",
       "land": ["USA"],
-      "methode": "Trsnkription während der Sessions und aschließendes Coding",
+      "methode": "Transkription während der Sessions und anschließendes Coding",
       "sample": "26 Schüler (Klassen 3-11)",
-      "forschungsfrage": ["Research Question: What types of the cultural capital of students from underserved communities have, and how can HCI researchers efectively mobilize it?"],
-      "ergebnisse": "Considering the benefts of AI literacy education for students from underserved communities and the importance of their cultural capital, we hope this paper sheds light on a potential way for AI literacy education research to serve underserved students and other members of these communities."
+      "forschungsfrage": ["What types of the cultural capital of students from underserved communities have, and how can HCI researchers effectively mobilize it?"],
+      "ergebnisse": "Considering the benefits of AI literacy education for students from underserved communities and the importance of their cultural capital, we hope this paper sheds light on a potential way for AI literacy education research to serve underserved students and other members of these communities."
     },
     "tool": {
       "name": "/",
-      "beschreibung": "AI Literacy Programm in einem wirtschaflichen Szenario",
-      "link": "s. beschreibung in PP 13"
+      "beschreibung": "AI Literacy Programm, bestehend aus zwei Modulen, das Googles AI Anwendungen (Teachable Machine, Quick Draw) und OpenAIs KIs (ChatGPT, DALL-E) verwendet",
+      "link": null
     },
     "thema": "AI Literacy: Sozialer Einfluss",
     "kategorie": ["Curriculum"],
@@ -370,7 +421,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3706599.3719876",
       "veroeffentlichungsdatum": "25.04.2025",
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen, tägliche Abschlussbefragungen",
+      "methode": "Pre- und Post Umfragen, tägliche Abschlussbefragungen",
       "sample": "24 Schüler der Mittelstufe",
       "forschungsfrage": ["RQ1: How can unplugged activities that center personal relevance and collaborative ethical reasoning empower middle school students to learn about AI?", "RQ2: How do these activities support students’ understanding of foundational AI concepts, including how AI works, its strengths and limitations, and ethical implications?"],
       "ergebnisse": "First, we present the design of four novel unplugged activities—Introducing AI, Datasets and Data Brokers, EthiQuest, and Are You Smarter than AI?—that Center personally relevant experiences and foster collaborative ethical reasoning. Second, we analyze student learning outcomes from a five-day summer workshop that piloted these activities. Our findings indicate that the unplugged activities enhanced middle School students’ understanding of foundational AI concepts including recognizing AI, understanding AI’s strengths and limitations, and reasoning about AI ethics."
@@ -409,8 +460,8 @@
     },
     "tool": {
       "name": "Fairness by Design Workshop",
-      "beschreibung": "Ein Workshop Curruculum, das Kindern ethische Prinzipien und Gefahren im Kontext von AI beibringt. Die Aktivitäten sind hands-on Aktivitäten.",
-      "link": "s. beschreibung in PP15"
+      "beschreibung": "Ein Workshop Curriculum, das Kindern ethische Prinzipien und Gefahren im Kontext von AI beibringt. Die Aktivitäten sind hands-on Aktivitäten.",
+      "link": null
     },
     "thema": "AI Literacy: Ethik",
     "kategorie": ["Curriculum"],
@@ -459,7 +510,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3699538.3699542",
       "veroeffentlichungsdatum": "13.11.2024",
       "land": ["Deutschland"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "76 Schüler (Klassen 10-11)",
       "forschungsfrage": ["RQ: To what extent are conceptual change texts suitable for expanding students’ conceptions regarding artificial intelligence (AI) in computer science lessons?"],
       "ergebnisse": "The results of the study show that conceptual change texts are a promising teaching method for expanding students’ conceptions of AI. This is indicated by the results of the post-test, in which students who worked with the conceptual change text were able to demonstrate greater agreement to the conception presented."
@@ -467,7 +518,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Verwendung von Conceptual Change Texts, um AI zu erklären. Hier wird insbesondere ChatGPT erklärt.",
-      "link": "s. beschreibung in PP17"
+      "link": null
     },
     "thema": "AI Literacy: ChatGPT",
     "kategorie": ["Curriculum"],
@@ -488,14 +539,14 @@
       "link": "https://dl.acm.org/doi/10.1145/3677619.3678111",
       "veroeffentlichungsdatum": "16.09.2024",
       "land": ["Spanien"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "133 Lehrer und über 2.000 Schüler (Klassen 4-8)",
       "forschungsfrage": ["RQ1: Is it possible to achieve reliable measurements, in Terms of internal consistency, of computational thinking and AI literacy among Spanish students from 4th primary grade (K4) to 2nd secondary grade (K8)?", "RQ2: Can the students of these ages develop their Computational thinking skills and enhance their AI literacy through programming activities with Scratch and ML4K?", "RQ3: Do programming activities with Scratch and ML4K contribute to dispelling the primary misconceptions associated with AI?", "RQ4: Is there a gender gap concerning the knowledge and Prior experiences with computational thinking and AI?"],
       "ergebnisse": "The results showed that: i) quantitative tests can be used to reliably measure, in terms of internal consistency, the level of development of computational thinking and AI literacy in the Spanish school population of these ages; ii) it is possible to develop students’ computational thinking skills and raise their level of AI literacy through programming activities; iii) the Intervention contributed to demystifying the main prejudices regarding AI; iv) a gender gap was found in relation to previous Knowledge and experiences with these topics."
     },
     "tool": {
       "name": "/",
-      "beschreibung": "Curriculum, das mithilfe von Scratch und ML4K arbeitet.Es gibt auch weitere Aktivitäten, die man mit einer Klasse machen kann und genau beschrieben wurden, jedoch sind diese beschreibungen leider alle ausschließlich auf spanisch.",
+      "beschreibung": "Curriculum, das mithilfe von Scratch und ML4K arbeitet. Es gibt auch weitere Aktivitäten, die man mit einer Klasse machen kann und genau beschrieben wurden, jedoch sind diese beschreibungen leider alle ausschließlich auf spanisch.",
       "link": "https://sites.google.com/view/replicationpackageai/"
     },
     "thema": "Verschiedene AI und CS Themen",
@@ -523,11 +574,11 @@
       "methode": "Verbal Feedback",
       "sample": "30 K-12 Schüler",
       "forschungsfrage": [],
-      "ergebnisse": "Die ergebnisse weisen darauf hin, dass Nemobot eine seichte Lernkurve ermöglicht"
+      "ergebnisse": "Die Ergebnisse weisen darauf hin, dass Nemobot eine seichte Lernkurve ermöglicht"
     },
     "tool": {
       "name": "Nemobot",
-      "beschreibung": "Nemobot ist eine Art Entwicklungsumgebung, in der Schüler eigene KIs für strategischse Spiele trainierien können und dabei Dinge über interne Prozesse von Kis erlernen.",
+      "beschreibung": "Nemobot ist eine Art Entwicklungsumgebung, in der Schüler eigene KIs für strategische Spiele trainieren können und dabei Dinge über interne Prozesse von Kis erlernen.",
       "link": "https://nemobot-neue-experiment.vercel.app/functions"
     },
     "thema": "AI Literacy: Coding",
@@ -552,14 +603,14 @@
       "link": "https://dl.acm.org/doi/10.1145/3653666.3656075",
       "veroeffentlichungsdatum": "16.05.2024",
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "4 Schülerinnen (Klasse 8-10)",
       "forschungsfrage": [],
       "ergebnisse": "We find that integrating critical reflection assignments along with short lectures, videos, and experimentation with AI tools into the workshop sessions provides students an opportunity to understand their role as consumers of AI and ways they can thoughtfully engage with these systems."
     },
     "tool": {
       "name": "Beyond AI Hype",
-      "beschreibung": "Beyond AI Hype ist ein englischsprachiges Curriculum, das Übungen und Folien bereitstellt. Die Lernziele sind, dass Schüler über verschiedene Aspekte von KI Bescheid wisssen, inklusive soziale und ethische Auswirkungen von aufstebenden KI methoden, wie z. B. GenAI. Sie sollen kritisch mit diesen methoden interagieren und besser verstehen, wie sie KI verantwortungsvoll nutzen. Sie sollen besser KI generierten Inhalt erkennen können Mängel von KI verstehen.",
+      "beschreibung": "Beyond AI Hype ist ein englischsprachiges Curriculum, das Übungen und Folien bereitstellt. Die Lernziele sind, dass Schüler über verschiedene Aspekte von KI Bescheid wissen, inklusive soziale und ethische Auswirkungen von aufstrebenden KI Methoden, wie z. B. GenAI. Sie sollen kritisch mit diesen methoden interagieren und besser verstehen, wie sie KI verantwortungsvoll nutzen. Sie sollen besser KI generierten Inhalt erkennen können Mängel von KI verstehen.",
       "link": "https://github.com/chinasatokolo/BeyondAIHype"
     },
     "thema": "AI Literacy: Erkennen und Kritisch hinterfragen",
@@ -584,11 +635,11 @@
       "methode": "Interviews",
       "sample": "Über 5.000 einzigartige Nutzer",
       "forschungsfrage": [],
-      "ergebnisse": "The fndings from interviews with educators and the relatively wide uptake of ml-machine.org demonstrate the potential of this approach in terms of having engaged a wide community of teachers and teaching infrastructure providers."
+      "ergebnisse": "The findings from interviews with educators and the relatively wide uptake of ml-machine.org demonstrate the potential of this approach in terms of having engaged a wide community of teachers and teaching infrastructure providers."
     },
     "tool": {
       "name": "https://ml-machine.org/",
-      "beschreibung": "Maschonelles Lernen zum Selbermachen! ML-Machine erstellt maschinelle Lernmodelle zur Erkennung von Mustern in den Bewegungsdaten des micro:bit. Man kann mithilfe dieser Webanwendung also eigene Hardware programmieren und KI-Modelle anhand der selbst aufgenommenen Daten trainieren.",
+      "beschreibung": "Maschinelles Lernen zum Selbermachen! ML-Machine erstellt maschinelle Lernmodelle zur Erkennung von Mustern in den Bewegungsdaten des micro:bit. Man kann mithilfe dieser Webanwendung also eigene Hardware programmieren und KI-Modelle anhand der selbst aufgenommenen Daten trainieren.",
       "link": "https://ml-machine.org/"
     },
     "thema": "AI Literacy: ML",
@@ -613,7 +664,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3610977.3634950",
       "veroeffentlichungsdatum": "11.03.2024",
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen, Post-Interviews, Beobachtungen",
+      "methode": "Pre- und Post Umfragen, Post-Interviews, Beobachtungen",
       "sample": "8 Kinder (9-11)",
       "forschungsfrage": ["(1) How efective was the Autonomous Navigation Curriculum in teaching students about autonomous navigation", "(2) How does the Physical Doodlebot interface compare to the Virtual one?"],
       "ergebnisse": "As a result, our current prototype contains three machines in one -an autonomous mobile robot, an interactive social agent, and a drawing tool. We developed multiple user interfaces and curricula that explore the breadth of these functions."
@@ -624,7 +675,7 @@
       "link": "https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html"
     },
     "thema": "AI Literacy: Roboter",
-    "kategorie": ["Webanwendung", "Greifbar"],
+    "kategorie": ["Webanwendung", "Greifbar", "Curriculum"],
     "alter" : {
       "min": 6,
       "max": 14
@@ -647,27 +698,70 @@
       "forschungsfrage": ["RQ1 What types of dialogue do family groups engage in when making sense of and learning about AI?", "RQ2 How can we design activities to facilitate family group learning about AI literacy competencies in informal learning environments?"],
       "ergebnisse": "This paper contributes an empirically grounded understanding of these design principles in light of the learning talk analysis we conducted. This paper can be useful to AI educators, designers of tools/interfaces for promoting AI literacy and explainability, and researchers seeking to better understand how people learn about AI."
     },
-    "tool": [
-      {
-      "name": "Knowledge Net",
-      "beschreibung": "„Knowledge Net“ ist eine Aktivität, bei der die Lernenden mithilfe einer greifbaren Oberfläche aus Kacheln und Pfeilen gemeinsam semantische Netzwerke (eine Form der Wissensdarstellung in der KI) aufbauen können.",
+    "tool":
+    {
+    "name": "Knowledge Net",
+    "beschreibung": "„Knowledge Net“ ist eine Aktivität, bei der die Lernenden mithilfe einer greifbaren Oberfläche aus Kacheln und Pfeilen gemeinsam semantische Netzwerke (eine Form der Wissensdarstellung in der KI) aufbauen können.",
+    "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
+    },
+    "thema": "AI Literacy: ML, Klassifikation",
+    "kategorie": ["Greifbar", "Museums Ausstellung"]
+  },
+  {
+    "id": 31,
+    "zielgruppe": "Familien / Museums-Ausstellung",
+    "laenge": null,
+    "erwaehntIn": "PP11 [44]",
+    "paper": {
+      "datenbank": "ACM",
+      "titel": "Family Learning Talk in AI Literacy Learning Activities",
+      "bemerkung": "Familienkontext, aber es muss nicht dadurch ausgeschlossen werden, da es anfangs eh für Ausstellungen geplant war",
+      "link": "https://dl.acm.org/doi/10.1145/3491102.3502091",
+      "veroeffentlichungsdatum": "29.04.2022",
+      "land": ["USA"],
+      "methode": "Audio- und Videoaufnahmen, Umfragen (für alle, die älter als 7 Jahre alt sind)",
+      "sample": "38 Personen, davon n=21 unter 17 Jahre alt und n=17 über 18 Jahre alt)",
+      "forschungsfrage": ["RQ1 What types of dialogue do family groups engage in when making sense of and learning about AI?", "RQ2 How can we design activities to facilitate family group learning about AI literacy competencies in informal learning environments?"],
+      "ergebnisse": "This paper contributes an empirically grounded understanding of these design principles in light of the learning talk analysis we conducted. This paper can be useful to AI educators, designers of tools/interfaces for promoting AI literacy and explainability, and researchers seeking to better understand how people learn about AI."
+    },
+    "tool":
+    {
+      "name": "Creature Features",
+      "beschreibung": "„Creature Features“ ist ein Prototyp, bei dem die Lernenden mithilfe eines Kartenspiels und Gewichtsmarkern einen Trainingsdatensatz für einen merkmalsbasierten Algorithmus zur Vogelklassifizierung im maschinellen Lernen erstellen können.",
       "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
-    },{
-        "name": "Creature Features",
-        "beschreibung": "„Creature Features“ ist ein Prototyp, bei dem die Lernenden mithilfe eines Kartenspiels und Gewichtsmarkern einen Trainingsdatensatz für einen merkmalsbasierten Algorithmus zur Vogelklassifizierung im maschinellen Lernen erstellen können.",
-        "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
-      },{
-        "name": "LuminAI",
-        "beschreibung": "LuminAI ist eine interaktive Kunstinstallation, bei der die Teilnehmer durch improvisierte Bewegungen mit einem KI-Tanzpartner zusammenarbeiten können. Weiteres Paper zu LuminAI: https://dl.acm.org/doi/10.1145/3635636.3664255 ",
-        "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
-      }
-    ],
+    },
+    "thema": "AI Literacy: ML, Klassifikation",
+    "kategorie": ["Greifbar", "Museums Ausstellung"]
+  },
+  {
+    "id": 32,
+    "zielgruppe": "Familien / Museums-Ausstellung",
+    "laenge": null,
+    "erwaehntIn": "PP11 [44]",
+    "paper": {
+      "datenbank": "ACM",
+      "titel": "Family Learning Talk in AI Literacy Learning Activities",
+      "bemerkung": "Familienkontext, aber es muss nicht dadurch ausgeschlossen werden, da es anfangs eh für Ausstellungen geplant war",
+      "link": "https://dl.acm.org/doi/10.1145/3491102.3502091",
+      "veroeffentlichungsdatum": "29.04.2022",
+      "land": ["USA"],
+      "methode": "Audio- und Videoaufnahmen, Umfragen (für alle, die älter als 7 Jahre alt sind)",
+      "sample": "38 Personen, davon n=21 unter 17 Jahre alt und n=17 über 18 Jahre alt)",
+      "forschungsfrage": ["RQ1 What types of dialogue do family groups engage in when making sense of and learning about AI?", "RQ2 How can we design activities to facilitate family group learning about AI literacy competencies in informal learning environments?"],
+      "ergebnisse": "This paper contributes an empirically grounded understanding of these design principles in light of the learning talk analysis we conducted. This paper can be useful to AI educators, designers of tools/interfaces for promoting AI literacy and explainability, and researchers seeking to better understand how people learn about AI."
+    },
+    "tool":
+    {
+      "name": "LuminAI",
+      "beschreibung": "LuminAI ist eine interaktive Kunstinstallation, bei der die Teilnehmer durch improvisierte Bewegungen mit einem KI-Tanzpartner zusammenarbeiten können. Weiteres Paper zu LuminAI: https://dl.acm.org/doi/10.1145/3635636.3664255 ",
+      "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
+    },
     "thema": "AI Literacy: ML, Klassifikation",
     "kategorie": ["Greifbar", "Museums Ausstellung"]
   },
   {
     "id": 26,
-    "zielgruppe": "Schüler der Mittelstufe (aus unterpriviligierten Gebieten)",
+    "zielgruppe": "Schüler der Mittelstufe (aus unterprivilegierten Gebieten)",
     "laenge": {
       "anzahlSessions": 10,
       "zeitInMinutes": 180
@@ -687,7 +781,7 @@
     },
     "tool": {
       "name": "DAILy",
-      "beschreibung": "Das DAILy-Curriculum, das von Forschern und Pädagogen des MIT in Zusammenarbeit mit erfahrenen Moderatoren entwickelt wurde, umfasst praktische und computergestützte Aktivitäten zu KI-Konzepten, ethischen Fragen im Zusammenhang mit KI, kreativem Ausdruck mithilfe von KI sowie dazu, wie KI mit der Zukunft der Schüler zusammenhängt. Die Schüler lernen, wie man maschinelles Lernen trainiert und einsetzt, um Vorhersagen zu treffen, untersuchen Verzerrungen in Anwendungen des maschinellen Lernens, nutzen generative gegnerische Netzwerke, um neuartige Kunstwerke zu schaffen, und lernen, die KI zu erkennen, mit der sie täglich und in ihrer Umgebung interagieren. Link früher: aieducation.mit.edu/daily",
+      "beschreibung": "Das DAILy-Curriculum, das von Forschern und Pädagogen des MIT in Zusammenarbeit mit erfahrenen Moderatoren entwickelt wurde, umfasst praktische und computergestützte Aktivitäten zu KI-Konzepten, ethischen Fragen im Zusammenhang mit KI, kreativem Ausdruck mithilfe von KI sowie dazu, wie KI mit der Zukunft der Schüler zusammenhängt. Die Schüler lernen, wie man maschinelles Lernen trainiert und einsetzt, um Vorhersagen zu treffen, untersuchen Verzerrungen in Anwendungen des maschinellen Lernens, nutzen generative gegnerische Netzwerke, um neuartige Kunstwerke zu schaffen, und lernen, die KI zu erkennen, mit der sie täglich und in ihrer Umgebung interagieren. Einheiten: Einfürung in die KI, KI Konzepte, Kreative KI, Gesellschaft und KI, Einführung in LLMs. Link früher: aieducation.mit.edu/daily",
       "link": "https://everyday-ai.org/resources/curriculum/daily-curriculum-v20"
     },
     "thema": "AI Literacy: ML, GenAI",
@@ -719,8 +813,8 @@
     },
     "tool": {
       "name": "AI Education from Western University",
-      "beschreibung": "Eine Sammlung an Comics, in denen KI Prinzipien anhand von greifbaren Beispielen erklärt werden. Die Comics sind auf englisch.",
-      "link": "https://drive.google.com/drive/folders/1hUwM6kdBq3V-U8SGweTzrG69niUOyIFK, https://ai-ed.ca/"
+      "beschreibung": "Eine Sammlung an Comics, in denen KI Prinzipien anhand von greifbaren Beispielen erklärt werden. Die Comics sind auf englisch. Ganzes Projekt hier zu finden: https://ai-ed.ca/",
+      "link": "https://drive.google.com/drive/folders/1hUwM6kdBq3V-U8SGweTzrG69niUOyIFK"
     },
     "thema": "Verschiedene AI und CS Themen",
     "kategorie": ["Lehrmaterialien"],
@@ -752,7 +846,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Ein Curriculum, das Klassenaktivitäten, die von Computerspielen wie z. B. Zombinis inspiriert wurden.",
-      "link": "s. beschreibung in PP28"
+      "link": null
     },
     "thema": "AI Literacy: ML, Empfehlunssysteme",
     "kategorie": ["Curriculum"],
@@ -776,7 +870,7 @@
       "link": "https://doi.org/10.1016/j.caeai.2024.100321",
       "veroeffentlichungsdatum": "12 2024",
       "land": ["Hong Kong"],
-      "methode": "Pre- and Post Umfragen, Interviews",
+      "methode": "Pre- und Post Umfragen, Interviews",
       "sample": "25 Grundschüler (Klasse 3)",
       "forschungsfrage": ["RQ1: What are the effects of an AI curriculum with arts-based pedagogy in helping primary students acquire AI knowledge and increase their conceptual understanding of AI literacy?", "RQ2: In what ways does arts-based pedagogy enhance the inclusiveness of AI literacy education by enabling students of all genders and ages to participate and benefit?", "RQ3: How does the art-based approach enhance young student’s engagement with AI literacy?"],
       "ergebnisse": "Qualitative analyses further revealed the pedagogical benefits of the arts-based approach, demonstrating that students enhance their conceptual understanding of AI literacy by reflecting on their artifacts. This study contributes to the literature by providing evidence with a small sample size that the arts-based approach can overcome age and gender barriers to accessing AI literacy education and can serve as a means to teach AI thinking."
@@ -784,7 +878,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Kunst basiertes Curriculum",
-      "link": "s. beschreibung in PP29"
+      "link": null
     },
     "thema": "AI Literacy, Ethik, Verständnis, Daten",
     "kategorie": ["Curriculum"],
@@ -816,7 +910,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Digitales Geschichten Schreiben Curriculum",
-      "link": "s. beschreibung in PP30"
+      "link": null
     },
     "thema": "AI Literacy",
     "kategorie": ["Curriculum"],
@@ -840,7 +934,7 @@
       "link": "https://link.springer.com/article/10.1007/s44436-026-00029-3",
       "veroeffentlichungsdatum": "10.03.2026",
       "land": ["Finnland"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "10-12 Experten, 20-25 Kinder (10-12)",
       "forschungsfrage": ["1. How can the architectural principles of blockchain be utilized as a pedagogical tool to make abstract concepts of trust, privacy, and accountability in AI tangible for young learners?", "2. To what extent can a framework combining Blockchain and privacy-preserving techniques create a verifiably trustworthy educational environment for children interacting with GenAI?", "3. What is the potential impact of such a framework on children’s development of critical AI literacy competencies, such as evaluating information sources and understanding data rights?"],
       "ergebnisse": "Our findings demonstrate that blockchain’s architectural principles can serve as powerful pedagogical tools when thoughtfully integrated into child-centered platforms, fostering substantial improvements in provenance comprehension (35% to 80%), privacy awareness (52% increase), and critical Evaluation skills (28% to 70%)."
@@ -848,7 +942,7 @@
     "tool": {
       "name": "Blockchain-Enhanced AI Literacy (BEAL) framework",
       "beschreibung": "Das BEAL-Framework verbindet abstrakte KI-Konzepte mit greifbaren Erfahrungen für Kinder. Wir haben festgestellt, dass die architektonischen Prinzipien der Blockchain nicht nur das Verständnis von Vertrauen, Datenschutz und Verantwortlichkeit erleichtert haben, sondern den Kindern auch konkrete Fähigkeiten zur Überprüfung vermittelt haben, was sich in einem Anstieg des Verständnisses für die Herkunft von 35 % auf 80 % zeigt. Darüber hinaus hat die Integration der Blockchain mit datenschutzfördernden Techniken eine nachweislich vertrauenswürdige Lernumgebung geschaffen, was sich in einem Anstieg des Datenschutzbewusstseins um 52 % widerspiegelt.",
-      "link": "s. beschreibung in PP33"
+      "link": null
     },
     "thema": "AI Literacy: Blockchain",
     "kategorie": ["Curriculum"],
@@ -933,15 +1027,15 @@
       "link": "https://link.springer.com/chapter/10.1007/978-3-031-93746-0_17",
       "veroeffentlichungsdatum": "25.05.2025",
       "land": ["Deutschland"],
-      "methode": "Pre- and Post Umfragen, beschreibungen der Teilnehmenden, Gemalted der Teilnehmenden, Arbeitsblätter, Notizen der Forscher, etc.",
+      "methode": "Pre- und Post Umfragen, beschreibungen der Teilnehmenden, Gemalted der Teilnehmenden, Arbeitsblätter, Notizen der Forscher, etc.",
       "sample": "9 Schüler",
       "forschungsfrage": ["RQ1: What should people understand about AI as a basic form of AI literacy?", "RQ2: How can interactive learning experiences be designed to enable experiential learning for AI literacy?"],
       "ergebnisse": "The results from the performed exploratory evaluation support the effectiveness of the developed solution for facilitating the development of core AI competences. Partic-ipants demonstrated an improved conceptual understanding of AI systems, which also empowered them to assess potential risks"
     },
     "tool": {
       "name": "Competence Framework for AI Literacy",
-      "beschreibung": "Das Kompetenz Framework hat nicht das Ziel alle notwendigen Kompetemzem im Bereich KI zu vermitteln, sondern zielt hauptsächlich darauf ab, ein Kern-Set an Lernzielen zu definieren, die effektiv mit eingeschränkten Zeitressourcen und wenig Aufwand von verschiedenen Nutzern durchgeführt werden kann, unabhängig ihres Vorwissens.",
-      "link": "s. beschreibung in PP36"
+      "beschreibung": "Das Kompetenz Framework hat nicht das Ziel alle notwendigen Kompetenzem im Bereich KI zu vermitteln, sondern zielt hauptsächlich darauf ab, ein Kern-Set an Lernzielen zu definieren, die effektiv mit eingeschränkten Zeitressourcen und wenig Aufwand von verschiedenen Nutzern durchgeführt werden kann, unabhängig ihres Vorwissens.",
+      "link": null
     },
     "thema": "AI Literacy: Grundlagen",
     "kategorie": ["Curriculum"]
@@ -954,7 +1048,7 @@
     "paper": {
       "datenbank": "Springer",
       "titel": "Education in the AI era: a long-term classroom technology based on intelligent robotics",
-      "bemerkung": "Es wurden mehrere Workkshops durchgeführt",
+      "bemerkung": "Es wurden mehrere Workshops durchgeführt",
       "link": "https://link.springer.com/article/10.1057/s41599-024-03953-y",
       "veroeffentlichungsdatum": "25.10.2024",
       "land": ["Slowenien"],
@@ -965,8 +1059,8 @@
     },
     "tool": {
       "name": "Robobo Project",
-      "beschreibung": "Das Robobo Projekt besteht aus drei Hauptelementen: ein mobiler Roboter, eine Sammlung von Bibliotheken und Programmier-Frameworks und spezifische Dokumentationen und Tutorials, um Lehrer und Schüler zu unterstützen.",
-      "link": "https://aim4vet.udc.es/modules/ , https://github.com/mintforpeople/robobo-programming/wiki , evt noch mehr links aus dem paper PP37"
+      "beschreibung": "Das Robobo Projekt besteht aus drei Hauptelementen: ein mobiler Roboter, eine Sammlung von Bibliotheken und Programmier-Frameworks und spezifische Dokumentationen und Tutorials, um Lehrer und Schüler zu unterstützen. Evt noch mehr relevante Links in dem Paper, wie z. B. https://aim4vet.udc.es/modules/",
+      "link": "https://github.com/mintforpeople/robobo-programming/wiki"
     },
     "thema": "AI Literacy: Roboter",
     "kategorie": ["Sonstige"],
@@ -998,7 +1092,7 @@
     "tool": {
       "name": "/",
       "beschreibung": "Embodied Constructionist Approach: Der Ansatz beinhaltet drei Komponenten: eine verkörperte Analogie, ein kostruktivistisches Projekt und Ethische und kritische Reflektionen",
-      "link": "s. beschreibung in PP38"
+      "link": null
     },
     "thema": "AI Literacy: Ethik",
     "kategorie": ["Curriculum"],
@@ -1009,7 +1103,7 @@
   },
   {
     "id": 41,
-    "zielgruppe": "Junge Menschen (8-18) aus unpriviligierten Gebieten",
+    "zielgruppe": "Junge Menschen (8-18) aus unprivilegierten Gebieten",
     "laenge": null,
     "erwaehntIn": [],
     "paper": {
@@ -1020,14 +1114,14 @@
       "veroeffentlichungsdatum": "19.05.2024",
       "land": ["Belgien"],
       "methode": "Selbst aufgenommene Videos der Schüler, in denen sie im Interviewformat über ihre Erfahrungen berichten",
-      "sample": "2 Gruppen von Schülern (ingesamt 17)",
+      "sample": "2 Gruppen von Schülern (insgesamt 17)",
       "forschungsfrage": [],
       "ergebnisse": "An evaluation with the young people at the end of the year confirmed that they had enjoyed participating in the work-shops."
     },
     "tool": {
       "name": "Artificial intelligence resource directory",
-      "beschreibung": "Ein Katalog mit Bildungsressourcen zum thema KI",
-      "link": "https://lascientotheque.github.io/ressources-ia, https://www.lascientotheque.be/pour-les-pros/nos-ressources-steam/intelligence-artificielle/"
+      "beschreibung": "Ein Katalog mit Bildungsressourcen zum thema KI, weiterer Link: https://www.lascientotheque.be/pour-les-pros/nos-ressources-steam/intelligence-artificielle/",
+      "link": "https://lascientotheque.github.io/ressources-ia"
     },
     "thema": "AI Literacy",
     "kategorie": ["Sammlung von KI Kursen"],
@@ -1048,7 +1142,7 @@
       "link": "https://link.springer.com/chapter/10.1007/978-3-031-44900-0_1",
       "veroeffentlichungsdatum": "01.10.2023",
       "land": ["Österreich"],
-      "methode": "Online Pre-Umfragen, Pre- and Post Umfragen und weitere Qualitative Metriken",
+      "methode": "Online Pre-Umfragen, Pre- und Post Umfragen und weitere Qualitative Metriken",
       "sample": "269 Schüler, 203 Lehrer (kum. 472)",
       "forschungsfrage": [],
       "ergebnisse": "These results indicate that the workshops had a positive effect on participants’ awareness and general knowledge of AI."
@@ -1076,7 +1170,7 @@
       "link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
       "veroeffentlichungsdatum": 2019,
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen, Beobachtungen",
+      "methode": "Pre- und Post Umfragen, Beobachtungen",
       "sample": "80 Pre- und Kindergarten Kinder",
       "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
       "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
@@ -1108,7 +1202,7 @@
       "link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
       "veroeffentlichungsdatum": 2019,
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen, Beobachtungen",
+      "methode": "Pre- und Post Umfragen, Beobachtungen",
       "sample": "225 Mittelschüler (Klasse 5-8)",
       "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
       "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
@@ -1137,7 +1231,7 @@
       "link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
       "veroeffentlichungsdatum": 2019,
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen, Beobachtungen",
+      "methode": "Pre- und Post Umfragen, Beobachtungen",
       "sample": "51 Schüler (6-10)",
       "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
       "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
@@ -1386,7 +1480,7 @@
       "link": "https://doi.org/10.1609/aaai.v34i09.7061",
       "veroeffentlichungsdatum": "03.04.2020",
       "land": ["USA"],
-      "methode": "Pre- and Post Umfragen",
+      "methode": "Pre- und Post Umfragen",
       "sample": "14 Kinder (8-11)",
       "forschungsfrage": [],
       "ergebnisse": "Overall, we observed that Zhorai was engaging and effective. Children taught Zhorai different Facts about animals and then observed the agent using its Knowledge to infer which ecosystems those animals belong to. By training an agent, witnessing its mistakes, and retraining the agent, children were able to make sense of the agent’s intelligence."
