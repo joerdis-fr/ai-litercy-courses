@@ -1173,7 +1173,7 @@
       "methode": "Pre- und Post Umfragen, Beobachtungen",
       "sample": "80 Pre- und Kindergarten Kinder",
       "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
-      "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts and their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
+      "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts an d their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
     },
     "tool": {
       "name": "PopBots Curriculum",
@@ -1209,7 +1209,7 @@
     },
     "tool": {
       "name": "AI+ Ethics Curriculum",
-      "beschreibung": "Das AI + Ethics Curriculum besteht aus drei Modulen: Grundlagen von KI und Daten, Algorithmen als Meinungen und Stakeholderanalyse unter Verwenden der ethischen Matrix, Erstellng eines Papier Prototypen zum Vorschlagssystem von YouTube.",
+      "beschreibung": "Das AI + Ethics Curriculum besteht aus drei Modulen: Grundlagen von KI und Daten, Algorithmen als Meinungen und Stakeholderanalyse unter Verwenden der ethischen Matrix, Erstellung eines Papier Prototypen zum Vorschlagssystem von YouTube.",
       "link": null
     },
     "thema": "AI Literacy: ML, Ethik",
@@ -1507,7 +1507,7 @@
     "erwaehntIn": "PP13 [116], PP22 [47], PP31, PP43",
     "paper": {
       "datenbank": "ACM",
-      "titel": "A is for Artificial Intelligence: The Impact of Artificial Intelligence Activities on Young Children's Perceptions of Robots",
+      "titel": "A is for Artificial Intelligence:The Impact of Artificial Intelligence Activities on Young Children's Perceptions of Robots",
       "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
       "link": "https://dl.acm.org/doi/10.1145/3290605.3300677",
       "veroeffentlichungsdatum": "02.05.2019",
@@ -1589,7 +1589,7 @@
       "link": "https://code.org/de"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung", "Sammlung von KI Kursen"]
   },
   {
     "id": 56,
@@ -1660,7 +1660,7 @@
     "id": 61,
     "zielgruppe": "Kinder",
     "laenge": null,
-    "erwaehntIn": "PP13 [92], PP18 [32, 39], PP23 [2], PP31, PP38\n",
+    "erwaehntIn": "PP13 [92], PP18 [32, 39], PP23 [2], PP31, PP38",
     "tool": {
       "name": "Scratch",
       "beschreibung": "Scratch ist die weltgrößte kreative Community für Kinder, in der junge Menschen ihre Geschichten, Spiele und Animationen zum Leben erwecken und diese mit anderen Kindern auf der ganzen Welt in einer sicheren und moderierten online Community teilen.",
@@ -1693,7 +1693,7 @@
     "erwaehntIn": "PP13 [92]",
     "tool": {
       "name": "Cognimates",
-      "beschreibung": "Altair RapidMiner (früher bekannt als YALE) ist eine führende, visuelle Datenanalyse- und KI-Plattform. Analysetool (Zu installierende Software)",
+      "beschreibung": "Cognimates ist ein Scratch add-on, das dem Nutzer Zugang zu APIs für Sprachproduktion, Spracherkennung, Textklassifizierung, Objektklassifizierung und Roboter Kontrolle gibt.",
       "link": "https://docs.rapidminer.com/9.9/studio/installation/"
     },
     "thema": "AI Literacy",
@@ -1723,7 +1723,7 @@
       "link": "https://experiments.withgoogle.com/collection/ai"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung", "Sammlung von KI Kursen"]
   },
   {
     "id": 66,
