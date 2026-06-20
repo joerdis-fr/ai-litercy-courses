@@ -29,7 +29,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "Empfehlungssysteme"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 3,
@@ -61,7 +65,11 @@
     "alter" : {
       "min": 11,
       "max": 12
-    }
+    },
+    "anwendungsfelder": [
+      "Sozialer Einfluss"
+    ],
+    "aiLiteracyAspekt": [1, 4]
   },
   {
     "id": 4,
@@ -91,7 +99,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "Empfehlunssysteme", "ML"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 23,
@@ -121,7 +133,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "Sozialer Einfluss", "GenAI"
+    ],
+    "aiLiteracyAspekt": [1, 4]
   },
   {
     "id": 24,
@@ -151,7 +167,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "Sozialer Einfluss", "GenAI", "NLP"
+    ],
+    "aiLiteracyAspekt": [1, 2, 4]
   },
   {
     "id": 5,
@@ -183,7 +203,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "NLP", "LLMs", "NNs", "ML"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 6,
@@ -215,7 +239,11 @@
     "alter" : {
       "min": 13,
       "max": 19
-    }
+    },
+    "anwendungsfelder": [
+      "GenAI", "Sozialer Einfluss"
+    ],
+    "aiLiteracyAspekt": [2, 4]
   },
   {
     "id": 7,
@@ -247,7 +275,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "ChatGPT", "ML", "NNs", "NLP", "GenAI"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 8,
@@ -276,7 +308,11 @@
     "alter" : {
       "min": 11,
       "max": 30
-    }
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [2, 4, 5]
   },
   {
     "id": 9,
@@ -308,7 +344,11 @@
     "alter" : {
       "min": 8,
       "max": 14
-    }
+    },
+    "anwendungsfelder": [
+      "NLP", "LLMs", "NNs", "ML", "Kritik"
+    ],
+    "aiLiteracyAspekt": [1, 2, 3]
   },
   {
     "id": 10,
@@ -340,7 +380,11 @@
     "alter" : {
       "min": 14,
       "max": 17
-    }
+    },
+    "anwendungsfelder": [
+      "Kritik"
+    ],
+    "aiLiteracyAspekt": [1, 4]
   },
   {
     "id": 11,
@@ -372,7 +416,11 @@
     "alter" : {
       "min": 8,
       "max": 14
-    }
+    },
+    "anwendungsfelder": [
+      "NLP", "LLMs", "NNs", "ML"
+    ],
+    "aiLiteracyAspekt": [2]
   },
   {
     "id": 13,
@@ -404,7 +452,11 @@
     "alter" : {
       "min": 5,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "Sozialer Einfluss", "Klassifizierung", "ChatGPT", "ML", "NNs", "NLP", "GenAI", "Computer Vision", "Kritik"
+    ],
+    "aiLiteracyAspekt": [2, 4]
   },
   {
     "id": 14,
@@ -436,7 +488,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   },
   {
     "id": 15,
@@ -468,7 +524,11 @@
     "alter" : {
       "min": 10,
       "max": 12
-    }
+    },
+    "anwendungsfelder": [
+      "Sozialer Einfluss", "Kritik"
+    ],
+    "aiLiteracyAspekt": [4]
   },
   {
     "id": 16,
@@ -493,7 +553,11 @@
       "link": "https://dayofai.org/"
     },
     "thema": "Verschiedene AI und CS Themen",
-    "kategorie": ["Sammlung von KI Kursen"]
+    "kategorie": ["Sammlung von KI Kursen"],
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   },
   {
     "id": 17,
@@ -525,7 +589,11 @@
     "alter" : {
       "min": 15,
       "max": 17
-    }
+    },
+    "anwendungsfelder": [
+      "ChatGPT", "ML", "NNs", "NLP", "GenAI"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 18,
@@ -554,7 +622,11 @@
     "alter" : {
       "min": 9,
       "max": 14
-    }
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   },
   {
     "id": 19,
@@ -586,7 +658,11 @@
     "alter" : {
       "min": 5,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "ML"
+    ],
+    "aiLiteracyAspekt": [1, 2, 3]
   },
   {
     "id": 20,
@@ -618,7 +694,11 @@
     "alter" : {
       "min": 11,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "Kritik", "GenAI", "Sozialer Einfluss"
+    ],
+    "aiLiteracyAspekt": [1, 2, 4]
   },
   {
     "id": 21,
@@ -647,7 +727,11 @@
     "alter" : {
       "min": 5,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "ML", "Roboter"
+    ],
+    "aiLiteracyAspekt": [1, 2, 3]
   },
   {
     "id": 22,
@@ -679,7 +763,11 @@
     "alter" : {
       "min": 6,
       "max": 14
-    }
+    },
+    "anwendungsfelder": [
+      "ML", "Roboter"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 25,
@@ -705,7 +793,11 @@
     "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
     "thema": "AI Literacy: ML, Klassifikation",
-    "kategorie": ["Greifbar", "Museums Ausstellung"]
+    "kategorie": ["Greifbar", "Museums Ausstellung"],
+    "anwendungsfelder": [
+      "NNs", "ML"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 31,
@@ -731,7 +823,11 @@
       "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
     "thema": "AI Literacy: ML, Klassifikation",
-    "kategorie": ["Greifbar", "Museums Ausstellung"]
+    "kategorie": ["Greifbar", "Museums Ausstellung"],
+    "anwendungsfelder": [
+      "Daten", "ML", "Klassifizierung"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 32,
@@ -757,7 +853,11 @@
       "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
     "thema": "AI Literacy: ML, Klassifikation",
-    "kategorie": ["Greifbar", "Museums Ausstellung"]
+    "kategorie": ["Greifbar", "Museums Ausstellung"],
+    "anwendungsfelder": [
+      "Computer Vision", "ML", "NNs"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 26,
@@ -789,7 +889,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssystem", "Klassifizierung", "LLMs"
+    ],
+    "aiLiteracyAspekt": [1, 2, 4]
   },
   {
     "id": 27,
@@ -821,7 +925,11 @@
     "alter" : {
       "min": 9,
       "max": 14
-    }
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 28,
@@ -853,7 +961,11 @@
     "alter" : {
       "min": 5,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "ML", "Empfehlunssysteme"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 29,
@@ -885,7 +997,11 @@
     "alter" : {
       "min": 6,
       "max": 11
-    }
+    },
+    "anwendungsfelder": [
+      "Daten", "Sozialer Einfluss", "Grundlagen"
+    ],
+    "aiLiteracyAspekt": [1, 4]
   },
   {
     "id": 30,
@@ -917,7 +1033,11 @@
     "alter" : {
       "min": 5,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "LLMs", "NLP", "NNs", "ML"
+    ],
+    "aiLiteracyAspekt": [2]
   },
   {
     "id": 33,
@@ -949,7 +1069,11 @@
     "alter" : {
       "min": 10,
       "max": 12
-    }
+    },
+    "anwendungsfelder": [
+      "ML", "Sontiges"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 34,
@@ -981,7 +1105,11 @@
     "alter" : {
       "min": 6,
       "max": 8
-    }
+    },
+    "anwendungsfelder": [
+      "Klassifizierung", "Daten"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 35,
@@ -1010,7 +1138,11 @@
     "alter" : {
       "min": 5,
       "max": 14
-    }
+    },
+    "anwendungsfelder": [
+      "Kritik", "Klassifizierung", "GenAI", "Sozialer Einfluss"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 36,
@@ -1038,7 +1170,11 @@
       "link": null
     },
     "thema": "AI Literacy: Grundlagen",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "anwendungsfelder": [
+      "Grundlagen"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 37,
@@ -1067,7 +1203,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "Roboter", "ML"
+    ],
+    "aiLiteracyAspekt": [1, 2, 3]
   },
   {
     "id": 38,
@@ -1099,7 +1239,11 @@
     "alter" : {
       "min": 11,
       "max": 12
-    }
+    },
+    "anwendungsfelder": [
+      "Grundlagen", "Sozialer Einfluss"
+    ],
+    "aiLiteracyAspekt": [1, 2, 4]
   },
   {
     "id": 41,
@@ -1128,7 +1272,11 @@
     "alter" : {
       "min": 8,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   },
   {
     "id": 42,
@@ -1153,7 +1301,11 @@
       "link": "https://enaris.org/material/en/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Curriculum", "Lehrmaterialien"]
+    "kategorie": ["Curriculum", "Lehrmaterialien"],
+    "anwendungsfelder": [
+      "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssystem", "Klassifizierung", "LLMs"
+    ],
+    "aiLiteracyAspekt": [1, 2, 4]
   },
   {
     "id": 43,
@@ -1185,7 +1337,11 @@
     "alter" : {
       "min": 4,
       "max": 6
-    }
+    },
+    "anwendungsfelder": [
+      "ML", "GenAI", "NNs", "ML"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 1,
@@ -1217,7 +1373,11 @@
     "alter" : {
       "min": 10,
       "max": 14
-    }
+    },
+    "anwendungsfelder": [
+      "Grundlagen", "Daten", "Empfehlungssystem", "Sozialer Einfluss"
+    ],
+    "aiLiteracyAspekt": [1, 4]
   },
   {
     "id": 12,
@@ -1246,7 +1406,11 @@
     "alter" : {
       "min": 6,
       "max": 10
-    }
+    },
+    "anwendungsfelder": [
+      "Roboter"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 44,
@@ -1278,7 +1442,11 @@
     "alter" : {
       "min": 13,
       "max": 19
-    }
+    },
+    "anwendungsfelder": [
+      "Kritik"
+    ],
+    "aiLiteracyAspekt": [1, 4]
   },
   {
     "id": 45,
@@ -1310,7 +1478,11 @@
     "alter" : {
       "min": 14,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "Computer Vision", "ML", "NNs"
+    ],
+    "aiLiteracyAspekt": [1, 4]
   },
   {
     "id": 46,
@@ -1342,7 +1514,11 @@
     "alter" : {
       "min": 5,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "Sozialer Einfluss"
+    ],
+    "aiLiteracyAspekt": [4]
   },
   {
     "id": 47,
@@ -1374,7 +1550,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "Computer Vision", "ML", "NNs", "Klassifizierung"
+    ],
+    "aiLiteracyAspekt": [1, 3]
   },
   {
     "id": 48,
@@ -1406,7 +1586,11 @@
     "alter" : {
       "min": 8,
       "max": 13
-    }
+    },
+    "anwendungsfelder": [
+      "Daten", "Klassifizierung"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 49,
@@ -1438,7 +1622,11 @@
     "alter" : {
       "min": 11,
       "max": 15
-    }
+    },
+    "anwendungsfelder": [
+      "NNs", "Klassifizierung", "ML"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 50,
@@ -1463,7 +1651,11 @@
       "link": "https://web.archive.org/web/20250525214420/https://aiunplugged.lmc.gatech.edu/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Museums Ausstellung"]
+    "kategorie": ["Museums Ausstellung"],
+    "anwendungsfelder": [
+      "Grundlagen"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 51,
@@ -1495,7 +1687,11 @@
     "alter" : {
       "min": 8,
       "max": 11
-    }
+    },
+    "anwendungsfelder": [
+      "ML", "Grundlagen"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 52,
@@ -1527,7 +1723,11 @@
     "alter" : {
       "min": 5,
       "max": 11
-    }
+    },
+    "anwendungsfelder": [
+      "Grundlagen"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 53,
@@ -1559,7 +1759,11 @@
     "alter" : {
       "min": 5,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "Roboter", "ML"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 54,
@@ -1576,7 +1780,11 @@
     "alter" : {
       "min": 11,
       "max": 14
-    }
+    },
+    "anwendungsfelder": [
+      "Grundlagen"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 55,
@@ -1589,7 +1797,11 @@
       "link": "https://code.org/de"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung", "Sammlung von KI Kursen"]
+    "kategorie": ["Webanwendung", "Sammlung von KI Kursen"],
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   },
   {
     "id": 56,
@@ -1602,7 +1814,11 @@
       "link": "https://aivisethicards.github.io/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Greifbar"]
+    "kategorie": ["Greifbar"],
+    "anwendungsfelder": [
+      "Sozialer Einfluss"
+    ],
+    "aiLiteracyAspekt": [4]
   },
   {
     "id": 57,
@@ -1615,7 +1831,11 @@
       "link": "https://teachablemachine.withgoogle.com/"
     },
     "thema": "AI Literacy: Klassifikation",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "anwendungsfelder": [
+      "Klassifizierung", "Computer Vision", "ML", "NNs"
+    ],
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 58,
@@ -1628,7 +1848,11 @@
       "link": "https://machinelearningforkids.co.uk/#!/login"
     },
     "thema": "AI Literacy: ML",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "anwendungsfelder": [
+      "ML"
+    ],
+    "aiLiteracyAspekt": [1, 2, 3]
   },
   {
     "id": 59,
@@ -1641,7 +1865,11 @@
       "link": "https://www.aiunplugged.org/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Curriculum"]
+    "kategorie": ["Curriculum"],
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [1,4]
   },
   {
     "id": 60,
@@ -1654,7 +1882,11 @@
       "link": "https://docs.rapidminer.com/9.9/studio/installation/"
     },
     "thema": "AI Literacy: Analyse",
-    "kategorie": ["Sonstige"]
+    "kategorie": ["Sonstige"],
+    "anwendungsfelder": [
+      "Kritik", "ML", "NNs"
+    ],
+    "aiLiteracyAspekt": [3]
   },
   {
     "id": 61,
@@ -1671,7 +1903,11 @@
     "alter": {
       "min": 5,
       "max": 11
-    }
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [2,3]
   },
   {
     "id": 62,
@@ -1684,7 +1920,11 @@
       "link": "https://edu.exceedlms.com/student/path/1605996"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Sammlung von KI Kursen"]
+    "kategorie": ["Sammlung von KI Kursen"],
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   },
   {
     "id": 63,
@@ -1697,7 +1937,11 @@
       "link": "https://docs.rapidminer.com/9.9/studio/installation/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "anwendungsfelder": [
+      "NLP", "ML", "NNs", "Klassifizierung", "Roboter"
+    ],
+    "aiLiteracyAspekt": [2,3]
   },
   {
     "id": 64,
@@ -1710,7 +1954,11 @@
       "link": "https://ecraft2learn.github.io/ai/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "anwendungsfelder": [
+      "NLP", "ML", "NNs", "Klassifizierung", "Roboter"
+    ],
+    "aiLiteracyAspekt": [2, 3]
   },
   {
     "id": 65,
@@ -1723,7 +1971,11 @@
       "link": "https://experiments.withgoogle.com/collection/ai"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung", "Sammlung von KI Kursen"]
+    "kategorie": ["Webanwendung", "Sammlung von KI Kursen"],
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   },
   {
     "id": 66,
@@ -1736,7 +1988,11 @@
       "link": "https://www.elementsofai.com/"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Sammlung von KI Kursen", "Curriculum"]
+    "kategorie": ["Sammlung von KI Kursen", "Curriculum"],
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 67,
@@ -1749,7 +2005,11 @@
       "link": "https://iste-ascd.org/ai"
     },
     "thema": "AI Literacy",
-    "kategorie": ["Webanwendung"]
+    "kategorie": ["Webanwendung"],
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [1]
   },
   {
     "id": 68,
@@ -1766,6 +2026,10 @@
     "alter": {
       "min": 5,
       "max": 18
-    }
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   }
 ]
