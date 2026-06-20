@@ -1,13 +1,11 @@
 <script setup lang="ts">
-import type {Course, CourseOptimiert} from "@/types.ts";
+import type {CourseOptimiert} from "@/types.ts";
 import acmLogo from "../assets/acm-logo.webp";
 import scienceDirectLogo from "../assets/elsevier-logo.svg";
 import springerLogo from "../assets/logo-springer-nature-link.svg";
 import aaaiLogo from "../assets/aaai-logo.png";
 import mitLogo from "../assets/mit-logo.png";
 import {useDisplay} from "vuetify/framework";
-import {computed} from "vue";
-import {grey} from "vuetify/util/colors";
 
 const emit = defineEmits(['toggle-karte'])
 
@@ -96,12 +94,6 @@ const aiLiteracyAspekte = [
   {title: "Ethische Aspekte", value: 4, icon: "mdi-human-greeting-proximity"},
   {title: "Sammlung von Kursen", value: 5, icon: "mdi-book-multiple"},
 ]
-
-const angezeigteAspekte = computed(() => {
-  return aiLiteracyAspekte.filter(aspekt =>
-      kurs.aiLiteracyAspekt.includes(aspekt.value)
-  );
-});
 </script>
 
 <template>
