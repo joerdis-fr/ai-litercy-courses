@@ -119,12 +119,15 @@ const getKategorieIcon = (kategorieTitle: string): string => {
       variant="outlined"
   >
     <template v-slot:title>
-      <v-icon
-          v-for="(k, i) in kurs.kategorie"
-          :key="i"
-          :icon="getKategorieIcon(k)"
-      />
-      {{tool.name}}
+      <div class="text-wrap">
+        <v-icon
+            class="mr-2"
+            v-for="(k, i) in kurs.kategorie"
+            :key="i"
+            :icon="getKategorieIcon(k)"
+        />
+        {{tool.name}}
+      </div>
     </template>
     <template v-slot:text>
       {{tool.beschreibung}}

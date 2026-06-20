@@ -147,8 +147,9 @@ const gefilterteKurse = computed(() => {
       <v-col>
         <h2>{{gefilterteKurse.length}} Ergebnisse </h2>
       </v-col>
-      <v-spacer />
-      <v-col>
+
+      <v-spacer class="d-none d-sm-flex" />
+      <v-col cols="12" sm="auto">
         <v-switch
             v-model="nurMitPaper"
             color="success"

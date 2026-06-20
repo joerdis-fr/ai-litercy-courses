@@ -37,7 +37,7 @@ const getKategorieIcon = (kategorieTitle: string): string => {
   >
     <template v-slot:title>
       <v-icon
-          class="mx-2"
+          class="mr-2"
           v-for="(k, i) in props.kategorie"
           :key="i"
           :icon="getKategorieIcon(k)"
