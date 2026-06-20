@@ -16,13 +16,13 @@ const selectedFilters = ref<FilterState>({
 })
 
 const kategorien = [
-    'Webanwendung',
-    'Greifbar',
     'Curriculum',
+    'Greifbar',
     'Kognitives Werkzeug',
-    'Sammlung von KI Kursen',
     'Lehrmaterialien',
     'Museums Ausstellung',
+    'Webanwendung',
+    'Sammlung von KI Kursen',
     'Sonstige'
 ]
 
@@ -46,22 +46,22 @@ const kurslaengen = [
 ]
 
 const anwendungsfelder = [
-  'Empfehlungssysteme',
-  'Sozialer Einfluss',
-  'NLP',
   'ChatGPT',
-  'Verschiedene AI und CS Themen',
-  'Kritik',
-  'ML',
-  'Roboter',
-  'Klassifizierung',
-  'GenAI',
-  'Daten',
-  'Grundlagen',
-  'NNs',
-  'Sonstiges',
   'Computer Vision',
+  'Daten',
+  'Empfehlungssysteme',
+  'GenAI',
+  'Grundlagen',
+  'Klassifizierung',
+  'Kritik',
   'LLMs',
+  'ML',
+  'NLP',
+  'NNs',
+  'Roboter',
+  'Sozialer Einfluss',
+  'Verschiedene AI und CS Themen',
+  'Sonstiges',
 ]
 
 const aiLiteracyAspekte = [

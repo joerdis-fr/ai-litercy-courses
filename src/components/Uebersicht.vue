@@ -190,6 +190,7 @@ const gefilterteKurse = computed(() => {
             class="mt-4"
             :titel="course.tool.name"
             :beschreibung="course.tool.beschreibung"
+            :kategorie="course.kategorie"
             @toggle-karte="karteAusklappen(course.id)"
         />
 

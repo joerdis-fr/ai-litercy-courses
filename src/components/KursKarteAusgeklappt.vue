@@ -94,13 +94,38 @@ const aiLiteracyAspekte = [
   {title: "Ethische Aspekte", value: 4, icon: "mdi-human-greeting-proximity"},
   {title: "Sammlung von Kursen", value: 5, icon: "mdi-book-multiple"},
 ]
+
+// Mapping vür Icons von Kategorien
+const kategorien = [
+  {title: "Curriculum", icon:"mdi-format-list-bulleted"},
+  {title: "Greifbar", icon:"mdi-hand-coin"},
+  {title: "Kognitives Werkzeug", icon:"mdi-head-snowflake"},
+  {title: "Lehrmaterialien", icon:"mdi-folder-information"},
+  {title: "Museums Ausstellung", icon:"mdi-bank"},
+  {title: "Webanwendung", icon:"mdi-laptop"},
+  {title: "Sammlung von KI Kursen", icon:"mdi-book-multiple"},
+  {title: "Sonstige", icon:"mdi-page-next"},
+]
+
+const getKategorieIcon = (kategorieTitle: string): string => {
+  const kat = kategorien.find(item => item.title === kategorieTitle);
+  return kat ? kat.icon : 'mdi-help-circle';
+};
+
 </script>
 
 <template>
   <v-card
-      :title="tool.name"
       variant="outlined"
   >
+    <template v-slot:title>
+      <v-icon
+          v-for="(k, i) in kurs.kategorie"
+          :key="i"
+          :icon="getKategorieIcon(k)"
+      />
+      {{tool.name}}
+    </template>
     <template v-slot:text>
       {{tool.beschreibung}}
       <ul>
