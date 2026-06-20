@@ -7,6 +7,7 @@ import aaaiLogo from "../assets/aaai-logo.png";
 import mitLogo from "../assets/mit-logo.png";
 import {useDisplay} from "vuetify/framework";
 import {computed} from "vue";
+import {grey} from "vuetify/util/colors";
 
 const emit = defineEmits(['toggle-karte'])
 
@@ -89,11 +90,11 @@ const richtigesLogo = () => {
 
 // Mapping für AI Literacy Aspekte
 const aiLiteracyAspekte = [
-  {title: "KI kennen und verstehen", value: 1},
-  {title: "KI verwenden und anwenden", value: 2},
-  {title: "KI bewerten und erstellen", value: 3},
-  {title: "Ethische Aspekte", value: 4},
-  {title: "Sammlung von Kursen", value: 5},
+  {title: "KI kennen und verstehen", value: 1, icon:"mdi-brain"},
+  {title: "KI verwenden und anwenden", value: 2, icon: "mdi-gesture-tap"},
+  {title: "KI bewerten und erstellen", value: 3, icon: "mdi-robot-confused"},
+  {title: "Ethische Aspekte", value: 4, icon: "mdi-human-greeting-proximity"},
+  {title: "Sammlung von Kursen", value: 5, icon: "mdi-book-multiple"},
 ]
 
 const angezeigteAspekte = computed(() => {
@@ -119,11 +120,6 @@ const angezeigteAspekte = computed(() => {
         >
           Anwendungsfeld: {{kurs.anwendungsfelder[0]}}
         </li>
-        <li
-            v-if="kurs.aiLiteracyAspekt.length == 1"
-        >
-          AI Literacy Aspekt: {{angezeigteAspekte[0].title}}
-        </li>
       </ul>
       <div v-if="kurs.anwendungsfelder.length > 1">
         Anwendungsfelder:
@@ -133,13 +129,25 @@ const angezeigteAspekte = computed(() => {
           </li>
         </ul>
       </div>
-      <div v-if="kurs.aiLiteracyAspekt.length > 1">
+      <div>
+        <p class="text-title-medium">
         AI Literacy Aspekte:
-        <ul>
-          <li v-for="aspekt in angezeigteAspekte" :key="aspekt.value">
-            {{ aspekt.title }}
-          </li>
-        </ul>
+        </p>
+        <v-row>
+          <v-col
+              v-for="aspekt in aiLiteracyAspekte" :key="aspekt.value"
+              class="mt-4 d-flex flex-column align-center text-center"
+              cols="2.4"
+          >
+            <v-icon
+                :color="kurs.aiLiteracyAspekt.includes(aspekt.value) ? 'black' : 'grey'"
+                :icon="aspekt.icon" size="x-large" />
+
+            <p :class="kurs.aiLiteracyAspekt.includes(aspekt.value) ? '' : 'text-grey'">
+              {{aspekt.title}}
+            </p>
+          </v-col>
+        </v-row>
       </div>
       <div v-if="paper != null">
         <v-divider />
