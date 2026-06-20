@@ -6,7 +6,7 @@ import springerLogo from "../assets/logo-springer-nature-link.svg";
 import aaaiLogo from "../assets/aaai-logo.png";
 import mitLogo from "../assets/mit-logo.png";
 import {useDisplay} from "vuetify/framework";
-import {onMounted} from "vue";
+import {computed} from "vue";
 
 const emit = defineEmits(['toggle-karte'])
 
@@ -86,6 +86,21 @@ const richtigesLogo = () => {
   }
   else return undefined;
 }
+
+// Mapping für AI Literacy Aspekte
+const aiLiteracyAspekte = [
+  {title: "KI kennen und verstehen", value: 1},
+  {title: "KI verwenden und anwenden", value: 2},
+  {title: "KI bewerten und erstellen", value: 3},
+  {title: "Ethische Aspekte", value: 4},
+  {title: "Sammlung von Kursen", value: 5},
+]
+
+const angezeigteAspekte = computed(() => {
+  return aiLiteracyAspekte.filter(aspekt =>
+      kurs.aiLiteracyAspekt.includes(aspekt.value)
+  );
+});
 </script>
 
 <template>
@@ -98,9 +113,34 @@ const richtigesLogo = () => {
       <ul>
         <li>Zielgruppe: {{kurs.zielgruppe}}</li>
         <li>Kategorie: {{kurs.kategorie[0]}}</li>
-        <li>
-          Länge: {{kursLaenge()}}</li>
+        <li>Länge: {{kursLaenge()}}</li>
+        <li
+            v-if="kurs.anwendungsfelder.length == 1"
+        >
+          Anwendungsfeld: {{kurs.anwendungsfelder[0]}}
+        </li>
+        <li
+            v-if="kurs.aiLiteracyAspekt.length == 1"
+        >
+          AI Literacy Aspekt: {{angezeigteAspekte[0].title}}
+        </li>
       </ul>
+      <div v-if="kurs.anwendungsfelder.length > 1">
+        Anwendungsfelder:
+        <ul>
+          <li v-for="(feld, index) in kurs.anwendungsfelder" :key="index">
+            {{ feld }}
+          </li>
+        </ul>
+      </div>
+      <div v-if="kurs.aiLiteracyAspekt.length > 1">
+        AI Literacy Aspekte:
+        <ul>
+          <li v-for="aspekt in angezeigteAspekte" :key="aspekt.value">
+            {{ aspekt.title }}
+          </li>
+        </ul>
+      </div>
       <div v-if="paper != null">
         <v-divider />
         <v-row>
