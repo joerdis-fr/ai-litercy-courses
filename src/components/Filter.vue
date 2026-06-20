@@ -10,7 +10,9 @@ const emit = defineEmits<{
 const selectedFilters = ref<FilterState>({
   kategorien: [],
   altersstufen: [],
-  kurslaengen: []
+  kurslaengen: [],
+  anwendungsfelder: [],
+  aiLiteracyAspekte: []
 })
 
 const kategorien = [
@@ -41,6 +43,33 @@ const kurslaengen = [
   {title: "5 bis 10 Stunden", value: {min: 300, max: 600}},
   {title: "Über 10 Stunden", value: {min: 600, max: null}},
   {title: "Generelle Kurse oder Unbekannt", value: {generell: true}},
+]
+
+const anwendungsfelder = [
+  'Empfehlungssysteme',
+  'Sozialer Einfluss',
+  'NLP',
+  'ChatGPT',
+  'Verschiedene AI und CS Themen',
+  'Kritik',
+  'ML',
+  'Roboter',
+  'Klassifizierung',
+  'GenAI',
+  'Daten',
+  'Grundlagen',
+  'NNs',
+  'Sonstiges',
+  'Computer Vision',
+  'LLMs',
+]
+
+const aiLiteracyAspekte = [
+    {title: "KI kennen und verstehen", value: 1},
+    {title: "KI verwenden und anwenden", value: 2},
+    {title: "KI bewerten und erstellen", value: 3},
+    {title: "Ethische Aspekte", value: 4},
+    {title: "Sammlung von Kursen", value: 5},
 ]
 
 watch(selectedFilters, (newFilters) => {
@@ -85,15 +114,26 @@ watch(selectedFilters, (newFilters) => {
         variant="outlined"
     />
     <v-select
-      clearable
-      chips
-      color="primary"
-      density="compact"
-      disabled
-      label="Thema"
-      :items="['Alle', 'AI Grundlagen', 'NLP', 'Ethik', 'Robotik', 'Computer Vision']"
-      multiple
-      variant="outlined"
+        v-model="selectedFilters.anwendungsfelder"
+        clearable
+        chips
+        color="primary"
+        density="compact"
+        label="Anwendungsfelder"
+        :items="anwendungsfelder"
+        multiple
+        variant="outlined"
+    />
+    <v-select
+        v-model="selectedFilters.aiLiteracyAspekte"
+        clearable
+        chips
+        color="primary"
+        density="compact"
+        label="AI Literacy Aspekte"
+        :items="aiLiteracyAspekte"
+        multiple
+        variant="outlined"
     />
   </v-container>
 </template>

@@ -12,7 +12,9 @@ const loading = ref(true)
 const activeFilters = ref({
   kategorien: [] as string[],
   altersstufen: [] as Altersspanne[],
-  kurslaengen: [] as Kurslaenge[]
+  kurslaengen: [] as Kurslaenge[],
+  anwendungsfelder: [] as string[],
+  aiLiteracyAspekte: [] as number[],
 })
 const nurMitPaper = ref(false)
 
@@ -79,19 +81,18 @@ const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
   activeFilters.value.kategorien = newFilters.kategorien;
   activeFilters.value.altersstufen = newFilters.altersstufen;
   activeFilters.value.kurslaengen = newFilters.kurslaengen;
+  activeFilters.value.anwendungsfelder = newFilters.anwendungsfelder;
+  activeFilters.value.aiLiteracyAspekte = newFilters.aiLiteracyAspekte;
 }
 
 const gefilterteKurse = computed(() => {
     console.log("Filter-Zustand:", activeFilters.value);
     console.log("Switch-Zustand (nurMitPaper):", nurMitPaper.value);
     return courses.value.filter(kurs => {
-      // 1. Filter nach Kategorien
       const matchesKategorie =
           activeFilters.value.kategorien.length === 0 ||
           kurs.kategorie.some(kat => activeFilters.value.kategorien.includes(kat))
-      // 2. Filter für "Nur Tools mit Paper"
       const matchesPaper = !nurMitPaper.value || (kurs.paper !== null && kurs.paper !== undefined)
-      // 3. Altersstufen Filter
       const matchesAlter =
           activeFilters.value.altersstufen.length === 0 ||
           activeFilters.value.altersstufen.some(spanne => {
@@ -115,7 +116,18 @@ const gefilterteKurse = computed(() => {
             }
             return false;
             })
-      return matchesKategorie && matchesPaper && matchesAlter && matchesLength
+      const matchesAnwendungsfeld =
+          activeFilters.value.anwendungsfelder.length === 0 ||
+          kurs.anwendungsfelder.some(anw => activeFilters.value.anwendungsfelder.includes(anw))
+      const matchesAiLiteracyAspekt =
+          activeFilters.value.aiLiteracyAspekte.length === 0 ||
+          kurs.aiLiteracyAspekt.some(aspekt => activeFilters.value.aiLiteracyAspekte.includes(aspekt))
+      return matchesKategorie &&
+          matchesPaper &&
+          matchesAlter &&
+          matchesLength &&
+          matchesAnwendungsfeld &&
+          matchesAiLiteracyAspekt;
     })
 })
 

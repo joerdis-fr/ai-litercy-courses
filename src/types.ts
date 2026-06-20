@@ -22,6 +22,8 @@ export interface CourseOptimiert {
     kategorie: Array<string>;
     thema: Array<string>;
     alter?: Altersspanne | null;
+    anwendungsfelder: Array<string>;
+    aiLiteracyAspekt: Array<number>;
 }
 
 export interface Lenght {
@@ -52,7 +54,8 @@ export interface FilterState {
     kategorien: string[]
     altersstufen: Altersspanne[]
     kurslaengen: Kurslaenge[]
-    // themen: string[]
+    anwendungsfelder: string[]
+    aiLiteracyAspekte: number[]
 }
 
 export interface Altersspanne {
