@@ -108,7 +108,7 @@ watch(selectedFilters, (newFilters) => {
         chips
         color="primary"
         density="compact"
-        label="Kurslänge"
+        label="Kursdauer"
         :items="kurslaengen"
         multiple
         variant="outlined"

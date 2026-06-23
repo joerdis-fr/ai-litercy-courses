@@ -37,7 +37,7 @@ const kursLink = () => {
 const kursLaenge = () => {
   if (kurs.laenge)
     if (kurs.laenge.zeitInMinutes)
-      return kurs.laenge.anzahlSessions.toString().concat("x ", kurs.laenge.zeitInMinutes.toString(), "m");
+      return kurs.laenge.anzahlSessions.toString().concat("x ", kurs.laenge.zeitInMinutes.toString(), " min");
     else if (kurs.laenge.anzahlSessions > 1)
       return kurs.laenge.anzahlSessions.toString().concat(" Sessions")
     else
@@ -134,7 +134,7 @@ const getKategorieIcon = (kategorieTitle: string): string => {
       <ul>
         <li>Zielgruppe: {{kurs.zielgruppe}}</li>
         <li>Kategorie: {{kurs.kategorie[0]}}</li>
-        <li>Länge: {{kursLaenge()}}</li>
+        <li>Dauer: {{kursLaenge()}}</li>
         <li
             v-if="kurs.anwendungsfelder.length == 1"
         >
