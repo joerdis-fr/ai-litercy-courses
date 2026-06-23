@@ -2031,5 +2031,48 @@
       "Verschiedene AI und CS Themen"
     ],
     "aiLiteracyAspekt": [5]
+  },
+  {
+    "id": 39,
+    "zielgruppe": "",
+    "laenge": null,
+    "erwaehntIn": "",
+    "tool": {
+      "name": "KI-Campus",
+      "beschreibung": "Die kostenlose Lernplattform für Künstliche Intelligenz, KI kennenlernen – mit Onlinekursen, Videos und Podcasts, Aktuelle KI-Tools richtig einsetzen lernen, Kostenlose Zertifikate erhalten – wie bereits 100.000 andere Lernende",
+      "link": "https://ki-campus.org/"
+    },
+    "thema": "",
+    "kategorie": ["Sammlung von KI Kursen"],
+    "alter": {
+      "min": 5,
+      "max": 18
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
+  },
+
+  {
+    "id": 40,
+    "zielgruppe": "",
+    "laenge": null,
+    "erwaehntIn": "",
+    "tool": {
+      "name": "fobizz",
+      "beschreibung": "fobizz bietet digitale Fortbildungen für Lehrkräfte, interaktive KI-Tools und hochwertige Unterrichtsmaterialien – für modernen Unterricht, jede Schulform, jedes Fach. Wir haben passgenaue Angebote für Lehrkräfte, Schulen, Schulträger und Bundesländer.",
+      "link": "https://fobizz.com/de/"
+    },
+    "thema": "AI Literacy",
+    "kategorie": ["Sammlung von KI Kursen"],
+    "alter": {
+      "min": 5,
+      "max": 18
+    },
+    "anwendungsfelder": [
+      "Verschiedene AI und CS Themen"
+    ],
+    "aiLiteracyAspekt": [5]
   }
 ]
