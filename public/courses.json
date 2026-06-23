@@ -3,7 +3,6 @@
     "id": 2,
     "zielgruppe": "Schüler der Mittelstufe",
     "kategorie": ["Kognitives Werkzeug"],
-    "thema": "AI Literacy: Empfehlungssysteme",
     "laenge": {
       "anzahlSessions": 2,
       "zeitInMinutes": 20
@@ -60,7 +59,6 @@
       "beschreibung": "Design Fiction Szenarien, an UNESCO’s ethischen Prinzipien für KI ausgerichtet, wir haben 10 Design Fiction Szenarien aus bekannten Kontexten verwendet, um Reflektion anzuspornen.",
       "link": null
     },
-    "thema": "AI Literacy: Ethik",
     "kategorie": ["Kognitives Werkzeug"],
     "alter" : {
       "min": 11,
@@ -94,7 +92,6 @@
     "beschreibung": "Empfehlungssytsem-Kompromisse, eine Simulation des Erkundungs- und Ausbeutungskompromisses unter Verwendung der epsilon-greedy Policy. Schüler passen ϵ (epsilon) an, um zu sehen, wie Empfehlungen auf Grundlage ihrer Umgebung sich verändern.",
     "link": "https://github.com/saniavn/ai-literacy-tools"
     },
-    "thema": "Empfehlungssysteme",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 11,
@@ -128,7 +125,6 @@
       "beschreibung": "Deepfake Ethik und Medien Bewusstsein, Schüler erkennen, bearbeiten und denken über echte vs. manipulierte Medien nach. Sie beschäftigen sich mit Diskussionen über ethische Szenarien zum Thema KI-generierter Inhalt.",
       "link": "https://github.com/saniavn/ai-literacy-tools"
     },
-    "thema": "AI erkennen",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 11,
@@ -162,7 +158,6 @@
       "beschreibung": "Prompting, Bias, & Negation, Schüler schreiben Prompts, reverse-engineer Prompts, und untersuchen wie GenAI mit Bias umgeht und an Negation scheitert.",
       "link": "https://github.com/saniavn/ai-literacy-tools"
     },
-    "thema": "NLP, sozialer Einfluss",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 11,
@@ -198,7 +193,6 @@
       "beschreibung": "Eine interaktive Web-App, die Schülern der Mittelstufe durch praktische Experimente die probabilistische Natur großer Sprachmodelle (LLMs) näherbringt. Die Schüler verändern wichtige Stichprobenparameter (Temperatur und Top-p) und sehen die visuelle Verteilung der Wahrscheinlichkeiten für das nächste Wort.",
       "link": "https://github.com/saniavn/ThinkLikeAI"
     },
-    "thema": "AI Literacy: NLP",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 11,
@@ -234,7 +228,6 @@
       "beschreibung": "Ein dreitägiger Workshop, bei dem schwarze Teenagerinnen GenAI-Tools nutzen, um Modekollektionen zu entwerfen. Wir stellen fest, dass die kreativen Erkundungen der Teilnehmerinnen Gelegenheit zu aufschlussreicher kritischer Reflexion über die Grenzen der KI boten. Die Lernenden nutzten ihr vorhandenes Wissen, um das Verhalten der KI zu bewerten, während sie sich kreativen Aufgaben widmeten. Als die Lernenden als handlungsfähige Schöpferinnen positioniert wurden (d. h. GenAI war ein Werkzeug, das ihnen zur Verfügung stand, und sie waren die treibenden Visionärinnen), akzeptierten, verwarfen, kritisierten und entwickelten sie aktiv und durchdacht Strategien zur Gestaltung der GenAI-ergebnisse.",
       "link": null
     },
-    "thema": "AI Literacy: Ethik",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 13,
@@ -270,7 +263,6 @@
       "beschreibung": "KI Kurs für Mittelschüler, der Kenntnisse fokussiert zum thema ChatGPT vermittelt.",
       "link": null
     },
-    "thema": "AI Literacy: ChatGPT",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 11,
@@ -303,7 +295,6 @@
       "beschreibung": "14 verschiedene Curricula, HPC-AI-Resources for STEM and Non-STEM Researchers",
       "link": "https://github.com/DrAlzahrani/HPC-AI-Resources/wiki"
     },
-    "thema": "Verschiedene AI und CS Themen",
     "kategorie": ["Sammlung von KI Kursen"],
     "alter" : {
       "min": 11,
@@ -339,7 +330,6 @@
       "beschreibung": "Mustererkennung, wobei der Nutzer gegen ein selbst auswählbares KI-Modell antritt. Ziel des Tools ist es zu zeigen, wie schlecht KI Modelle einfache Muster erkennen können, selbst wenn man einen Erklärungsprompt hinzufügt.",
       "link": "https://www.ai-puzzlers.com/"
     },
-    "thema": "AI Literacy: Reasoning",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 8,
@@ -375,7 +365,6 @@
       "beschreibung": "Speculative Design Workshop für kritische AI Literacy",
       "link": null
     },
-    "thema": "AI Literacy: Ethik",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 14,
@@ -411,7 +400,6 @@
       "beschreibung": "AIStoryBot ist eine Webanwendung, die dafür ausgelegt ist Geschichten für Kinder mithilfe von KI zu kreieren. Es gibt eine kostenlose Test- und eine kostenpflichtige Vollversion.",
       "link": "https://www.aistorybot.com/"
     },
-    "thema": "AI Nutzung",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 8,
@@ -447,7 +435,6 @@
       "beschreibung": "AI Literacy Programm, bestehend aus zwei Modulen, das Googles AI Anwendungen (Teachable Machine, Quick Draw) und OpenAIs KIs (ChatGPT, DALL-E) verwendet",
       "link": null
     },
-    "thema": "AI Literacy: Sozialer Einfluss",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 5,
@@ -483,7 +470,6 @@
       "beschreibung": "Fünf verschiedene Aktivitäten, die verschiedene KI Konzepte und Kenntnisse vermitteln.",
       "link": "https://web.archive.org/web/20250513162540/https://aiunplugged.lmc.gatech.edu/unplugged-activities/what-is-ai/"
     },
-    "thema": "AI Literacy, Ethik, Kritik, ML",
     "kategorie": ["Greifbar"],
     "alter" : {
       "min": 11,
@@ -519,7 +505,6 @@
       "beschreibung": "Ein Workshop Curriculum, das Kindern ethische Prinzipien und Gefahren im Kontext von AI beibringt. Die Aktivitäten sind hands-on Aktivitäten.",
       "link": null
     },
-    "thema": "AI Literacy: Ethik",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 10,
@@ -552,7 +537,6 @@
       "beschreibung": "Day of AI hat 2021 am MIT begonnen, es wurde von der Fakultät und von Forschern am MIT RAISE (Responsible AI for Social Empowerment and Education) erstellt, um K–12 Schüler aller Hintergründe darauf vorzubereiten in einer KI-getriebenen Welt sich zu entfalten. In Zusammenarbeit mit i2 Learning bietet das Programm kostenlose, hands-on AI literacy Lektionen und professionelle Entwicklung für Lehrer. Im August 2024 wurde Day of AI zu einer eigenständigen gemeinnützigen Organisation und erweiterte sein Leitbild über die Vermittlung von KI-Kompetenzen an Schüler hinaus: Nun gehört auch die Unterstützung von Lehrkräften beim verantwortungsvollen Umgang mit KI-Tools sowie die Unterstützung von Schulleitern bei der Konzeption gerechter Programme zur Vermittlung von KI-Kompetenzen dazu, während die enge Zusammenarbeit mit MIT RAISE fortgesetzt wird.",
       "link": "https://dayofai.org/"
     },
-    "thema": "Verschiedene AI und CS Themen",
     "kategorie": ["Sammlung von KI Kursen"],
     "anwendungsfelder": [
       "Verschiedene AI und CS Themen"
@@ -584,7 +568,6 @@
       "beschreibung": "Verwendung von Conceptual Change Texts, um AI zu erklären. Hier wird insbesondere ChatGPT erklärt.",
       "link": null
     },
-    "thema": "AI Literacy: ChatGPT",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 15,
@@ -617,7 +600,6 @@
       "beschreibung": "Curriculum, das mithilfe von Scratch und ML4K arbeitet. Es gibt auch weitere Aktivitäten, die man mit einer Klasse machen kann und genau beschrieben wurden, jedoch sind diese beschreibungen leider alle ausschließlich auf spanisch.",
       "link": "https://sites.google.com/view/replicationpackageai/"
     },
-    "thema": "Verschiedene AI und CS Themen",
     "kategorie": ["Sammlung von KI Kursen"],
     "alter" : {
       "min": 9,
@@ -653,7 +635,6 @@
       "beschreibung": "Nemobot ist eine Art Entwicklungsumgebung, in der Schüler eigene KIs für strategische Spiele trainieren können und dabei Dinge über interne Prozesse von Kis erlernen.",
       "link": "https://nemobot-neue-experiment.vercel.app/functions"
     },
-    "thema": "AI Literacy: Coding",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 5,
@@ -689,7 +670,6 @@
       "beschreibung": "Beyond AI Hype ist ein englischsprachiges Curriculum, das Übungen und Folien bereitstellt. Die Lernziele sind, dass Schüler über verschiedene Aspekte von KI Bescheid wissen, inklusive soziale und ethische Auswirkungen von aufstrebenden KI Methoden, wie z. B. GenAI. Sie sollen kritisch mit diesen methoden interagieren und besser verstehen, wie sie KI verantwortungsvoll nutzen. Sie sollen besser KI generierten Inhalt erkennen können Mängel von KI verstehen.",
       "link": "https://github.com/chinasatokolo/BeyondAIHype"
     },
-    "thema": "AI Literacy: Erkennen und Kritisch hinterfragen",
     "kategorie": ["Curriculum", "Lehrmaterialien"],
     "alter" : {
       "min": 11,
@@ -722,7 +702,6 @@
       "beschreibung": "Maschinelles Lernen zum Selbermachen! ML-Machine erstellt maschinelle Lernmodelle zur Erkennung von Mustern in den Bewegungsdaten des micro:bit. Man kann mithilfe dieser Webanwendung also eigene Hardware programmieren und KI-Modelle anhand der selbst aufgenommenen Daten trainieren.",
       "link": "https://ml-machine.org/"
     },
-    "thema": "AI Literacy: ML",
     "kategorie": ["Webanwendung", "Greifbar"],
     "alter" : {
       "min": 5,
@@ -758,7 +737,6 @@
       "beschreibung": "Das komplette Doodlebot-System besteht aus einem physischen Roboter und einem Host-Gerät – entweder einem Computer oder einem Mobilgerät –, das den Roboter steuert. Das Host-Gerät zeigt eine Benutzeroberfläche zur Steuerung des Roboters an und übernimmt umfangreiche Rechenaufgaben.",
       "link": "https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html"
     },
-    "thema": "AI Literacy: Roboter",
     "kategorie": ["Webanwendung", "Greifbar", "Curriculum"],
     "alter" : {
       "min": 6,
@@ -792,7 +770,6 @@
     "beschreibung": "„Knowledge Net“ ist eine Aktivität, bei der die Lernenden mithilfe einer greifbaren Oberfläche aus Kacheln und Pfeilen gemeinsam semantische Netzwerke (eine Form der Wissensdarstellung in der KI) aufbauen können.",
     "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
-    "thema": "AI Literacy: ML, Klassifikation",
     "kategorie": ["Greifbar", "Museums Ausstellung"],
     "anwendungsfelder": [
       "NNs", "ML"
@@ -822,7 +799,6 @@
       "beschreibung": "„Creature Features“ ist ein Prototyp, bei dem die Lernenden mithilfe eines Kartenspiels und Gewichtsmarkern einen Trainingsdatensatz für einen merkmalsbasierten Algorithmus zur Vogelklassifizierung im maschinellen Lernen erstellen können.",
       "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
-    "thema": "AI Literacy: ML, Klassifikation",
     "kategorie": ["Greifbar", "Museums Ausstellung"],
     "anwendungsfelder": [
       "Daten", "ML", "Klassifizierung"
@@ -852,7 +828,6 @@
       "beschreibung": "LuminAI ist eine interaktive Kunstinstallation, bei der die Teilnehmer durch improvisierte Bewegungen mit einem KI-Tanzpartner zusammenarbeiten können. Weiteres Paper zu LuminAI: https://dl.acm.org/doi/10.1145/3635636.3664255 ",
       "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
-    "thema": "AI Literacy: ML, Klassifikation",
     "kategorie": ["Greifbar", "Museums Ausstellung"],
     "anwendungsfelder": [
       "Computer Vision", "ML", "NNs"
@@ -884,7 +859,6 @@
       "beschreibung": "Das DAILy-Curriculum, das von Forschern und Pädagogen des MIT in Zusammenarbeit mit erfahrenen Moderatoren entwickelt wurde, umfasst praktische und computergestützte Aktivitäten zu KI-Konzepten, ethischen Fragen im Zusammenhang mit KI, kreativem Ausdruck mithilfe von KI sowie dazu, wie KI mit der Zukunft der Schüler zusammenhängt. Die Schüler lernen, wie man maschinelles Lernen trainiert und einsetzt, um Vorhersagen zu treffen, untersuchen Verzerrungen in Anwendungen des maschinellen Lernens, nutzen generative gegnerische Netzwerke, um neuartige Kunstwerke zu schaffen, und lernen, die KI zu erkennen, mit der sie täglich und in ihrer Umgebung interagieren. Einheiten: Einfürung in die KI, KI Konzepte, Kreative KI, Gesellschaft und KI, Einführung in LLMs. Link früher: aieducation.mit.edu/daily",
       "link": "https://everyday-ai.org/resources/curriculum/daily-curriculum-v20"
     },
-    "thema": "AI Literacy: ML, GenAI",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 11,
@@ -920,7 +894,6 @@
       "beschreibung": "Eine Sammlung an Comics, in denen KI Prinzipien anhand von greifbaren Beispielen erklärt werden. Die Comics sind auf englisch. Ganzes Projekt hier zu finden: https://ai-ed.ca/",
       "link": "https://drive.google.com/drive/folders/1hUwM6kdBq3V-U8SGweTzrG69niUOyIFK"
     },
-    "thema": "Verschiedene AI und CS Themen",
     "kategorie": ["Lehrmaterialien"],
     "alter" : {
       "min": 9,
@@ -956,7 +929,6 @@
       "beschreibung": "Ein Curriculum, das Klassenaktivitäten, die von Computerspielen wie z. B. Zombinis inspiriert wurden.",
       "link": null
     },
-    "thema": "AI Literacy: ML, Empfehlunssysteme",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 5,
@@ -992,7 +964,6 @@
       "beschreibung": "Kunst basiertes Curriculum",
       "link": null
     },
-    "thema": "AI Literacy, Ethik, Verständnis, Daten",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 6,
@@ -1028,7 +999,6 @@
       "beschreibung": "Digitales Geschichten Schreiben Curriculum",
       "link": null
     },
-    "thema": "AI Literacy",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 5,
@@ -1064,7 +1034,6 @@
       "beschreibung": "Das BEAL-Framework verbindet abstrakte KI-Konzepte mit greifbaren Erfahrungen für Kinder. Wir haben festgestellt, dass die architektonischen Prinzipien der Blockchain nicht nur das Verständnis von Vertrauen, Datenschutz und Verantwortlichkeit erleichtert haben, sondern den Kindern auch konkrete Fähigkeiten zur Überprüfung vermittelt haben, was sich in einem Anstieg des Verständnisses für die Herkunft von 35 % auf 80 % zeigt. Darüber hinaus hat die Integration der Blockchain mit datenschutzfördernden Techniken eine nachweislich vertrauenswürdige Lernumgebung geschaffen, was sich in einem Anstieg des Datenschutzbewusstseins um 52 % widerspiegelt.",
       "link": null
     },
-    "thema": "AI Literacy: Blockchain",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 10,
@@ -1100,7 +1069,6 @@
       "beschreibung": "Man lernt Klassifikation anhand eines Umweltproblems und Fischen aus Chile, die man verschiedenen Klassen anhand bestimmter Merkmale zuzuordnen hat.",
       "link": "https://jhonalesilva.github.io/AI-Fish/"
     },
-    "thema": "AI Literacy: Klassifikation",
     "kategorie": ["Lehrmaterialien"],
     "alter" : {
       "min": 6,
@@ -1133,7 +1101,6 @@
       "beschreibung": "Vier Sessions: Klassifikation, GenAI, KI in der echten Welt und KI bei lokalen Arbeitsstellen. Englische Folien und Lehrmaterialien sind mit enthalten.",
       "link": "https://ailiteracy.msu.edu/"
     },
-    "thema": "Kritische AI Literacy",
     "kategorie": ["Curriculum", "Lehrmaterialien"],
     "alter" : {
       "min": 5,
@@ -1169,7 +1136,6 @@
       "beschreibung": "Das Kompetenz Framework hat nicht das Ziel alle notwendigen Kompetenzem im Bereich KI zu vermitteln, sondern zielt hauptsächlich darauf ab, ein Kern-Set an Lernzielen zu definieren, die effektiv mit eingeschränkten Zeitressourcen und wenig Aufwand von verschiedenen Nutzern durchgeführt werden kann, unabhängig ihres Vorwissens.",
       "link": null
     },
-    "thema": "AI Literacy: Grundlagen",
     "kategorie": ["Curriculum"],
     "anwendungsfelder": [
       "Grundlagen"
@@ -1198,7 +1164,6 @@
       "beschreibung": "Das Robobo Projekt besteht aus drei Hauptelementen: ein mobiler Roboter, eine Sammlung von Bibliotheken und Programmier-Frameworks und spezifische Dokumentationen und Tutorials, um Lehrer und Schüler zu unterstützen. Evt noch mehr relevante Links in dem Paper, wie z. B. https://aim4vet.udc.es/modules/",
       "link": "https://github.com/mintforpeople/robobo-programming/wiki"
     },
-    "thema": "AI Literacy: Roboter",
     "kategorie": ["Sonstige"],
     "alter" : {
       "min": 11,
@@ -1234,7 +1199,6 @@
       "beschreibung": "Embodied Constructionist Approach: Der Ansatz beinhaltet drei Komponenten: eine verkörperte Analogie, ein kostruktivistisches Projekt und Ethische und kritische Reflektionen",
       "link": null
     },
-    "thema": "AI Literacy: Ethik",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 11,
@@ -1267,7 +1231,6 @@
       "beschreibung": "Ein Katalog mit Bildungsressourcen zum thema KI, weiterer Link: https://www.lascientotheque.be/pour-les-pros/nos-ressources-steam/intelligence-artificielle/",
       "link": "https://lascientotheque.github.io/ressources-ia"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Sammlung von KI Kursen"],
     "alter" : {
       "min": 8,
@@ -1300,7 +1263,6 @@
       "beschreibung": "Das Ziel des ENARIS-Projekts ist es, Kindern die Möglichkeiten, Grenzen und Funktionsweise von KI-Systemen näherzubringen. Das Material ist für alle frei zugänglich und unter der Creative-Commons-Lizenz 4.0 BY-SA veröffentlicht. Weitere Informationen zum Projekt finden Sie unter enaris.org",
       "link": "https://enaris.org/material/en/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Curriculum", "Lehrmaterialien"],
     "anwendungsfelder": [
       "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssystem", "Klassifizierung", "LLMs"
@@ -1332,7 +1294,6 @@
       "beschreibung": "Das PopBots Curriculum verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: knowledge-based systems, GenAI, und supervised machine learning.",
       "link": null
     },
-    "thema": "AI Literacy: ML, Ethik",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 4,
@@ -1368,7 +1329,6 @@
       "beschreibung": "Das AI + Ethics Curriculum besteht aus drei Modulen: Grundlagen von KI und Daten, Algorithmen als Meinungen und Stakeholderanalyse unter Verwenden der ethischen Matrix, Erstellung eines Papier Prototypen zum Vorschlagssystem von YouTube.",
       "link": null
     },
-    "thema": "AI Literacy: ML, Ethik",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 10,
@@ -1401,7 +1361,6 @@
       "beschreibung": "Bei Droodle & Jibo interagieren Kinder mit einem sozialen Roboter.",
       "link": null
     },
-    "thema": "AI Literacy: ML, Ethik",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 6,
@@ -1437,7 +1396,6 @@
       "beschreibung": "Wir haben die Ausstellung „AI with Weird Wonderland“ konzipiert, um Jugendlichen die Möglichkeit zu geben, kritisches Denken zu entwickeln und diese Kompetenz in ihrem Alltag anzuwenden.",
       "link": null
     },
-    "thema": "AI Literacy: Kritik",
     "kategorie": ["Museums Ausstellung"],
     "alter" : {
       "min": 13,
@@ -1473,7 +1431,6 @@
       "beschreibung": "Ziel der Sitzungen im Rahmen dieser Studie war es, auf Design Fiction basierende Aktivitäten im Zusammenhang mit überwachtem maschinellem Lernen (mit Schwerpunkt auf Gesichtsanalyse) vorzustellen und zu testen.",
       "link": null
     },
-    "thema": "AI Literacy",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 14,
@@ -1509,7 +1466,6 @@
       "beschreibung": "Wir haben ein Kartenspiel für Schüler der Mittel- und Oberstufe entwickelt, das zum Nachdenken über die ethischen Implikationen alltäglicher KI-Systeme anregt. Das Spiel im Wettbewerbsformat hilft den Kindern zu verstehen, wie KI-gestützte Unternehmen negative Auswirkungen haben können und wie diese Unternehmen solche Auswirkungen abmildern können.",
       "link": "https://bit.ly/3BxW3M1"
     },
-    "thema": "AI Literacy: Ethik, soziale Folgen",
     "kategorie": ["Greifbar"],
     "alter" : {
       "min": 5,
@@ -1545,7 +1501,6 @@
       "beschreibung": "„Dancing with AI“ ist ein einwöchiges Workshop-Programm, in dem die Schüler interaktive, auf körperlicher Bewegung basierende Multimedia-Erlebnisse konzipieren, entwerfen, umsetzen und reflektieren. Die Schüler lernen, interaktive KI-Projekte mithilfe von zwei neuen Scratch-Erweiterungs-tools zu erstellen, die speziell für dieses Programm entwickelt wurden: (1) Blöcke zur Erfassung der Hand-, Körper- und Gesichtsposition sowie zur Erkennung von Gesichtsausdrücken, die auf den maschinellen Lernmodellen PoseNet und MediaPipe von Google sowie dem Gesichtsmodell von Affectiva basieren, und (2) „Teachable Machine“-Blöcke, mit denen die Schüler ihre eigenen Bild- und Posenerkennungsmodelle auf Googles „Teachable Machine“ trainieren und als Teil ihrer Projekte nutzen können.",
       "link": "https://dancingwithai.media.mit.edu/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Webanwendung", "Curriculum"],
     "alter" : {
       "min": 11,
@@ -1581,7 +1536,6 @@
       "beschreibung": "Co-design a teachable machine: Im Mittelpunkt steht die Arbeit mit sogenannten \"teachable machines\" – also KI-Systemen, die von Nutzer:innen selbst trainiert werden können. Das Curriculum ist in mehrere Co-Design-Sitzungen gegliedert und nutzt eine strukturierte Storyboarding-methode (\"Big paper\"), um die Kinder bei der Entwicklung eigener KI-Ideen zu unterstützen.",
       "link": null
     },
-    "thema": "AI Literacy",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 8,
@@ -1617,7 +1571,6 @@
       "beschreibung": "Das Contour to Classification Spiel nutzt eine Simulation eines neuronalen Netzes, um die Schüler durch digitale Zeichen- und Auswahlinteraktionen in die Klassifizierung von Bildern einzubeziehen. Die Spieler fungieren als Knotenpunkte in einem mehrstufigen Prozess, bei dem markante kleinere Merkmale zu größeren Merkmalen und schließlich zu einer Teilkontur eines Objekts zusammengefügt werden, die zur Erstellung einer Vorhersage dient. Nach der Auswertung der Vorhersage werden Informationen in Prozessen, die die Rückpropagierung und den Gradientenabstieg nachahmen, durch das Netzwerk zurückgesendet. Es können weitere Spielrunden gespielt werden, um zu beobachten, wie sich das Netzwerk weiterentwickelt und bei der Klassifizierung von Bildern anhand von Konturen „besser“ wird. Mit diesem Spiel wollten wir erreichen, dass die Schüler die Struktur, die Komponenten und die Funktionsweise eines neuronalen Netzwerks sowie die Prozesse des überwachten Lernens kennenlernen.",
       "link": "https://contours2classification.herokuapp.com/"
     },
-    "thema": "AI Literacy: Neural Networks, Klassifikation",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 11,
@@ -1650,7 +1603,6 @@
       "beschreibung": "Co-Designing AI Literacy Ausstellungen für informelle Lernorte.",
       "link": "https://web.archive.org/web/20250525214420/https://aiunplugged.lmc.gatech.edu/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Museums Ausstellung"],
     "anwendungsfelder": [
       "Grundlagen"
@@ -1682,7 +1634,6 @@
       "beschreibung": "Ein Bot, mit dem man über Audioaufnahme sprechen kann, der entwickelt wurde, um Grundschulkindern Konzepte des maschinellen Lernens näherzubringen",
       "link": "https://zhorai.readyai.org/intro"
     },
-    "thema": "AI Literacy: ML",
     "kategorie": ["Webanwendung", "Curriculum"],
     "alter" : {
       "min": 8,
@@ -1718,7 +1669,6 @@
       "beschreibung": "Um Kindern Konzepte der künstlichen Intelligenz näherzubringen, haben wir die Plattform für Vorschulkinder „Preschool-Oriented Programming“ (PopBots) entwickelt. Zu unseren wichtigsten Gestaltungszielen gehörte es, Kindern dabei zu helfen, Verbindungen zwischen den Aktivitäten und ihren eigenen Erfahrungen herzustellen, Kinder mit unterschiedlichen Hintergründen und Interessen anzusprechen und sie dazu zu befähigen, über künstliche Intelligenz nachzudenken und darüber zu diskutieren.",
       "link": "https://dl.acm.org/doi/suppl/10.1145/3290605.3300677/suppl_file/pn3787.zip 7"
     },
-    "thema": "AI Literacy: Grundlagen",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 5,
@@ -1754,7 +1704,6 @@
       "beschreibung": "Einführung in maschinelles Lernen mit Robotern und spielerischem Lernen. Der gesamte Lehrplan umfasst vier thematische Module und dauert etwa 360 Minuten, wobei die Lehrkraft die Dauer je nach Bedarf verkürzen oder verlängern kann. Modul 1: „Wie lernt dein Roboter?“, Modul 2: „Deinen Roboter unterrichten“, Modul 3: „Deinen Roboter aus Erfahrungen lernen lassen“ und Modul 4: „Können Roboter selbstständig lernen?“",
       "link": "https://github.com/vlebedynska/openroberta-lab/"
     },
-    "thema": "AI Literacy: Roboter",
     "kategorie": ["Curriculum"],
     "alter" : {
       "min": 5,
@@ -1775,7 +1724,6 @@
       "beschreibung": "AI Quests bringt Schülern im Alter von 11 bis 14 Jahren AI literacy durch immersive Abenteuer bei.",
       "link": "https://research.google/ai-quests/intl/en_gb"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Webanwendung"],
     "alter" : {
       "min": 11,
@@ -1796,7 +1744,6 @@
       "beschreibung": "Code.org® ist die führende globale gemeinnützige Organisation, die sicherstellt, dass jeder Schüler die Möglichkeit hat, zu verstehen, wie KI funktioniert, wie man damit argumentiert und wie man damit kreiert – nicht nur, wie man sie benutzt.",
       "link": "https://code.org/de"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Webanwendung", "Sammlung von KI Kursen"],
     "anwendungsfelder": [
       "Verschiedene AI und CS Themen"
@@ -1813,7 +1760,6 @@
       "beschreibung": "",
       "link": "https://aivisethicards.github.io/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Greifbar"],
     "anwendungsfelder": [
       "Sozialer Einfluss"
@@ -1830,7 +1776,6 @@
       "beschreibung": "Eine einfach zugängliche Webanwendung zum Erkunden von ML Klassifikation.",
       "link": "https://teachablemachine.withgoogle.com/"
     },
-    "thema": "AI Literacy: Klassifikation",
     "kategorie": ["Webanwendung"],
     "anwendungsfelder": [
       "Klassifizierung", "Computer Vision", "ML", "NNs"
@@ -1847,7 +1792,6 @@
       "beschreibung": "Dieses tool führt über praktische Übungen an das thema Künstliche Intelligenz, insbesondere das Maschinelle Lernen (Machine Learning) heran.",
       "link": "https://machinelearningforkids.co.uk/#!/login"
     },
-    "thema": "AI Literacy: ML",
     "kategorie": ["Webanwendung"],
     "anwendungsfelder": [
       "ML"
@@ -1864,7 +1808,6 @@
       "beschreibung": "AI Unplugged stellt unplugged Aktivitäten bereit, die Ideen und Konzepte aus dem Bereich Informatik näherbringen, ohne dabei Computer zu verwenden.",
       "link": "https://www.aiunplugged.org/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Curriculum"],
     "anwendungsfelder": [
       "Verschiedene AI und CS Themen"
@@ -1881,7 +1824,6 @@
       "beschreibung": "Altair RapidMiner (früher bekannt als YALE) ist eine führende, visuelle Datenanalyse- und KI-Plattform. Analysetool (Zu installierende Software)",
       "link": "https://docs.rapidminer.com/9.9/studio/installation/"
     },
-    "thema": "AI Literacy: Analyse",
     "kategorie": ["Sonstige"],
     "anwendungsfelder": [
       "Kritik", "ML", "NNs"
@@ -1898,7 +1840,6 @@
       "beschreibung": "Scratch ist die weltgrößte kreative Community für Kinder, in der junge Menschen ihre Geschichten, Spiele und Animationen zum Leben erwecken und diese mit anderen Kindern auf der ganzen Welt in einer sicheren und moderierten online Community teilen.",
       "link": "https://scratch.mit.edu/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Webanwendung"],
     "alter": {
       "min": 5,
@@ -1919,7 +1860,6 @@
       "beschreibung": "Lerne die Vorteile und Challenges von KI kennen, während du Quick, Draw!, AutoDraw, Google Translate, und Google Slides erkundest.",
       "link": "https://edu.exceedlms.com/student/path/1605996"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Sammlung von KI Kursen"],
     "anwendungsfelder": [
       "Verschiedene AI und CS Themen"
@@ -1936,7 +1876,6 @@
       "beschreibung": "Cognimates ist ein Scratch add-on, das dem Nutzer Zugang zu APIs für Sprachproduktion, Spracherkennung, Textklassifizierung, Objektklassifizierung und Roboter Kontrolle gibt.",
       "link": "https://docs.rapidminer.com/9.9/studio/installation/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Webanwendung"],
     "anwendungsfelder": [
       "NLP", "ML", "NNs", "Klassifizierung", "Roboter"
@@ -1953,7 +1892,6 @@
       "beschreibung": "eCraft2Learn bietet ähnliche Extentions wie Cognimates an, nur für die Snap! Sprache, eine Scratch Variante.",
       "link": "https://ecraft2learn.github.io/ai/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Webanwendung"],
     "anwendungsfelder": [
       "NLP", "ML", "NNs", "Klassifizierung", "Roboter"
@@ -1970,7 +1908,6 @@
       "beschreibung": "Google hat eine Reihe kostenloser „KI-Experimente“ gestartet, darunter „Teachable Machine“ und „QuickDraw“, das mithilfe eines neuronalen Netzes erkennt, was man gerade skizziert.",
       "link": "https://experiments.withgoogle.com/collection/ai"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Webanwendung", "Sammlung von KI Kursen"],
     "anwendungsfelder": [
       "Verschiedene AI und CS Themen"
@@ -1987,7 +1924,6 @@
       "beschreibung": "„The Elements of AI“ ist eine Reihe kostenloser Online-Kurse, die von MinnaLearn und der Universität Helsinki entwickelt wurde. Wir möchten möglichst viele Menschen dazu anregen, zu erfahren, was KI ist, was man mit KI alles machen kann (und was nicht) und wie man damit beginnt, KI-methoden zu entwickeln. Die Kurse verbinden Theorie mit praktischen Übungen und können im eigenen Tempo absolviert werden.",
       "link": "https://www.elementsofai.com/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Sammlung von KI Kursen", "Curriculum"],
     "anwendungsfelder": [
       "Verschiedene AI und CS Themen"
@@ -2004,7 +1940,6 @@
       "beschreibung": "ISTE+ASCD befähigt Pädagogen weltweit dazu, KI sicher und verantwortungsbewusst im Unterricht einzusetzen. Als größter Anbieter von Fortbildungen im Bereich KI bringt ISTE+ASCD Pädagogen zusammen, um den Lernprozess zu verbessern und Schüler darauf vorzubereiten, die nächste Generation von KI-Entwicklern und Problemlösern zu werden.",
       "link": "https://iste-ascd.org/ai"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Webanwendung"],
     "anwendungsfelder": [
       "Verschiedene AI und CS Themen"
@@ -2021,7 +1956,6 @@
       "beschreibung": "Im Rahmen dieser Initiative werden (1) nationale Leitlinien für den KI-Unterricht für K-12 Schüler, (2) ein kuratiertes Online-Verzeichnis mit Ressourcen zur Unterstützung des KI-Unterrichts sowie (3) eine Gemeinschaft aus Praktikern, Forschern und Entwicklern von Ressourcen und Tools aufgebaut, die sich speziell an die Zielgruppe K-12 richtet.",
       "link": "https://ai4k12.org/resources/list-of-resources/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Sammlung von KI Kursen"],
     "alter": {
       "min": 5,
@@ -2042,7 +1976,6 @@
       "beschreibung": "Die kostenlose Lernplattform für Künstliche Intelligenz, KI kennenlernen – mit Onlinekursen, Videos und Podcasts, Aktuelle KI-Tools richtig einsetzen lernen, Kostenlose Zertifikate erhalten – wie bereits 100.000 andere Lernende",
       "link": "https://ki-campus.org/"
     },
-    "thema": "",
     "kategorie": ["Sammlung von KI Kursen"],
     "alter": {
       "min": 5,
@@ -2064,7 +1997,6 @@
       "beschreibung": "fobizz bietet digitale Fortbildungen für Lehrkräfte, interaktive KI-Tools und hochwertige Unterrichtsmaterialien – für modernen Unterricht, jede Schulform, jedes Fach. Wir haben passgenaue Angebote für Lehrkräfte, Schulen, Schulträger und Bundesländer.",
       "link": "https://fobizz.com/de/"
     },
-    "thema": "AI Literacy",
     "kategorie": ["Sammlung von KI Kursen"],
     "alter": {
       "min": 5,

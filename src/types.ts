@@ -6,7 +6,6 @@ export interface Course {
     paper: Paper | null;
     tool: Tool | Array<Tool>,
     kategorie: Array<string>;
-    thema?: Array<string>;
     alter?: Altersspanne | null;
     anwendungsfelder: Array<string>;
     aiLiteracyAspekt: Array<number>;
@@ -20,7 +19,6 @@ export interface CourseOptimiert {
     paper: Paper | null;
     tool: Tool,
     kategorie: Array<string>;
-    thema: Array<string>;
     alter?: Altersspanne | null;
     anwendungsfelder: Array<string>;
     aiLiteracyAspekt: Array<number>;
