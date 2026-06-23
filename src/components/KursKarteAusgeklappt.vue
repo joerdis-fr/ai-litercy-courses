@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import type {Course, CourseOptimiert} from "@/types.ts";
+import type {CourseOptimiert} from "@/types.ts";
 import acmLogo from "../assets/acm-logo.webp";
 import scienceDirectLogo from "../assets/elsevier-logo.svg";
 import springerLogo from "../assets/logo-springer-nature-link.svg";
 import aaaiLogo from "../assets/aaai-logo.png";
 import mitLogo from "../assets/mit-logo.png";
 import {useDisplay} from "vuetify/framework";
-import {onMounted} from "vue";
 
 const emit = defineEmits(['toggle-karte'])
 
@@ -86,21 +85,90 @@ const richtigesLogo = () => {
   }
   else return undefined;
 }
+
+// Mapping für AI Literacy Aspekte
+const aiLiteracyAspekte = [
+  {title: "KI kennen und verstehen", value: 1, icon:"mdi-brain"},
+  {title: "KI verwenden und anwenden", value: 2, icon: "mdi-gesture-tap"},
+  {title: "KI bewerten und erstellen", value: 3, icon: "mdi-robot-confused"},
+  {title: "Ethische Aspekte", value: 4, icon: "mdi-human-greeting-proximity"},
+  {title: "Sammlung von Kursen", value: 5, icon: "mdi-book-multiple"},
+]
+
+// Mapping vür Icons von Kategorien
+const kategorien = [
+  {title: "Curriculum", icon:"mdi-format-list-bulleted"},
+  {title: "Greifbar", icon:"mdi-hand-coin"},
+  {title: "Kognitives Werkzeug", icon:"mdi-head-snowflake"},
+  {title: "Lehrmaterialien", icon:"mdi-folder-information"},
+  {title: "Museums Ausstellung", icon:"mdi-bank"},
+  {title: "Webanwendung", icon:"mdi-laptop"},
+  {title: "Sammlung von KI Kursen", icon:"mdi-book-multiple"},
+  {title: "Sonstige", icon:"mdi-page-next"},
+]
+
+const getKategorieIcon = (kategorieTitle: string): string => {
+  const kat = kategorien.find(item => item.title === kategorieTitle);
+  return kat ? kat.icon : 'mdi-help-circle';
+};
+
 </script>
 
 <template>
   <v-card
-      :title="tool.name"
       variant="outlined"
   >
+    <template v-slot:title>
+      <div class="text-wrap">
+        <v-icon
+            class="mr-2"
+            v-for="(k, i) in kurs.kategorie"
+            :key="i"
+            :icon="getKategorieIcon(k)"
+        />
+        {{tool.name}}
+      </div>
+    </template>
     <template v-slot:text>
       {{tool.beschreibung}}
       <ul>
         <li>Zielgruppe: {{kurs.zielgruppe}}</li>
         <li>Kategorie: {{kurs.kategorie[0]}}</li>
-        <li>
-          Länge: {{kursLaenge()}}</li>
+        <li>Länge: {{kursLaenge()}}</li>
+        <li
+            v-if="kurs.anwendungsfelder.length == 1"
+        >
+          Anwendungsfeld: {{kurs.anwendungsfelder[0]}}
+        </li>
       </ul>
+      <div v-if="kurs.anwendungsfelder.length > 1">
+        Anwendungsfelder:
+        <ul>
+          <li v-for="(feld, index) in kurs.anwendungsfelder" :key="index">
+            {{ feld }}
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-title-medium">
+        AI Literacy Aspekte:
+        </p>
+        <v-row>
+          <v-col
+              v-for="aspekt in aiLiteracyAspekte" :key="aspekt.value"
+              class="mt-4 d-flex flex-column align-center text-center"
+              cols="2.4"
+          >
+            <v-icon
+                :color="kurs.aiLiteracyAspekt.includes(aspekt.value) ? 'black' : 'grey'"
+                :icon="aspekt.icon" size="x-large" />
+
+            <p :class="kurs.aiLiteracyAspekt.includes(aspekt.value) ? '' : 'text-grey'">
+              {{aspekt.title}}
+            </p>
+          </v-col>
+        </v-row>
+      </div>
       <div v-if="paper != null">
         <v-divider />
         <v-row>

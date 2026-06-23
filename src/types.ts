@@ -6,7 +6,10 @@ export interface Course {
     paper: Paper | null;
     tool: Tool | Array<Tool>,
     kategorie: Array<string>;
-    thema: Array<string>;
+    thema?: Array<string>;
+    alter?: Altersspanne | null;
+    anwendungsfelder: Array<string>;
+    aiLiteracyAspekt: Array<number>;
 }
 
 export interface CourseOptimiert {
@@ -18,6 +21,9 @@ export interface CourseOptimiert {
     tool: Tool,
     kategorie: Array<string>;
     thema: Array<string>;
+    alter?: Altersspanne | null;
+    anwendungsfelder: Array<string>;
+    aiLiteracyAspekt: Array<number>;
 }
 
 export interface Lenght {
@@ -46,7 +52,18 @@ export interface Tool {
 
 export interface FilterState {
     kategorien: string[]
-    // themen: string[]
-    // alter: string[]
-    // kurslaenge: string[]
+    altersstufen: Altersspanne[]
+    kurslaengen: Kurslaenge[]
+    anwendungsfelder: string[]
+    aiLiteracyAspekte: number[]
+}
+
+export interface Altersspanne {
+    min: number;
+    max: number;
+}
+
+export interface Kurslaenge {
+    min: number;
+    max: number;
 }
