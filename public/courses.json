@@ -32,7 +32,8 @@
     "anwendungsfelder": [
       "Empfehlungssysteme"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"]
   },
   {
     "id": 3,
@@ -67,7 +68,8 @@
     "anwendungsfelder": [
       "Sozialer Einfluss"
     ],
-    "aiLiteracyAspekt": [1, 4]
+    "aiLiteracyAspekt": [1, 4],
+    "sprachen": ["en"]
   },
   {
     "id": 4,
@@ -100,7 +102,8 @@
     "anwendungsfelder": [
       "Empfehlunssysteme", "ML"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"]
   },
   {
     "id": 23,
@@ -133,7 +136,8 @@
     "anwendungsfelder": [
       "Sozialer Einfluss", "GenAI"
     ],
-    "aiLiteracyAspekt": [1, 4]
+    "aiLiteracyAspekt": [1, 4],
+    "sprachen": ["en"]
   },
   {
     "id": 24,
@@ -166,7 +170,8 @@
     "anwendungsfelder": [
       "Sozialer Einfluss", "GenAI", "NLP"
     ],
-    "aiLiteracyAspekt": [1, 2, 4]
+    "aiLiteracyAspekt": [1, 2, 4],
+    "sprachen": ["en"]
   },
   {
     "id": 5,
@@ -201,7 +206,8 @@
     "anwendungsfelder": [
       "NLP", "LLMs", "NNs", "ML"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"]
   },
   {
     "id": 6,
@@ -236,7 +242,8 @@
     "anwendungsfelder": [
       "GenAI", "Sozialer Einfluss"
     ],
-    "aiLiteracyAspekt": [2, 4]
+    "aiLiteracyAspekt": [2, 4],
+    "sprachen": ["en"]
   },
   {
     "id": 7,
@@ -271,7 +278,8 @@
     "anwendungsfelder": [
       "ChatGPT", "ML", "NNs", "NLP", "GenAI"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"]
   },
   {
     "id": 8,
@@ -303,7 +311,8 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [2, 4, 5]
+    "aiLiteracyAspekt": [2, 4, 5],
+    "sprachen": ["en"]
   },
   {
     "id": 9,
@@ -338,7 +347,8 @@
     "anwendungsfelder": [
       "NLP", "LLMs", "NNs", "ML", "Kritik"
     ],
-    "aiLiteracyAspekt": [1, 2, 3]
+    "aiLiteracyAspekt": [1, 2, 3],
+    "sprachen": ["en"]
   },
   {
     "id": 10,
@@ -373,7 +383,8 @@
     "anwendungsfelder": [
       "Kritik"
     ],
-    "aiLiteracyAspekt": [1, 4]
+    "aiLiteracyAspekt": [1, 4],
+    "sprachen": ["en"]
   },
   {
     "id": 11,
@@ -408,7 +419,8 @@
     "anwendungsfelder": [
       "NLP", "LLMs", "NNs", "ML"
     ],
-    "aiLiteracyAspekt": [2]
+    "aiLiteracyAspekt": [2],
+    "sprachen": ["en"]
   },
   {
     "id": 13,
@@ -443,7 +455,8 @@
     "anwendungsfelder": [
       "Sozialer Einfluss", "Klassifizierung", "ChatGPT", "ML", "NNs", "NLP", "GenAI", "Computer Vision", "Kritik"
     ],
-    "aiLiteracyAspekt": [2, 4]
+    "aiLiteracyAspekt": [2, 4],
+    "sprachen": ["en"]
   },
   {
     "id": 14,
@@ -478,7 +491,8 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"]
   },
   {
     "id": 15,
@@ -856,7 +870,7 @@
     },
     "tool": {
       "name": "DAILy",
-      "beschreibung": "Das DAILy-Curriculum, das von Forschern und Pädagogen des MIT in Zusammenarbeit mit erfahrenen Moderatoren entwickelt wurde, umfasst praktische und computergestützte Aktivitäten zu KI-Konzepten, ethischen Fragen im Zusammenhang mit KI, kreativem Ausdruck mithilfe von KI sowie dazu, wie KI mit der Zukunft der Schüler zusammenhängt. Die Schüler lernen, wie man maschinelles Lernen trainiert und einsetzt, um Vorhersagen zu treffen, untersuchen Verzerrungen in Anwendungen des maschinellen Lernens, nutzen generative gegnerische Netzwerke, um neuartige Kunstwerke zu schaffen, und lernen, die KI zu erkennen, mit der sie täglich und in ihrer Umgebung interagieren. Einheiten: Einfürung in die KI, KI Konzepte, Kreative KI, Gesellschaft und KI, Einführung in LLMs. Link früher: aieducation.mit.edu/daily",
+      "beschreibung": "Das DAILy-Curriculum (ausgelegt für 30 Stunden), das von Forschern und Pädagogen des MIT in Zusammenarbeit mit erfahrenen Moderatoren entwickelt wurde, umfasst praktische und computergestützte Aktivitäten zu KI-Konzepten, ethischen Fragen im Zusammenhang mit KI, kreativem Ausdruck mithilfe von KI sowie dazu, wie KI mit der Zukunft der Schüler zusammenhängt. Die Schüler lernen, wie man maschinelles Lernen trainiert und einsetzt, um Vorhersagen zu treffen, untersuchen Verzerrungen in Anwendungen des maschinellen Lernens, nutzen generative gegnerische Netzwerke, um neuartige Kunstwerke zu schaffen, und lernen, die KI zu erkennen, mit der sie täglich und in ihrer Umgebung interagieren. Einheiten: Einführung in die KI, KI Konzepte, Kreative KI, Gesellschaft und KI, Einführung in LLMs. Link früher: aieducation.mit.edu/daily",
       "link": "https://everyday-ai.org/resources/curriculum/daily-curriculum-v20"
     },
     "kategorie": ["Curriculum"],
@@ -1271,41 +1285,6 @@
   },
   {
     "id": 43,
-    "zielgruppe": "4-6 Jährige",
-    "laenge": {
-      "anzahlSessions": 4,
-      "zeitInMinutes": null
-    },
-    "erwaehntIn": "PP2 [2, 43]",
-    "paper": {
-      "datenbank": "MIT Media Lab",
-      "titel": "Constructionism, Ethics, and Creativity: Developing Primary and Middle School Artificial Intelligence Education",
-      "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
-      "link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
-      "veroeffentlichungsdatum": 2019,
-      "land": ["USA"],
-      "methode": "Pre- und Post Umfragen, Beobachtungen",
-      "sample": "80 Pre- und Kindergarten Kinder",
-      "forschungsfrage": ["How do we best prepare students to flourish in the era of AI?"],
-      "ergebnisse": "For Pop-Bots and AI + Ethics, we are expanding the curricula to  introduce more AI concepts an d their societal implications. This involves designing new interfaces and activities for Children to explore. In AI for creativity, we have developed and are evaluating new games where children need to produce creative ideas to train their robot to complete tasks. In the bigger picture, we are looking at how insights about our core principles and age ranges can transfer across the three projects."
-    },
-    "tool": {
-      "name": "PopBots Curriculum",
-      "beschreibung": "Das PopBots Curriculum verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: knowledge-based systems, GenAI, und supervised machine learning.",
-      "link": null
-    },
-    "kategorie": ["Curriculum"],
-    "alter" : {
-      "min": 4,
-      "max": 6
-    },
-    "anwendungsfelder": [
-      "ML", "GenAI", "NNs", "ML"
-    ],
-    "aiLiteracyAspekt": [1]
-  },
-  {
-    "id": 1,
     "zielgruppe": "Mittelschüler",
     "laenge": {
       "anzahlSessions": 3,
@@ -1335,7 +1314,7 @@
       "max": 14
     },
     "anwendungsfelder": [
-      "Grundlagen", "Daten", "Empfehlungssystem", "Sozialer Einfluss"
+      "Grundlagen", "Daten", "Empfehlungssystem", "Sozialer Einfluss", "ML", "Klassifizierung"
     ],
     "aiLiteracyAspekt": [1, 4]
   },
@@ -1642,7 +1621,7 @@
     "anwendungsfelder": [
       "ML", "Grundlagen"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2, 3]
   },
   {
     "id": 52,
@@ -1654,7 +1633,7 @@
     "erwaehntIn": "PP13 [116], PP22 [47], PP31, PP43",
     "paper": {
       "datenbank": "ACM",
-      "titel": "A is for Artificial Intelligence:The Impact of Artificial Intelligence Activities on Young Children's Perceptions of Robots",
+      "titel": "A is for Artificial Intelligence: The Impact of Artificial Intelligence Activities on Young Children's Perceptions of Robots",
       "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
       "link": "https://dl.acm.org/doi/10.1145/3290605.3300677",
       "veroeffentlichungsdatum": "02.05.2019",
@@ -1666,18 +1645,18 @@
     },
     "tool": {
       "name": "PopBots",
-      "beschreibung": "Um Kindern Konzepte der künstlichen Intelligenz näherzubringen, haben wir die Plattform für Vorschulkinder „Preschool-Oriented Programming“ (PopBots) entwickelt. Zu unseren wichtigsten Gestaltungszielen gehörte es, Kindern dabei zu helfen, Verbindungen zwischen den Aktivitäten und ihren eigenen Erfahrungen herzustellen, Kinder mit unterschiedlichen Hintergründen und Interessen anzusprechen und sie dazu zu befähigen, über künstliche Intelligenz nachzudenken und darüber zu diskutieren.",
+      "beschreibung": "Um Kindern Konzepte der künstlichen Intelligenz näherzubringen, haben wir die Plattform für Vorschulkinder „Preschool-Oriented Programming“ (PopBots) entwickelt. Zu unseren wichtigsten Gestaltungszielen gehörte es, Kindern dabei zu helfen, Verbindungen zwischen den Aktivitäten und ihren eigenen Erfahrungen herzustellen, Kinder mit unterschiedlichen Hintergründen und Interessen anzusprechen und sie dazu zu befähigen, über künstliche Intelligenz nachzudenken und darüber zu diskutieren. Das Toolkit enthält ein Curriculum, einen sozialen und interaktiven Roboter und LEGO-Steine, die als Sensoren und Motoren dienen. Der Roboter dient sowohl als programmierbares Gerät als auch als Begleiter, der die Schülerinnen und Schüler Schritt für Schritt durch KI-Algorithmen führt und ihnen durch soziale Interaktion Kenntnisse über KI vermittelt. Die Zielgruppe dieses Toolkits sind Kinder im Alter von vier bis sechs Jahren. Das Toolkit verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: wissensbasierte Systeme, GenAI und supervised ML. Diese Aktivitäten verwenden interaktive und projektorientierte Techniken, damit die Kinder die Freiheit haben diese Themen selbst zu erkunden.",
       "link": "https://dl.acm.org/doi/suppl/10.1145/3290605.3300677/suppl_file/pn3787.zip 7"
     },
     "kategorie": ["Curriculum"],
     "alter" : {
-      "min": 5,
-      "max": 11
+      "min": 4,
+      "max": 6
     },
     "anwendungsfelder": [
-      "Grundlagen"
+      "Grundlagen", "GenAI", "ML", "Roboter"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1, 2]
   },
   {
     "id": 53,
