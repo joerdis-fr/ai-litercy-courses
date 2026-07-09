@@ -440,7 +440,7 @@
       "methode": "Transkription während der Sessions und anschließendes Coding",
       "sample": "26 Schüler (Klassen 3-11)",
       "forschungsfrage": ["What types of the cultural capital of students from underserved communities have, and how can HCI researchers effectively mobilize it?"],
-      "ergebnisse": "Considering the benefits of AI literacy education for students from underserved communities and the importance of their cultural capital, we hope this paper sheds light on a potential way for AI literacy education research to serve underserved students and other members of these communities."
+      "ergebnisse": "However, the key element for cultural capital mobilization in AI literacy learning is collaborative relationships between researchers and students, which will be discussed below. Considering the benefits of AI literacy education for students from underserved communities and the importance of their cultural capital, we hope this paper sheds light on a potential way for AI literacy education research to serve underserved students and other members of these communities."
     },
     "tool": {
       "name": "/",
@@ -544,7 +544,7 @@
       "methode": "Online Fragebogen und Lehrer Interviews",
       "sample": "265 Personen weltweit, hauptsächlich Lehrer aus den USA",
       "forschungsfrage": [],
-      "ergebnisse": "We subsequently described a large-scale, global implementation of AI literacy instruction taught under routine conditions by teachers from many disciplines."
+      "ergebnisse": "We subsequently described a large-scale, global implementation of AI literacy instruction taught under routine conditions by teachers from many disciplines. The results of our investigation into the implementation and perceived effects of this instruction provides a promising indication that, even with very short exposure to AI literacy activities, both educators and students in a wide range of contexts can gain knowledge about how AI works, key AI concepts, current uses of AI, and potential benefits and harms to society."
     },
     "tool": {
       "name": "Day of AI",
@@ -646,7 +646,7 @@
     },
     "tool": {
       "name": "Nemobot",
-      "beschreibung": "Nemobot ist eine Art Entwicklungsumgebung, in der Schüler eigene KIs für strategische Spiele trainieren können und dabei Dinge über interne Prozesse von Kis erlernen.",
+      "beschreibung": "Nemobot ist eine Art Entwicklungsumgebung, in der Schüler eigene KIs für strategische Spiele trainieren können und dabei Dinge über interne Prozesse von KIs erlernen.",
       "link": "https://nemobot-neue-experiment.vercel.app/functions"
     },
     "kategorie": ["Webanwendung"],
@@ -681,7 +681,7 @@
     },
     "tool": {
       "name": "Beyond AI Hype",
-      "beschreibung": "Beyond AI Hype ist ein englischsprachiges Curriculum, das Übungen und Folien bereitstellt. Die Lernziele sind, dass Schüler über verschiedene Aspekte von KI Bescheid wissen, inklusive soziale und ethische Auswirkungen von aufstrebenden KI Methoden, wie z. B. GenAI. Sie sollen kritisch mit diesen methoden interagieren und besser verstehen, wie sie KI verantwortungsvoll nutzen. Sie sollen besser KI generierten Inhalt erkennen können Mängel von KI verstehen.",
+      "beschreibung": "Beyond AI Hype ist ein englischsprachiges Curriculum, das Übungen und Folien bereitstellt. Die Lernziele sind, dass Schüler über verschiedene Aspekte von KI Bescheid wisssen, inklusive sozialer und ethischer Auswirkungen von aufstrebenden KI Methoden, wie z. B. GenAI. Sie sollen kritisch mit diesen Methoden interagieren und besser verstehen, wie sie KI verantwortungsvoll nutzen. Außerdem sollen sie KI generierten Inhalt besser erkennen können und Mängel von KI verstehen.",
       "link": "https://github.com/chinasatokolo/BeyondAIHype"
     },
     "kategorie": ["Curriculum", "Lehrmaterialien"],
@@ -1184,7 +1184,7 @@
       "max": 15
     },
     "anwendungsfelder": [
-      "Roboter", "ML"
+      "Roboter", "ML", "Grundlagen"
     ],
     "aiLiteracyAspekt": [1, 2, 3]
   },
@@ -1422,7 +1422,7 @@
   },
   {
     "id": 46,
-    "zielgruppe": "K-12 Schüler",
+    "zielgruppe": "Schüler der Mittel- und Oberstufe",
     "laenge": {
       "anzahlSessions": 1,
       "zeitInMinutes": 20
@@ -1438,7 +1438,7 @@
       "methode": "Beobachtungen, Post-Interview",
       "sample": "5 Erwachsene (21-30)",
       "forschungsfrage": [],
-      "ergebnisse": "We designed a card game for middle and high school students to reflect on the ethical implications of everyday AI systems. The competitive game facilitates children’s learning about how AI-powered businesses can have negative impacts and how these businesses can mitigate those impacts."
+      "ergebnisse": "We designed a card game for middle and high school students to reflect on the ethical implications of everyday AI systems. The competitive game facilitates children’s learning about how AI-powered businesses can have negative impacts and how these businesses can mitigate those impacts. In our initial playtesting with adults, we found that the game was engaging and fun, even for adults, but players also found some content challenging. We found that the accompanying education materials were helpful and that players gained new insights about societal implications that they were not aware of, or were reminded to think critically about the ones that\nthey were aware of."
     },
     "tool": {
       "name": "AI Audit",
@@ -1512,7 +1512,7 @@
     },
     "tool": {
       "name": "/",
-      "beschreibung": "Co-design a teachable machine: Im Mittelpunkt steht die Arbeit mit sogenannten \"teachable machines\" – also KI-Systemen, die von Nutzer:innen selbst trainiert werden können. Das Curriculum ist in mehrere Co-Design-Sitzungen gegliedert und nutzt eine strukturierte Storyboarding-methode (\"Big paper\"), um die Kinder bei der Entwicklung eigener KI-Ideen zu unterstützen.",
+      "beschreibung": "Co-design a teachable machine: Die Studie war die dritte Studie von einer Reihe, wodurch die teilnehmenden Kinder bereits Vorwissen im Bereich KI hatten. Für die Beantwortung der Forschungsfragen wurden auch hier Kurse mit Kindern anhand eines eigens-entwickelten Curriculums durchgeführt. Im Mittelpunkt steht die Arbeit mit sogenannten Teachable Machines, also KI-Systemen, die von Nutzenden selbst trainiert werden können. Das Curriculum ist in mehrere Co-Design-Sitzungen gegliedert und nutzt die strukturierte Storyboarding-Methode Big Paper, um die Kinder bei der Entwicklung eigener KI-Ideen zu unterstützen.",
       "link": null
     },
     "kategorie": ["Curriculum"],
@@ -1547,7 +1547,7 @@
     },
     "tool": {
       "name": "Contour to Classification",
-      "beschreibung": "Das Contour to Classification Spiel nutzt eine Simulation eines neuronalen Netzes, um die Schüler durch digitale Zeichen- und Auswahlinteraktionen in die Klassifizierung von Bildern einzubeziehen. Die Spieler fungieren als Knotenpunkte in einem mehrstufigen Prozess, bei dem markante kleinere Merkmale zu größeren Merkmalen und schließlich zu einer Teilkontur eines Objekts zusammengefügt werden, die zur Erstellung einer Vorhersage dient. Nach der Auswertung der Vorhersage werden Informationen in Prozessen, die die Rückpropagierung und den Gradientenabstieg nachahmen, durch das Netzwerk zurückgesendet. Es können weitere Spielrunden gespielt werden, um zu beobachten, wie sich das Netzwerk weiterentwickelt und bei der Klassifizierung von Bildern anhand von Konturen „besser“ wird. Mit diesem Spiel wollten wir erreichen, dass die Schüler die Struktur, die Komponenten und die Funktionsweise eines neuronalen Netzwerks sowie die Prozesse des überwachten Lernens kennenlernen.",
+      "beschreibung": "Das Contour to Classification Spiel nutzt eine Simulation eines neuronalen Netzes, um die Schüler durch digitale Zeichen- und Auswahlinteraktionen in die Klassifizierung von Bildern einzubeziehen. Die Spieler fungieren als Knotenpunkte in einem mehrstufigen Prozess, bei dem markante kleinere Merkmale zu größeren Merkmalen und schließlich zu einer Teilkontur eines Objekts zusammengefügt werden, die zur Erstellung einer Vorhersage dient. Nach der Auswertung der Vorhersage werden Informationen in Prozessen, welche die Backpropagation und den Gradientenabstieg nachahmen, durch das Netzwerk zurückgesendet. Es können weitere Spielrunden gespielt werden, um zu beobachten, wie sich das Netzwerk weiterentwickelt und bei der Klassifizierung von Bildern anhand von Konturen besser wird. Das Spiel setzt sich als Ziel, dass die Schülerinnen und Schüler die Struktur, die Komponenten und die Funktionsweise eines neuronalen Netzwerks sowie die Prozesse des überwachten Lernens kennenlernen.",
       "link": "https://contours2classification.herokuapp.com/"
     },
     "kategorie": ["Webanwendung"],
@@ -1578,7 +1578,7 @@
       "ergebnisse": "Our findings suggest directions for future research in understanding the effects of preconceptions on learning and interest development in AI, new topics for AI-related exhibits that may address participants’ interests, concerns, and spark enthusiasm, and design considerations for developing AI literacy exhibits in informal spaces. The five exhibit designs that we present in this paper can also serve as inspiration for other researchers looking to develop informal learning experiences surrounding AI for family groups or K-12 students."
     },
     "tool": {
-      "name": "/",
+      "name": "Magic Mirror, Sensor Wall, Neural Net, Semantic Network und LuminAI",
       "beschreibung": "Co-Designing AI Literacy Ausstellungen für informelle Lernorte.",
       "link": "https://web.archive.org/web/20250525214420/https://aiunplugged.lmc.gatech.edu/"
     },
