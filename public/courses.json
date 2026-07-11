@@ -16,9 +16,9 @@
       "veroeffentlichungsdatum": "21.04.2026",
       "land": ["USA", "China"],
       "methode": "Pre- und Post Umfragen, Interviews, Bildschirmaufnahmen, Videoaufnahmen der Sytsteminteraktionen der Teilnehmenden",
-      "sample": "14 Schüler der Mittelstufe (10-14) und 4 STEM Lehrer",
+      "sample": "14 Schüler der Mittelstufe (10-14) und 4 MINT Lehrer",
       "forschungsfrage": ["How can an iterative, multi‐phase design pipeline produce and refine embodied analogies for teaching AI literacy?", "RQ1. Ideation: What design concepts emerge from brainstorming with AI experts?", "RQ2. Formative evaluation: What learning challenges and affordances do middle‐school students reveal when using the AR prototype?", "RQ3. Refinement: How does teacher feedback from focus‐group interviews inform the next design iteration?"],
-      "ergebnisse": "Analogical Representations—Garden and Bee Analogies for the Mechanisms of Recommendation Systems. Flowers, visualized by multiple features (e.g., color, petal size, height), represent items in the recommendation system. Bees pollinating flowers in the garden is the analogy for consumers of the\nrecommendation system, and bee pollination represents user acceptance of a recommended item."
+      "ergebnisse": "Analogical Representations—Garden and Bee Analogies for the Mechanisms of Recommendation Systems. Flowers, visualized by multiple features (e.g., color, petal size, height), represent items in the recommendation system. Bees pollinating flowers in the garden is the analogy for consumers of the recommendation system, and bee pollination represents user acceptance of a recommended item. Our mixed-method evaluations indicate significant improvements in students’ understanding of these concepts, although they also reveal challenges such as cognitive overload, an overemphasis on visually dominant features, and difficulties in conveying nuanced algorithmic details."
     },
     "tool": {
       "name": "Bee Trap",
@@ -219,12 +219,12 @@
     "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
-      "titel": "Grillz on a hijabi\": Intersectional Identities in Fostering Critical AI Literacy",
+      "titel": "Grillz on a hijabi: Intersectional Identities in Fostering Critical AI Literacy",
       "bemerkung": "Schwarze muslimische teenager machen fashion und sehen, dass KI an seine Grenzen stößt",
       "link": "https://dl.acm.org/doi/10.1145/3769994.3770037",
       "veroeffentlichungsdatum": "10.11.2025",
       "land": ["USA"],
-      "methode": "IRB-akzeptierte Bildungs-Workshop Studie",
+      "methode": "IRB-akzeptierte Bildungs-Workshop Studie, Artefakt Analyse",
       "sample": "5 Schwarze Teenager Mädchen",
       "forschungsfrage": ["RQ: How are different facets of intersectional identities resources to foster critical AI literacy development through creative endeavors with AI?"],
       "ergebnisse": "Our findings show how teens used GenAI tools to express their intersectional identities, critique algorithmic limitations, and develop emerging forms of critical AI literacy through a culturally responsive, creative activity."
@@ -296,14 +296,14 @@
       "methode": "Pre- und Post Umfragen",
       "sample": "15 Studierende",
       "forschungsfrage": [],
-      "ergebnisse": "By offering 14 free and interactive workshops that require no specialized background or infrastructure, this Curriculum lowers traditional barriers and invites students and educators at all levels to engage with HPC and AI."
+      "ergebnisse": "By offering 14 free and interactive workshops that require no specialized background or infrastructure, this Curriculum lowers traditional barriers and invites students and educators at all levels to engage with HPC and AI. Initial trials at California State University, San Bernardino demonstrated that the approach is both effective in imparting knowledge and enthusiastically received by learners. Students not only improved their understanding of HPC and AI concepts, but also gained confidence in using advanced computational tools."
     },
     "tool": {
       "name": "/",
       "beschreibung": "14 verschiedene Curricula, HPC-AI-Resources for STEM and Non-STEM Researchers",
       "link": "https://github.com/DrAlzahrani/HPC-AI-Resources/wiki"
     },
-    "kategorie": ["Sammlung von KI Kursen"],
+    "kategorie": ["Sammlung von KI Kursen", "Lehrmaterialien"],
     "alter" : {
       "min": 11,
       "max": 30
@@ -329,7 +329,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3713043.3728856",
       "veroeffentlichungsdatum": "23.06.2025",
       "land": ["USA"],
-      "methode": "Co-Design & Feldstudie",
+      "methode": "Co-Design, Feldstudie, Pre- und Post Umfragen",
       "sample": "106 Kinder (Klassen 3-8)",
       "forschungsfrage": ["RQ1: What kinds of reasoning do children believe AI is capable of, and what do they perceive as the limitations of AI reasoning?", "RQ2: How can we characterize the mental models of AI reasoning held by children?", "RQ3: What effects do grade level and prior experience with AI have on children’s mental models of AI reasoning?", "RQ4: How can children’s mental models of AI reasoning inform our approaches to AI literacy about models with limited reasoning capabilities, like OpenAI o3 and DeepSeek R1?"],
       "ergebnisse": "Our work suggests the promise of using simple technological scaffolds like ARC puzzles to further literacy about AI reasoning."
@@ -365,7 +365,7 @@
       "link": "https://dl.acm.org/doi/10.1145/3713043.3727052",
       "veroeffentlichungsdatum": "23.06.2025",
       "land": ["Canada"],
-      "methode": "Explorative Fallstudie",
+      "methode": "Explorative Fallstudie, Audio- und Videoaufnahmen, geschriebene Artifakte, Fotos, Feldnotizen",
       "sample": "6 Jugendliche (14-16)",
       "forschungsfrage": ["RQ1: In what ways may youth cultivate critical AI literacies through a speculative design workshop?", "RQ2: What challenges do youth face in cultivating critical AI literacies through a speculative design workshop?"],
       "ergebnisse": "By integrating speculative techniques like alternative present narratives and worlbuilding with CAIL prompts and activities, participants scrutinized AI’s socio-technical dimensions, articulated diverse and competing perspectives and made steps towards envisioning more equitable AI futures. These findings reveal speculative design’s potential to help participants move beyond techno-centric views of AI and explore its relational, ethical, and political dimensions."
@@ -480,7 +480,7 @@
     },
     "tool": {
       "name": "Introducing AI, Datasets and Data Brokers, EthiQuest, Are You Smarter than AI?",
-      "beschreibung": "Fünf verschiedene Aktivitäten, die verschiedene KI Konzepte und Kenntnisse vermitteln.",
+      "beschreibung": "Vier verschiedene Aktivitäten, die verschiedene KI Konzepte und Kenntnisse vermitteln.",
       "link": "https://web.archive.org/web/20250513162540/https://aiunplugged.lmc.gatech.edu/unplugged-activities/what-is-ai/"
     },
     "kategorie": ["Greifbar"],
@@ -1140,14 +1140,14 @@
       "link": "https://link.springer.com/chapter/10.1007/978-3-031-93746-0_17",
       "veroeffentlichungsdatum": "25.05.2025",
       "land": ["Deutschland"],
-      "methode": "Pre- und Post Umfragen, beschreibungen der Teilnehmenden, Gemalted der Teilnehmenden, Arbeitsblätter, Notizen der Forscher, etc.",
+      "methode": "Pre- und Post Umfragen, beschreibungen der Teilnehmenden, Gemaltes der Teilnehmenden, Arbeitsblätter, Notizen der Forscher, etc.",
       "sample": "9 Schüler",
       "forschungsfrage": ["RQ1: What should people understand about AI as a basic form of AI literacy?", "RQ2: How can interactive learning experiences be designed to enable experiential learning for AI literacy?"],
       "ergebnisse": "The results from the performed exploratory evaluation support the effectiveness of the developed solution for facilitating the development of core AI competences. Partic-ipants demonstrated an improved conceptual understanding of AI systems, which also empowered them to assess potential risks"
     },
     "tool": {
       "name": "Competence Framework for AI Literacy",
-      "beschreibung": "Das Kompetenz Framework hat nicht das Ziel alle notwendigen Kompetenzem im Bereich KI zu vermitteln, sondern zielt hauptsächlich darauf ab, ein Kern-Set an Lernzielen zu definieren, die effektiv mit eingeschränkten Zeitressourcen und wenig Aufwand von verschiedenen Nutzern durchgeführt werden kann, unabhängig ihres Vorwissens.",
+      "beschreibung": "Das Kompetenz Framework hat nicht das Ziel alle möglichen Kompetenzen im Bereich KI zu vermitteln, sondern zielt hauptsächlich darauf ab, ein Kern-Set an Lernzielen zu definieren, die effektiv mit eingeschränkten Zeitressourcen und wenig Aufwand von verschiedenen Nutzern durchgeführt werden kann, unabhängig ihres Vorwissens.",
       "link": null
     },
     "kategorie": ["Curriculum"],
@@ -1700,7 +1700,7 @@
     "erwaehntIn": "https://dl.acm.org/doi/10.1145/3772318.3790471#core-fn1-1",
     "tool": {
       "name": "AI Quest (Google)",
-      "beschreibung": "AI Quests bringt Schülern im Alter von 11 bis 14 Jahren AI literacy durch immersive Abenteuer bei.",
+      "beschreibung": "AI Quest bringt Schülern im Alter von 11 bis 14 Jahren AI Literacy durch immersive Abenteuer in einem Spiel für den Browser bei. Durch eine Serie von Missionen lernen Schülerinnen und Schüler was es bedeutet verantwortungsvolle KI Applikationen zu erstellen, die Bezug auf KI Projekte aus der echten Welt von Google Research nehmen. AI Quest ermächtigt Schülerinnen und Schüler dazu selbständig zu erkunden, zu analysieren und zu reflektieren, während sie die Missionen abschließen.",
       "link": "https://research.google/ai-quests/intl/en_gb"
     },
     "kategorie": ["Webanwendung"],
@@ -1747,12 +1747,12 @@
   },
   {
     "id": 57,
-    "zielgruppe": "",
+    "zielgruppe": "Alle, technische Vorkenntnisse sind nicht notwendig",
     "laenge": null,
     "erwaehntIn": "PP5 [1], PP6 [4], PP13 [16], PP20 [17], PP28, PP31, PP32, PP38, PP43",
     "tool": {
       "name": "Teachable Machine",
-      "beschreibung": "Eine einfach zugängliche Webanwendung zum Erkunden von ML Klassifikation.",
+      "beschreibung": "Teachable Machine ist eine einfach zugängliche Webanwendung zum Erkunden von ML Klassifikation. Man kann ohne hohe Eintrittsbarrieren Modelle für maschinelles Lernen für die eigenen Websites und Apps erstellen, ohne Vorkenntnisse wie z. B.Fachwissen oder Programmierkenntnisse. Die Klassifikation kann in der Webanwendung auch live getestet werden, indem die Kamera oder das Mikrofon angesteuert wird.",
       "link": "https://teachablemachine.withgoogle.com/"
     },
     "kategorie": ["Webanwendung"],
@@ -1788,6 +1788,10 @@
       "link": "https://www.aiunplugged.org/"
     },
     "kategorie": ["Curriculum"],
+    "alter" : {
+      "min": 5,
+      "max": 18
+    },
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
@@ -1831,7 +1835,7 @@
   },
   {
     "id": 62,
-    "zielgruppe": "",
+    "zielgruppe": "Späte Grundschule bis Oberstufe",
     "laenge": null,
     "erwaehntIn": "PP20 [44]",
     "tool": {
@@ -1840,6 +1844,10 @@
       "link": "https://edu.exceedlms.com/student/path/1605996"
     },
     "kategorie": ["Sammlung von KI Kursen"],
+    "alter" : {
+      "min": 9,
+      "max": 18
+    },
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
@@ -1879,7 +1887,7 @@
   },
   {
     "id": 65,
-    "zielgruppe": "",
+    "zielgruppe": "Experten mit Vorkenntnissen",
     "laenge": null,
     "erwaehntIn": "PP31",
     "tool": {
