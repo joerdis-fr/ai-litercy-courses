@@ -1768,10 +1768,10 @@
     "erwaehntIn": "PP6 [23], PP12 (Fußnote 1), PP18 [18, 25], PP31, PP37, PP38",
     "tool": {
       "name": "Machine Learning for Kids",
-      "beschreibung": "Dieses tool führt über praktische Übungen an das thema Künstliche Intelligenz, insbesondere das Maschinelle Lernen (Machine Learning) heran.",
+      "beschreibung": "Dieses Tool führt über praktische Übungen an das Thema KI und insbesondere das ML heran. Das Tool wird doch Tutorials im Videoformat und Arbeitsblätter unterstützt. Es gibt auch bereits vortrainierte Modelle und Beispiele, wie Schülerinnen und Schüler mit der Webseite bereits gearbeitet haben.",
       "link": "https://machinelearningforkids.co.uk/#!/login"
     },
-    "kategorie": ["Webanwendung"],
+    "kategorie": ["Webanwendung", "Lehrmaterialien"],
     "anwendungsfelder": [
       "ML"
     ],
@@ -1784,10 +1784,10 @@
     "erwaehntIn": "PP13 [72], PP22 [27], PP42",
     "tool": {
       "name": "AI Unplugged",
-      "beschreibung": "AI Unplugged stellt unplugged Aktivitäten bereit, die Ideen und Konzepte aus dem Bereich Informatik näherbringen, ohne dabei Computer zu verwenden.",
+      "beschreibung": "AI Unplugged stellt analoge Aktivitäten bereit, die Ideen und Konzepte aus dem Bereich Informatik näherbringen, ohne dabei Computer zu verwenden.",
       "link": "https://www.aiunplugged.org/"
     },
-    "kategorie": ["Curriculum"],
+    "kategorie": ["Curriculum", "Lehrmaterialien"],
     "alter" : {
       "min": 5,
       "max": 18
@@ -1836,11 +1836,14 @@
   {
     "id": 62,
     "zielgruppe": "Späte Grundschule bis Oberstufe",
-    "laenge": null,
+    "laenge": {
+      "anzahlSessions": 1,
+      "zeitInMinutes": 90
+    },
     "erwaehntIn": "PP20 [44]",
     "tool": {
       "name": "Discover AI in Daily Life",
-      "beschreibung": "Lerne die Vorteile und Challenges von KI kennen, während du Quick, Draw!, AutoDraw, Google Translate, und Google Slides erkundest.",
+      "beschreibung": "Lerne die Vorteile und Challenges von KI kennen, während du Quick, Draw!, AutoDraw, Google Translate, und Google Slides erkundest. Der Kurs dauert zwischen 45 und 90 Minuten. In diesem Kurs werden Kenntnisse vermittelt, die wichtig für AI Literacy sind, wie z. B. kritisches Denken, eine grundlegendes Bild davon bekommen, wie KI funktioniert, bekannte Tools kennenlernen, die KI verwenden und Beispiele für verschiedene Nutzungen von KI kennenlernen. Jedoch werden auch Kenntnisse vermittelt, die mit AI Literacy nichts zu tun haben, wie z. B. das Entwerfen von Folien oder das Formatieren von Präsentationen.",
       "link": "https://edu.exceedlms.com/student/path/1605996"
     },
     "kategorie": ["Sammlung von KI Kursen"],
@@ -1849,7 +1852,7 @@
       "max": 18
     },
     "anwendungsfelder": [
-      "Verschiedene KI und Informatik Themen"
+      "Verschiedene KI und Informatik Themen", "Lehrmaterialien"
     ],
     "aiLiteracyAspekt": [5]
   },
@@ -1892,7 +1895,7 @@
     "erwaehntIn": "PP31",
     "tool": {
       "name": "AI experiments (Google)",
-      "beschreibung": "Google hat eine Reihe kostenloser „KI-Experimente“ gestartet, darunter „Teachable Machine“ und „QuickDraw“, das mithilfe eines neuronalen Netzes erkennt, was man gerade skizziert.",
+      "beschreibung": "Google hat eine Reihe kostenloser „KI-Experimente“ gestartet, darunter „Teachable Machine“ und „QuickDraw“, das mithilfe eines neuronalen Netzes erkennt, was man gerade skizziert. Dieses Tool ist nicht unbedingt für die Schülerinnen und Schüler selbst gedacht, sondern eher für technikbegeisterte Personen. Lehrkräfte, die sich grundsätzlich für neue Technologien interessieren können hier stöbern, um neue und interessante Dienste zu finden und sie ihren Schülerinnen und Schülern zu präsentieren, jedoch ist dieses Tool nicht unbedingt für Personen ohne technische Vorkenntnisse geeignet.",
       "link": "https://experiments.withgoogle.com/collection/ai"
     },
     "kategorie": ["Webanwendung", "Sammlung von KI Kursen"],
@@ -1911,9 +1914,9 @@
       "beschreibung": "„The Elements of AI“ ist eine Reihe kostenloser Online-Kurse, die von MinnaLearn und der Universität Helsinki entwickelt wurde. Wir möchten möglichst viele Menschen dazu anregen, zu erfahren, was KI ist, was man mit KI alles machen kann (und was nicht) und wie man damit beginnt, KI-methoden zu entwickeln. Die Kurse verbinden Theorie mit praktischen Übungen und können im eigenen Tempo absolviert werden.",
       "link": "https://www.elementsofai.com/"
     },
-    "kategorie": ["Sammlung von KI Kursen", "Curriculum"],
+    "kategorie": ["Curriculum", "Webanwendug"],
     "anwendungsfelder": [
-      "Verschiedene KI und Informatik Themen"
+      "Grundlagen", "ML", "NNs", "Sozialer Einfluss"
     ],
     "aiLiteracyAspekt": [1]
   },
@@ -1923,7 +1926,7 @@
     "laenge": null,
     "erwaehntIn": "PP37",
     "tool": {
-      "name": "ISTE",
+      "name": "ISTE+ASCD",
       "beschreibung": "ISTE+ASCD befähigt Pädagogen weltweit dazu, KI sicher und verantwortungsbewusst im Unterricht einzusetzen. Als größter Anbieter von Fortbildungen im Bereich KI bringt ISTE+ASCD Pädagogen zusammen, um den Lernprozess zu verbessern und Schüler darauf vorzubereiten, die nächste Generation von KI-Entwicklern und Problemlösern zu werden.",
       "link": "https://iste-ascd.org/ai"
     },
