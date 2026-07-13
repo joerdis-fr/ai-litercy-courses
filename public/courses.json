@@ -784,7 +784,7 @@
     "beschreibung": "„Knowledge Net“ ist eine Aktivität, bei der die Lernenden mithilfe einer greifbaren Oberfläche aus Kacheln und Pfeilen gemeinsam semantische Netzwerke (eine Form der Wissensdarstellung in der KI) aufbauen können.",
     "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
-    "kategorie": ["Greifbar", "Museums Ausstellung"],
+    "kategorie": ["Greifbar", "Ausstellung"],
     "anwendungsfelder": [
       "NNs", "ML"
     ],
@@ -813,7 +813,7 @@
       "beschreibung": "„Creature Features“ ist ein Prototyp, bei dem die Lernenden mithilfe eines Kartenspiels und Gewichtsmarkern einen Trainingsdatensatz für einen merkmalsbasierten Algorithmus zur Vogelklassifizierung im maschinellen Lernen erstellen können.",
       "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
-    "kategorie": ["Greifbar", "Museums Ausstellung"],
+    "kategorie": ["Greifbar", "Ausstellung"],
     "anwendungsfelder": [
       "Daten", "ML", "Klassifizierung"
     ],
@@ -842,7 +842,7 @@
       "beschreibung": "LuminAI ist eine interaktive Kunstinstallation, bei der die Teilnehmer durch improvisierte Bewegungen mit einem KI-Tanzpartner zusammenarbeiten können. Weiteres Paper zu LuminAI: https://dl.acm.org/doi/10.1145/3635636.3664255 ",
       "link": "https://dl.acm.org/doi/suppl/10.1145/3491102.3502091/suppl_file/3491102.3502091-supplemental-materials.zip"
     },
-    "kategorie": ["Greifbar", "Museums Ausstellung"],
+    "kategorie": ["Greifbar", "Ausstellung"],
     "anwendungsfelder": [
       "Computer Vision", "ML", "NNs"
     ],
@@ -1375,7 +1375,7 @@
       "beschreibung": "Wir haben die Ausstellung „AI with Weird Wonderland“ konzipiert, um Jugendlichen die Möglichkeit zu geben, kritisches Denken zu entwickeln und diese Kompetenz in ihrem Alltag anzuwenden.",
       "link": null
     },
-    "kategorie": ["Museums Ausstellung"],
+    "kategorie": ["Ausstellung"],
     "alter" : {
       "min": 13,
       "max": 19
@@ -1582,7 +1582,7 @@
       "beschreibung": "Co-Designing AI Literacy Ausstellungen für informelle Lernorte.",
       "link": "https://web.archive.org/web/20250525214420/https://aiunplugged.lmc.gatech.edu/"
     },
-    "kategorie": ["Museums Ausstellung"],
+    "kategorie": ["Ausstellung"],
     "anwendungsfelder": [
       "Grundlagen"
     ],

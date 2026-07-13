@@ -101,7 +101,7 @@ const kategorien = [
   {title: "Greifbar", icon:"mdi-hand-coin"},
   {title: "Kognitives Werkzeug", icon:"mdi-head-snowflake"},
   {title: "Lehrmaterialien", icon:"mdi-folder-information"},
-  {title: "Museums Ausstellung", icon:"mdi-bank"},
+  {title: "Ausstellung", icon:"mdi-bank"},
   {title: "Webanwendung", icon:"mdi-laptop"},
   {title: "Sammlung von KI Kursen", icon:"mdi-book-multiple"},
   {title: "Sonstige", icon:"mdi-page-next"},

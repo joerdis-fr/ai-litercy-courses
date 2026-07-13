@@ -20,7 +20,7 @@ const kategorien = [
     'Greifbar',
     'Kognitives Werkzeug',
     'Lehrmaterialien',
-    'Museums Ausstellung',
+    'Ausstellung',
     'Webanwendung',
     'Sammlung von KI Kursen',
     'Sonstige'
