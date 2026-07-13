@@ -112,6 +112,9 @@ const gefilterteKurse = computed(() => {
             }
             if (kurs.laenge && kurs.laenge.anzahlSessions !== undefined && kurs.laenge.zeitInMinutes !== undefined) {
               const zeitInsgesamt = kurs.laenge.anzahlSessions * kurs.laenge.zeitInMinutes
+              if (spanne.max == null) {
+                return zeitInsgesamt >= spanne.min
+              }
               return zeitInsgesamt <= spanne.max && zeitInsgesamt >= spanne.min;
             }
             return false;
