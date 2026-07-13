@@ -1947,7 +1947,7 @@
       "link": "https://iste-ascd.org/ai"
     },
     "alter": {
-      "min": 5,
+      "min": 4,
       "max": 18
     },
     "kategorie": ["Webanwendung", "Sammlung von KI Kursen"],
