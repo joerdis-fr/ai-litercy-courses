@@ -1950,11 +1950,11 @@
       "min": 5,
       "max": 18
     },
-    "kategorie": ["Webanwendung"],
+    "kategorie": ["Webanwendung", "Sammlung von KI Kursen"],
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1, 5]
   },
   {
     "id": 68,
@@ -1996,7 +1996,6 @@
     ],
     "aiLiteracyAspekt": [5]
   },
-
   {
     "id": 40,
     "zielgruppe": "",
