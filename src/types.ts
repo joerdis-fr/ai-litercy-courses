@@ -1,9 +1,9 @@
 export interface Course {
     id: number;
     zielgruppe: string;
-    laenge: Lenght | null;
+    laenge?: Lenght | null;
     erwaehntIn: Array<string>;
-    paper: Paper | null;
+    paper?: Paper | null;
     tool: Tool | Array<Tool>,
     kategorie: Array<string>;
     alter?: Altersspanne | null;
@@ -14,9 +14,9 @@ export interface Course {
 export interface CourseOptimiert {
     id: number;
     zielgruppe: string;
-    laenge: Lenght | null;
+    laenge?: Lenght | null;
     erwaehntIn: Array<string>;
-    paper: Paper | null;
+    paper?: Paper | null;
     tool: Tool,
     kategorie: Array<string>;
     alter?: Altersspanne | null;

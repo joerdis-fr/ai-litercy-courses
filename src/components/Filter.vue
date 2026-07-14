@@ -60,8 +60,7 @@ const anwendungsfelder = [
   'NNs',
   'Roboter',
   'Sozialer Einfluss',
-  'Verschiedene AI und CS Themen',
-  'Sonstiges',
+  'Verschiedene KI und Informatik Themen'
 ]
 
 const aiLiteracyAspekte = [

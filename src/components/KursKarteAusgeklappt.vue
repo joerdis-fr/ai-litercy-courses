@@ -133,14 +133,26 @@ const getKategorieIcon = (kategorieTitle: string): string => {
       {{tool.beschreibung}}
       <ul>
         <li>Zielgruppe: {{kurs.zielgruppe}}</li>
-        <li>Kategorie: {{kurs.kategorie[0]}}</li>
         <li>Dauer: {{kursLaenge()}}</li>
+        <li
+            v-if="kurs.kategorie.length == 1"
+        >
+          Kategorie: {{kurs.kategorie[0]}}
+        </li>
         <li
             v-if="kurs.anwendungsfelder.length == 1"
         >
           Anwendungsfeld: {{kurs.anwendungsfelder[0]}}
         </li>
       </ul>
+      <div v-if="kurs.kategorie.length > 1">
+        Kategorien:
+        <ul>
+          <li v-for="(kategorie, index) in kurs.kategorie" :key="index">
+            {{ kategorie }}
+          </li>
+        </ul>
+      </div>
       <div v-if="kurs.anwendungsfelder.length > 1">
         Anwendungsfelder:
         <ul>

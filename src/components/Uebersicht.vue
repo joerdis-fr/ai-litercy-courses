@@ -197,7 +197,6 @@ const gefilterteKurse = computed(() => {
             :kategorie="course.kategorie"
             @toggle-karte="karteAusklappen(course.id)"
         />
-
       </template>
     </div>
   </v-container>

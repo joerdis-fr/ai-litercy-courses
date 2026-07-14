@@ -879,7 +879,7 @@
       "max": 15
     },
     "anwendungsfelder": [
-      "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssystem", "Klassifizierung", "LLMs"
+      "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssysteme", "Klassifizierung", "LLMs"
     ],
     "aiLiteracyAspekt": [1, 2, 4]
   },
@@ -1279,7 +1279,7 @@
     },
     "kategorie": ["Curriculum", "Lehrmaterialien"],
     "anwendungsfelder": [
-      "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssystem", "Klassifizierung", "LLMs"
+      "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssysteme", "Klassifizierung", "LLMs"
     ],
     "aiLiteracyAspekt": [1, 2, 4]
   },
@@ -1314,7 +1314,7 @@
       "max": 14
     },
     "anwendungsfelder": [
-      "Grundlagen", "Daten", "Empfehlungssystem", "Sozialer Einfluss", "ML", "Klassifizierung"
+      "Grundlagen", "Daten", "Empfehlungssysteme", "Sozialer Einfluss", "ML", "Klassifizierung"
     ],
     "aiLiteracyAspekt": [1, 4]
   },
