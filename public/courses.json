@@ -33,7 +33,8 @@
       "Empfehlungssysteme"
     ],
     "aiLiteracyAspekt": [1],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 3,
@@ -69,7 +70,8 @@
       "Sozialer Einfluss"
     ],
     "aiLiteracyAspekt": [1, 4],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 4,
@@ -103,7 +105,8 @@
       "Empfehlunssysteme", "ML"
     ],
     "aiLiteracyAspekt": [1],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 23,
@@ -137,7 +140,8 @@
       "Sozialer Einfluss", "GenAI"
     ],
     "aiLiteracyAspekt": [1, 4],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 24,
@@ -171,7 +175,8 @@
       "Sozialer Einfluss", "GenAI", "NLP"
     ],
     "aiLiteracyAspekt": [1, 2, 4],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 5,
@@ -207,7 +212,8 @@
       "NLP", "LLMs", "NNs", "ML"
     ],
     "aiLiteracyAspekt": [1, 2],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 6,
@@ -243,7 +249,8 @@
       "GenAI", "Sozialer Einfluss"
     ],
     "aiLiteracyAspekt": [2, 4],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 7,
@@ -279,7 +286,8 @@
       "ChatGPT", "ML", "NNs", "NLP", "GenAI"
     ],
     "aiLiteracyAspekt": [1, 2],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 8,
@@ -312,7 +320,8 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [2, 4, 5],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 9,
@@ -348,7 +357,8 @@
       "NLP", "LLMs", "NNs", "ML", "Kritik"
     ],
     "aiLiteracyAspekt": [1, 2, 3],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 10,
@@ -384,7 +394,8 @@
       "Kritik"
     ],
     "aiLiteracyAspekt": [1, 4],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 11,
@@ -420,7 +431,8 @@
       "NLP", "LLMs", "NNs", "ML"
     ],
     "aiLiteracyAspekt": [2],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 13,
@@ -456,7 +468,8 @@
       "Sozialer Einfluss", "Klassifizierung", "ChatGPT", "ML", "NNs", "NLP", "GenAI", "Computer Vision", "Kritik"
     ],
     "aiLiteracyAspekt": [2, 4],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 14,
@@ -492,7 +505,8 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [5],
-    "sprachen": ["en"]
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 15,
@@ -527,7 +541,9 @@
     "anwendungsfelder": [
       "Sozialer Einfluss", "Kritik"
     ],
-    "aiLiteracyAspekt": [4]
+    "aiLiteracyAspekt": [4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 16,
@@ -555,7 +571,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 17,
@@ -590,7 +608,9 @@
     "anwendungsfelder": [
       "ChatGPT", "ML", "NNs", "NLP", "GenAI"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 18,
@@ -622,7 +642,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 19,
@@ -657,7 +679,9 @@
     "anwendungsfelder": [
       "ML"
     ],
-    "aiLiteracyAspekt": [1, 2, 3]
+    "aiLiteracyAspekt": [1, 2, 3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 20,
@@ -692,7 +716,9 @@
     "anwendungsfelder": [
       "Kritik", "GenAI", "Sozialer Einfluss"
     ],
-    "aiLiteracyAspekt": [1, 2, 4]
+    "aiLiteracyAspekt": [1, 2, 4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 21,
@@ -724,7 +750,9 @@
     "anwendungsfelder": [
       "ML", "Roboter"
     ],
-    "aiLiteracyAspekt": [1, 2, 3]
+    "aiLiteracyAspekt": [1, 2, 3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 22,
@@ -759,7 +787,9 @@
     "anwendungsfelder": [
       "ML", "Roboter"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 25,
@@ -788,7 +818,9 @@
     "anwendungsfelder": [
       "NNs", "ML"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 31,
@@ -817,7 +849,9 @@
     "anwendungsfelder": [
       "Daten", "ML", "Klassifizierung"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 32,
@@ -846,7 +880,9 @@
     "anwendungsfelder": [
       "Computer Vision", "ML", "NNs"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 26,
@@ -881,7 +917,9 @@
     "anwendungsfelder": [
       "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssysteme", "Klassifizierung", "LLMs"
     ],
-    "aiLiteracyAspekt": [1, 2, 4]
+    "aiLiteracyAspekt": [1, 2, 4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 27,
@@ -916,7 +954,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 28,
@@ -951,7 +991,9 @@
     "anwendungsfelder": [
       "ML", "Empfehlunssysteme"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 29,
@@ -986,7 +1028,9 @@
     "anwendungsfelder": [
       "Daten", "Sozialer Einfluss", "Grundlagen"
     ],
-    "aiLiteracyAspekt": [1, 4]
+    "aiLiteracyAspekt": [1, 4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 30,
@@ -1021,7 +1065,9 @@
     "anwendungsfelder": [
       "LLMs", "NLP", "NNs", "ML"
     ],
-    "aiLiteracyAspekt": [2]
+    "aiLiteracyAspekt": [2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 33,
@@ -1056,7 +1102,9 @@
     "anwendungsfelder": [
       "ML", "Sontiges"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 34,
@@ -1091,7 +1139,9 @@
     "anwendungsfelder": [
       "Klassifizierung", "Daten"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 35,
@@ -1123,7 +1173,9 @@
     "anwendungsfelder": [
       "Kritik", "Klassifizierung", "GenAI", "Sozialer Einfluss"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 36,
@@ -1154,7 +1206,9 @@
     "anwendungsfelder": [
       "Grundlagen"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 37,
@@ -1186,7 +1240,9 @@
     "anwendungsfelder": [
       "Roboter", "ML", "Grundlagen"
     ],
-    "aiLiteracyAspekt": [1, 2, 3]
+    "aiLiteracyAspekt": [1, 2, 3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 38,
@@ -1221,7 +1277,9 @@
     "anwendungsfelder": [
       "Grundlagen", "Sozialer Einfluss"
     ],
-    "aiLiteracyAspekt": [1, 2, 4]
+    "aiLiteracyAspekt": [1, 2, 4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 41,
@@ -1253,7 +1311,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 42,
@@ -1281,7 +1341,9 @@
     "anwendungsfelder": [
       "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssysteme", "Klassifizierung", "LLMs"
     ],
-    "aiLiteracyAspekt": [1, 2, 4]
+    "aiLiteracyAspekt": [1, 2, 4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 43,
@@ -1316,7 +1378,9 @@
     "anwendungsfelder": [
       "Grundlagen", "Daten", "Empfehlungssysteme", "Sozialer Einfluss", "ML", "Klassifizierung"
     ],
-    "aiLiteracyAspekt": [1, 4]
+    "aiLiteracyAspekt": [1, 4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 12,
@@ -1348,7 +1412,9 @@
     "anwendungsfelder": [
       "Roboter"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 44,
@@ -1383,7 +1449,9 @@
     "anwendungsfelder": [
       "Kritik"
     ],
-    "aiLiteracyAspekt": [1, 4]
+    "aiLiteracyAspekt": [1, 4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 45,
@@ -1418,7 +1486,9 @@
     "anwendungsfelder": [
       "Computer Vision", "ML", "NNs"
     ],
-    "aiLiteracyAspekt": [1, 4]
+    "aiLiteracyAspekt": [1, 4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 46,
@@ -1453,7 +1523,9 @@
     "anwendungsfelder": [
       "Sozialer Einfluss"
     ],
-    "aiLiteracyAspekt": [4]
+    "aiLiteracyAspekt": [4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 47,
@@ -1488,7 +1560,9 @@
     "anwendungsfelder": [
       "Computer Vision", "ML", "NNs", "Klassifizierung"
     ],
-    "aiLiteracyAspekt": [1, 3]
+    "aiLiteracyAspekt": [1, 3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 48,
@@ -1523,7 +1597,9 @@
     "anwendungsfelder": [
       "Daten", "Klassifizierung"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 49,
@@ -1558,7 +1634,9 @@
     "anwendungsfelder": [
       "NNs", "Klassifizierung", "ML"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 50,
@@ -1586,7 +1664,9 @@
     "anwendungsfelder": [
       "Grundlagen"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 51,
@@ -1621,7 +1701,9 @@
     "anwendungsfelder": [
       "ML", "Grundlagen"
     ],
-    "aiLiteracyAspekt": [1, 2, 3]
+    "aiLiteracyAspekt": [1, 2, 3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 52,
@@ -1656,7 +1738,9 @@
     "anwendungsfelder": [
       "Grundlagen", "GenAI", "ML", "Roboter"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 53,
@@ -1691,7 +1775,9 @@
     "anwendungsfelder": [
       "Roboter", "ML"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 54,
@@ -1711,7 +1797,9 @@
     "anwendungsfelder": [
       "Grundlagen"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 55,
@@ -1731,7 +1819,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 56,
@@ -1747,7 +1837,9 @@
     "anwendungsfelder": [
       "Sozialer Einfluss"
     ],
-    "aiLiteracyAspekt": [4]
+    "aiLiteracyAspekt": [4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 57,
@@ -1763,7 +1855,9 @@
     "anwendungsfelder": [
       "Klassifizierung", "Computer Vision", "ML", "NNs"
     ],
-    "aiLiteracyAspekt": [1, 2]
+    "aiLiteracyAspekt": [1, 2],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 58,
@@ -1783,7 +1877,9 @@
     "anwendungsfelder": [
       "ML"
     ],
-    "aiLiteracyAspekt": [1, 2, 3]
+    "aiLiteracyAspekt": [1, 2, 3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 59,
@@ -1803,7 +1899,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [1,4]
+    "aiLiteracyAspekt": [1,4],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 60,
@@ -1819,7 +1917,9 @@
     "anwendungsfelder": [
       "Kritik", "ML", "NNs"
     ],
-    "aiLiteracyAspekt": [3]
+    "aiLiteracyAspekt": [3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 61,
@@ -1839,7 +1939,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [2,3]
+    "aiLiteracyAspekt": [2,3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 62,
@@ -1862,7 +1964,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen", "Lehrmaterialien"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 63,
@@ -1882,7 +1986,9 @@
       "min": 5,
       "max": 19
     },
-    "aiLiteracyAspekt": [2,3]
+    "aiLiteracyAspekt": [2,3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 64,
@@ -1902,7 +2008,9 @@
     "anwendungsfelder": [
       "NLP", "ML", "NNs", "Klassifizierung", "Roboter"
     ],
-    "aiLiteracyAspekt": [2, 3]
+    "aiLiteracyAspekt": [2, 3],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 65,
@@ -1918,7 +2026,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 66,
@@ -1934,7 +2044,9 @@
     "anwendungsfelder": [
       "Grundlagen", "ML", "NNs", "Sozialer Einfluss"
     ],
-    "aiLiteracyAspekt": [1]
+    "aiLiteracyAspekt": [1],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 67,
@@ -1954,7 +2066,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [1, 5]
+    "aiLiteracyAspekt": [1, 5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 68,
@@ -1974,7 +2088,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 39,
@@ -1994,7 +2110,9 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   },
   {
     "id": 40,
@@ -2014,6 +2132,8 @@
     "anwendungsfelder": [
       "Verschiedene KI und Informatik Themen"
     ],
-    "aiLiteracyAspekt": [5]
+    "aiLiteracyAspekt": [5],
+    "sprachen": ["en"],
+    "registration": false
   }
 ]
