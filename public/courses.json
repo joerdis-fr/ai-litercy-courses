@@ -1301,7 +1301,7 @@
     "tool": {
       "name": "Artificial intelligence resource directory",
       "beschreibung": "Ein Katalog mit Bildungsressourcen zum thema KI, weiterer Link: https://www.lascientotheque.be/pour-les-pros/nos-ressources-steam/intelligence-artificielle/",
-      "link": "https://lascientotheque.github.io/ressources-ia"
+      "link": "https://lascientotheque.shinyapps.io/ai-resources/"
     },
     "kategorie": ["Sammlung von KI Kursen"],
     "alter" : {
