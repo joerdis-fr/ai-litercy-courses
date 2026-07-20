@@ -102,7 +102,7 @@
       "max": 15
     },
     "anwendungsfelder": [
-      "Empfehlunssysteme", "ML"
+      "Empfehlungssysteme", "ML"
     ],
     "aiLiteracyAspekt": [1],
     "sprachen": ["en"],
@@ -549,7 +549,7 @@
     "id": 16,
     "zielgruppe": "Lehrer von Mittelschülern",
     "laenge": null,
-    "erwaehntIn": "",
+    "erwaehntIn": [],
     "paper": {
       "datenbank": "ACM",
       "titel": "AI Mastery May Not Be For Everyone, But AI Literacy Should Be",
@@ -724,7 +724,7 @@
     "id": 21,
     "zielgruppe": "K-12 Schüler",
     "laenge": null,
-    "erwaehntIn": "PP11 [4]",
+    "erwaehntIn": ["PP11 [4]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "ml-machine.org: Infrastructuring a Research Product to Disseminate AI Literacy in Education",
@@ -761,7 +761,7 @@
       "anzahlSessions": 1,
       "zeitInMinutes": 60
     },
-    "erwaehntIn": "PP28 [Williams et al., 2024]",
+    "erwaehntIn": ["PP28 [Williams et al., 2024]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Doodlebot: An Educational Robot for Creativity and AI Literacy",
@@ -795,7 +795,7 @@
     "id": 25,
     "zielgruppe": "Familien / Museums-Ausstellung",
     "laenge": null,
-    "erwaehntIn": "PP11 [44]",
+    "erwaehntIn": ["PP11 [44]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Family Learning Talk in AI Literacy Learning Activities",
@@ -826,7 +826,7 @@
     "id": 31,
     "zielgruppe": "Familien / Museums-Ausstellung",
     "laenge": null,
-    "erwaehntIn": "PP11 [44]",
+    "erwaehntIn": ["PP11 [44]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Family Learning Talk in AI Literacy Learning Activities",
@@ -857,7 +857,7 @@
     "id": 32,
     "zielgruppe": "Familien / Museums-Ausstellung",
     "laenge": null,
-    "erwaehntIn": "PP11 [44]",
+    "erwaehntIn": ["PP11 [44]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Family Learning Talk in AI Literacy Learning Activities",
@@ -891,7 +891,7 @@
       "anzahlSessions": 10,
       "zeitInMinutes": 180
     },
-    "erwaehntIn": "PP35, PP37",
+    "erwaehntIn": ["PP35", "PP37"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Developing Middle School Students' AI Literacy",
@@ -989,7 +989,7 @@
       "max": 18
     },
     "anwendungsfelder": [
-      "ML", "Empfehlunssysteme"
+      "ML", "Empfehlungssysteme"
     ],
     "aiLiteracyAspekt": [1],
     "sprachen": ["en"],
@@ -1039,13 +1039,13 @@
       "anzahlSessions": 7,
       "zeitInMinutes": null
     },
-    "erwaehntIn": "PP11 [32]",
+    "erwaehntIn": ["PP11 [32]"],
     "paper": {
       "datenbank": "Science Direct",
       "titel": "Using digital story writing as a pedagogy to develop AI literacy among primary students",
       "bemerkung": "",
       "link": "https://doi.org/10.1016/j.caeai.2022.100054",
-      "veroeffentlichungsdatum": 2022,
+      "veroeffentlichungsdatum": "2022",
       "land": ["Hong Kong"],
       "methode": "Interviews, Analyse der ergebnisse der Schüler",
       "sample": "82 Grundschüler",
@@ -1100,7 +1100,7 @@
       "max": 12
     },
     "anwendungsfelder": [
-      "ML", "Sontiges"
+      "ML"
     ],
     "aiLiteracyAspekt": [1],
     "sprachen": ["en"],
@@ -1352,13 +1352,13 @@
       "anzahlSessions": 3,
       "zeitInMinutes": 45
     },
-    "erwaehntIn": "PP2 [2, 43]",
+    "erwaehntIn": ["PP2 [2, 43]"],
     "paper": {
       "datenbank": "MIT Media Lab",
       "titel": "Constructionism, Ethics, and Creativity: Developing Primary and Middle School Artificial Intelligence Education",
       "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
       "link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
-      "veroeffentlichungsdatum": 2019,
+      "veroeffentlichungsdatum": "2019",
       "land": ["USA"],
       "methode": "Pre- und Post Umfragen, Beobachtungen",
       "sample": "225 Mittelschüler (Klasse 5-8)",
@@ -1386,13 +1386,13 @@
     "id": 12,
     "zielgruppe": "6-10 Jahre",
     "laenge": null,
-    "erwaehntIn": "PP2 [2, 43]",
+    "erwaehntIn": ["PP2 [2, 43]"],
     "paper": {
       "datenbank": "MIT Media Lab",
       "titel": "Constructionism, Ethics, and Creativity: Developing Primary and Middle School Artificial Intelligence Education",
       "bemerkung": "Aus 2019, aber aufgenommen, weil es viel von anderen papern zitiert wird",
       "link": "https://www.media.mit.edu/publications/constructionism-ethics-and-creativity/",
-      "veroeffentlichungsdatum": 2019,
+      "veroeffentlichungsdatum": "2019",
       "land": ["USA"],
       "methode": "Pre- und Post Umfragen, Beobachtungen",
       "sample": "51 Schüler (6-10)",
@@ -1423,7 +1423,7 @@
       "anzahlSessions": 1,
       "zeitInMinutes": 240
     },
-    "erwaehntIn": "PP2 [44], PP11 [19]",
+    "erwaehntIn": ["PP2 [44]", "PP11 [19]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Fostering Youth’s Critical Thinking Competency About AI through Exhibition",
@@ -1460,7 +1460,7 @@
       "anzahlSessions": 3,
       "zeitInMinutes": null
     },
-    "erwaehntIn": "PP3 [1]",
+    "erwaehntIn": ["PP3 [1]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Introducing Teenagers to Machine Learning through Design Fiction: An Exploratory Case Study",
@@ -1497,7 +1497,7 @@
       "anzahlSessions": 1,
       "zeitInMinutes": 20
     },
-    "erwaehntIn": "PP3 [2]",
+    "erwaehntIn": ["PP3 [2]"],
     "paper": {
       "datenbank": "AAAI",
       "titel": "AI Audit: A Card Game to Reflect on Everyday AI Systems",
@@ -1534,7 +1534,7 @@
       "anzahlSessions": 5,
       "zeitInMinutes": 150
     },
-    "erwaehntIn": "PP6 [20]",
+    "erwaehntIn": ["PP6 [20]"],
     "paper": {
       "datenbank": "AAAI",
       "titel": "PoseBlocks: A toolkit for Creating (and Dancing) with AI",
@@ -1571,7 +1571,7 @@
       "anzahlSessions": 3,
       "zeitInMinutes": null
     },
-    "erwaehntIn": "PP11 [10]",
+    "erwaehntIn": ["PP11 [10]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Exploring AI Problem Formulation with Children via Teachable Machines",
@@ -1642,7 +1642,7 @@
     "id": 50,
     "zielgruppe": "K-12 und Personen ohne technische Kenntnisse",
     "laenge": null,
-    "erwaehntIn": "PP11 [23]",
+    "erwaehntIn": ["PP11 [23]"],
     "paper": {
       "datenbank": "ACM",
       "titel": "Co-Designing AI Literacy Exhibits for Informal Learning Spaces",
@@ -1675,7 +1675,7 @@
       "anzahlSessions": 1,
       "zeitInMinutes": 80
     },
-    "erwaehntIn": "PP13 [71], PP19 [3], PP28",
+    "erwaehntIn": ["PP13 [71]", "PP19 [3]", "PP28"],
     "paper": {
       "datenbank": "AAAI",
       "titel": "Zhorai: Designing a Conversational Agent for Children to Explore Machine Learning Concepts",
@@ -1712,7 +1712,7 @@
       "anzahlSessions": 1,
       "zeitInMinutes": null
     },
-    "erwaehntIn": "PP13 [116], PP22 [47], PP31, PP43",
+    "erwaehntIn": ["PP13 [116]", "PP22 [47]", "PP31", "PP43"],
     "paper": {
       "datenbank": "ACM",
       "titel": "A is for Artificial Intelligence: The Impact of Artificial Intelligence Activities on Young Children's Perceptions of Robots",
@@ -1749,7 +1749,7 @@
       "anzahlSessions": 6,
       "zeitInMinutes": 45
     },
-    "erwaehntIn": "PP22 [33]",
+    "erwaehntIn": ["PP22 [33]"],
     "paper": {
       "datenbank": "AAAI",
       "titel": "Introduction to Machine Learning with Robots and Playful Learning",
@@ -1783,7 +1783,7 @@
     "id": 54,
     "zielgruppe": "11 bis 14",
     "laenge": null,
-    "erwaehntIn": "https://dl.acm.org/doi/10.1145/3772318.3790471#core-fn1-1",
+    "erwaehntIn": ["https://dl.acm.org/doi/10.1145/3772318.3790471#core-fn1-1"],
     "tool": {
       "name": "AI Quest (Google)",
       "beschreibung": "AI Quest bringt Schülern im Alter von 11 bis 14 Jahren AI Literacy durch immersive Abenteuer in einem Spiel für den Browser bei. Durch eine Serie von Missionen lernen Schülerinnen und Schüler was es bedeutet verantwortungsvolle KI Applikationen zu erstellen, die Bezug auf KI Projekte aus der echten Welt von Google Research nehmen. AI Quest ermächtigt Schülerinnen und Schüler dazu selbständig zu erkunden, zu analysieren und zu reflektieren, während sie die Missionen abschließen.",
@@ -1805,7 +1805,7 @@
     "id": 55,
     "zielgruppe": "5-18",
     "laenge": null,
-    "erwaehntIn": "PP4 [1], PP5[3], PP16, PP32, PP35, PP37",
+    "erwaehntIn": ["PP4 [1]", "PP5[3]", "PP16", "PP32", "PP35", "PP37"],
     "tool": {
       "name": "Code.org",
       "beschreibung": "Code.org® ist die führende globale gemeinnützige Organisation, die sicherstellt, dass jeder Schüler die Möglichkeit hat, zu verstehen, wie KI funktioniert, wie man damit argumentiert und wie man damit kreiert – nicht nur, wie man sie benutzt.",
@@ -1827,7 +1827,7 @@
     "id": 56,
     "zielgruppe": "Generell",
     "laenge": null,
-    "erwaehntIn": "PP3 [84]",
+    "erwaehntIn": ["PP3 [84]"],
     "tool": {
       "name": "AI-VIS EthiCards",
       "beschreibung": "",
@@ -1845,7 +1845,7 @@
     "id": 57,
     "zielgruppe": "Alle, technische Vorkenntnisse sind nicht notwendig",
     "laenge": null,
-    "erwaehntIn": "PP5 [1], PP6 [4], PP13 [16], PP20 [17], PP28, PP31, PP32, PP38, PP43",
+    "erwaehntIn": ["PP5 [1]", "PP6 [4]", "PP13 [16]", "PP20 [17]", "PP28", "PP31", "PP32", "PP38", "PP43"],
     "tool": {
       "name": "Teachable Machine",
       "beschreibung": "Teachable Machine ist eine einfach zugängliche Webanwendung zum Erkunden von ML Klassifikation. Man kann ohne hohe Eintrittsbarrieren Modelle für maschinelles Lernen für die eigenen Websites und Apps erstellen, ohne Vorkenntnisse wie z. B.Fachwissen oder Programmierkenntnisse. Die Klassifikation kann in der Webanwendung auch live getestet werden, indem die Kamera oder das Mikrofon angesteuert wird.",
@@ -1863,7 +1863,7 @@
     "id": 58,
     "zielgruppe": "Kinder und Jugendliche",
     "laenge": null,
-    "erwaehntIn": "PP6 [23], PP12 (Fußnote 1), PP18 [18, 25], PP31, PP37, PP38",
+    "erwaehntIn": ["PP6 [23]", "PP12 (Fußnote 1)", "PP18 [18, 25]", "PP31", "PP37", "PP38"],
     "tool": {
       "name": "Machine Learning for Kids",
       "beschreibung": "Dieses Tool führt über praktische Übungen an das Thema KI und insbesondere das ML heran. Das Tool wird doch Tutorials im Videoformat und Arbeitsblätter unterstützt. Es gibt auch bereits vortrainierte Modelle und Beispiele, wie Schülerinnen und Schüler mit der Webseite bereits gearbeitet haben.",
@@ -1885,7 +1885,7 @@
     "id": 59,
     "zielgruppe": "K-12",
     "laenge": null,
-    "erwaehntIn": "PP13 [72], PP22 [27], PP42",
+    "erwaehntIn": ["PP13 [72]", "PP22 [27]", "PP42"],
     "tool": {
       "name": "AI Unplugged",
       "beschreibung": "AI Unplugged stellt analoge Aktivitäten bereit, die Ideen und Konzepte aus dem Bereich Informatik näherbringen, ohne dabei Computer zu verwenden.",
@@ -1907,7 +1907,7 @@
     "id": 60,
     "zielgruppe": "Wenig technische Vorkenntnisse für Installation notwendig",
     "laenge": null,
-    "erwaehntIn": "PP13 [92]",
+    "erwaehntIn": ["PP13 [92]"],
     "tool": {
       "name": "RapidMiner",
       "beschreibung": "Altair RapidMiner (früher bekannt als YALE) ist eine führende, visuelle Datenanalyse- und KI-Plattform. Analysetool (Zu installierende Software)",
@@ -1925,7 +1925,7 @@
     "id": 61,
     "zielgruppe": "Kinder und Jugendliche",
     "laenge": null,
-    "erwaehntIn": "PP13 [92], PP18 [32, 39], PP23 [2], PP31, PP38",
+    "erwaehntIn": ["PP13 [92]", "PP18 [32, 39]", "PP23 [2]", "PP31", "PP38"],
     "tool": {
       "name": "Scratch",
       "beschreibung": "Scratch ist die weltgrößte kreative Community für Kinder, in der junge Menschen ihre Geschichten, Spiele und Animationen zum Leben erwecken und diese mit anderen Kindern auf der ganzen Welt in einer sicheren und moderierten online Community teilen.",
@@ -1950,19 +1950,19 @@
       "anzahlSessions": 1,
       "zeitInMinutes": 90
     },
-    "erwaehntIn": "PP20 [44]",
+    "erwaehntIn": ["PP20 [44]"],
     "tool": {
       "name": "Discover AI in Daily Life",
       "beschreibung": "Lerne die Vorteile und Challenges von KI kennen, während du Quick, Draw!, AutoDraw, Google Translate, und Google Slides erkundest. Der Kurs dauert zwischen 45 und 90 Minuten. In diesem Kurs werden Kenntnisse vermittelt, die wichtig für AI Literacy sind, wie z. B. kritisches Denken, eine grundlegendes Bild davon bekommen, wie KI funktioniert, bekannte Tools kennenlernen, die KI verwenden und Beispiele für verschiedene Nutzungen von KI kennenlernen. Jedoch werden auch Kenntnisse vermittelt, die mit AI Literacy nichts zu tun haben, wie z. B. das Entwerfen von Folien oder das Formatieren von Präsentationen.",
       "link": "https://edu.exceedlms.com/student/path/1605996"
     },
-    "kategorie": ["Sammlung von KI Kursen"],
+    "kategorie": ["Sammlung von KI Kursen", "Lehrmaterialien"],
     "alter" : {
       "min": 9,
       "max": 18
     },
     "anwendungsfelder": [
-      "Verschiedene KI und Informatik Themen", "Lehrmaterialien"
+      "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [5],
     "sprachen": ["en"],
@@ -1972,7 +1972,7 @@
     "id": 63,
     "zielgruppe": "Kinder und Jugendliche",
     "laenge": null,
-    "erwaehntIn": "PP13 [92]",
+    "erwaehntIn": ["PP13 [92]"],
     "tool": {
       "name": "Cognimates",
       "beschreibung": "Cognimates ist ein Scratch add-on, das dem Nutzer Zugang zu APIs für Sprachproduktion, Spracherkennung, Textklassifizierung, Objektklassifizierung und Roboter Kontrolle gibt.",
@@ -1994,7 +1994,7 @@
     "id": 64,
     "zielgruppe": "Kinder und Jugendliche",
     "laenge": null,
-    "erwaehntIn": "PP31 [Kahn & Winters, 2017]",
+    "erwaehntIn": ["PP31 [Kahn & Winters, 2017]"],
     "tool": {
       "name": "eCraft2Learn",
       "beschreibung": "eCraft2Learn bietet ähnliche Extentions wie Cognimates an, nur für die Snap! Sprache, eine Scratch Variante.",
@@ -2016,7 +2016,7 @@
     "id": 65,
     "zielgruppe": "Experten mit Vorkenntnissen",
     "laenge": null,
-    "erwaehntIn": "PP31",
+    "erwaehntIn": ["PP31"],
     "tool": {
       "name": "AI experiments (Google)",
       "beschreibung": "Google hat eine Reihe kostenloser „KI-Experimente“ gestartet, darunter „Teachable Machine“ und „QuickDraw“, das mithilfe eines neuronalen Netzes erkennt, was man gerade skizziert. Dieses Tool ist nicht unbedingt für die Schülerinnen und Schüler selbst gedacht, sondern eher für technikbegeisterte Personen. Lehrkräfte, die sich grundsätzlich für neue Technologien interessieren können hier stöbern, um neue und interessante Dienste zu finden und sie ihren Schülerinnen und Schülern zu präsentieren, jedoch ist dieses Tool nicht unbedingt für Personen ohne technische Vorkenntnisse geeignet.",
@@ -2034,7 +2034,7 @@
     "id": 66,
     "zielgruppe": "Personen ohne technische Vorkenntnisse",
     "laenge": null,
-    "erwaehntIn": "PP37, PP42",
+    "erwaehntIn": ["PP37", "PP42"],
     "tool": {
       "name": "Elements of AI",
       "beschreibung": "„The Elements of AI“ ist eine Reihe kostenloser Online-Kurse, die von MinnaLearn und der Universität Helsinki entwickelt wurde. Wir möchten möglichst viele Menschen dazu anregen, zu erfahren, was KI ist, was man mit KI alles machen kann (und was nicht) und wie man damit beginnt, KI-methoden zu entwickeln. Die Kurse verbinden Theorie mit praktischen Übungen und können im eigenen Tempo absolviert werden.",
@@ -2052,7 +2052,7 @@
     "id": 67,
     "zielgruppe": "PreK-12",
     "laenge": null,
-    "erwaehntIn": "PP37",
+    "erwaehntIn": ["PP37"],
     "tool": {
       "name": "ISTE+ASCD",
       "beschreibung": "ISTE+ASCD befähigt Pädagogen weltweit dazu, KI sicher und verantwortungsbewusst im Unterricht einzusetzen. Als größter Anbieter von Fortbildungen im Bereich KI bringt ISTE+ASCD Pädagogen zusammen, um den Lernprozess zu verbessern und Schüler darauf vorzubereiten, die nächste Generation von KI-Entwicklern und Problemlösern zu werden.",
@@ -2074,7 +2074,7 @@
     "id": 68,
     "zielgruppe": "K-12",
     "laenge": null,
-    "erwaehntIn": "",
+    "erwaehntIn": [],
     "tool": {
       "name": "AI4K12",
       "beschreibung": "Im Rahmen dieser Initiative werden (1) nationale Leitlinien für den KI-Unterricht für K-12 Schüler, (2) ein kuratiertes Online-Verzeichnis mit Ressourcen zur Unterstützung des KI-Unterrichts sowie (3) eine Gemeinschaft aus Praktikern, Forschern und Entwicklern von Ressourcen und Tools aufgebaut, die sich speziell an die Zielgruppe K-12 richtet.",
@@ -2096,7 +2096,7 @@
     "id": 39,
     "zielgruppe": "",
     "laenge": null,
-    "erwaehntIn": "",
+    "erwaehntIn": [],
     "tool": {
       "name": "KI-Campus",
       "beschreibung": "Die kostenlose Lernplattform für Künstliche Intelligenz, KI kennenlernen – mit Onlinekursen, Videos und Podcasts, Aktuelle KI-Tools richtig einsetzen lernen, Kostenlose Zertifikate erhalten – wie bereits 100.000 andere Lernende",
@@ -2118,7 +2118,7 @@
     "id": 40,
     "zielgruppe": "",
     "laenge": null,
-    "erwaehntIn": "",
+    "erwaehntIn": [],
     "tool": {
       "name": "fobizz",
       "beschreibung": "fobizz bietet digitale Fortbildungen für Lehrkräfte, interaktive KI-Tools und hochwertige Unterrichtsmaterialien – für modernen Unterricht, jede Schulform, jedes Fach. Wir haben passgenaue Angebote für Lehrkräfte, Schulen, Schulträger und Bundesländer.",
