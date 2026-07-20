@@ -46,21 +46,21 @@ const kurslaengen = [
 ]
 
 const anwendungsfelder = [
-  'ChatGPT',
-  'Computer Vision',
-  'Daten',
-  'Empfehlungssysteme',
-  'GenAI',
-  'Grundlagen',
-  'Klassifizierung',
-  'Kritik',
-  'LLMs',
-  'ML',
-  'NLP',
-  'NNs',
-  'Roboter',
-  'Sozialer Einfluss',
-  'Verschiedene KI und Informatik Themen'
+  {title: 'ChatGPT', value:'ChatGPT'},
+  {title: 'Computer Vision', value:'Computer Vision'},
+  {title: 'Daten', value:'Daten'},
+  {title: 'Empfehlungssysteme', value:'Empfehlungssysteme'},
+  {title: 'Generative Künstliche Intelligenz', value:'GenAI'},
+  {title: 'Grundlagen', value:'Grundlagen'},
+  {title: 'Klassifizierung', value:'Klassifizierung'},
+  {title: 'Kritik', value:'Kritik'},
+  {title: 'Large Language Models ', value:'LLMs'},
+  {title: 'Machine Learning', value:'ML'},
+  {title: 'Natural Language Processing', value:'NLP'},
+  {title: 'Neuronale Netze', value:'NNs'},
+  {title: 'Roboter', value:'Roboter'},
+  {title: 'Sozialer Einfluss', value:'Sozialer Einfluss'},
+  {title: 'Verschiedene KI und Informatik Themen', value:'Verschiedene KI und Informatik Themen'}
 ]
 
 const aiLiteracyAspekte = [
