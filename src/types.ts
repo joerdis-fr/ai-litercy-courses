@@ -1,8 +1,12 @@
 import { z } from "zod";
 import optionsData from './options.json';
 
+export const ANWENDUNGSFELDER = optionsData.anwendungsfelder;
+export const KATEGORIEN = optionsData.kategorien;
+
 export const AnwendungsfeldSchema = z.enum(optionsData.anwendungsfelder as [string, ...string[]]);
 export const DatenbankSchema = z.enum(optionsData.datenbanken as [string, ...string[]]);
+export const KategorienSchema = z.enum(optionsData.kategorien as [string, ...string[]]);
 
 export const LaengeSchema = z.object({
     anzahlSessions: z.number().optional().nullable(),
@@ -45,7 +49,7 @@ export const CourseSchema = z.object({
     erwaehntIn: z.array(z.string()),
     paper: PaperSchema.optional(),
     tool: ToolSchema.optional(),
-    kategorie: z.array(z.string()),
+    kategorie: z.array(KategorienSchema),
     alter: AltersspanneSchema.optional(),
     anwendungsfelder: z.array(AnwendungsfeldSchema),
     aiLiteracyAspekt: z.array(z.number()),
