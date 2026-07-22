@@ -1,12 +1,19 @@
 <script setup lang="ts">
 
-import {ref, watch} from "vue";
+import {computed, ref, watch} from "vue";
 import type { FilterState } from "src/types.ts"
 import {SPRACHEN} from "@/types.ts";
+import {useDisplay} from "vuetify/framework";
 
 const emit = defineEmits<{
   (e: 'update:filters', value: FilterState): void
 }>()
+
+const display = useDisplay()
+
+const colsComputed = computed(() => {
+  return display.lgAndUp.value ? 6 : 12
+})
 
 const selectedFilters = ref<FilterState>({
   kategorien: [],
@@ -81,74 +88,81 @@ watch(selectedFilters, (newFilters) => {
 
 <template>
   <v-container>
-    <v-select
-        v-model="selectedFilters.kategorien"
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        label="Kategorie"
-        :items="kategorien"
-        multiple
-        variant="outlined"
-    />
-    <v-select
-        v-model="selectedFilters.altersstufen"
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        label="Alter"
-        :items="altersstufen"
-        multiple
-        variant="outlined"
-    />
-    <v-select
-        v-model="selectedFilters.kurslaengen"
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        label="Kursdauer"
-        :items="kurslaengen"
-        multiple
-        variant="outlined"
-    />
-    <v-select
-        v-model="selectedFilters.anwendungsfelder"
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        label="Anwendungsfelder"
-        :items="anwendungsfelder"
-        multiple
-        variant="outlined"
-    />
-    <v-select
-        v-model="selectedFilters.aiLiteracyAspekte"
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        label="AI Literacy Aspekte"
-        :items="aiLiteracyAspekte"
-        multiple
-        variant="outlined"
-    />
-    <v-select
-        v-model="selectedFilters.sprachen"
-        clearable
-        chips
-        color="primary"
-        density="compact"
-        label="Sprachen"
-        :items="SPRACHEN"
-        item-title="title"
-        item-value="value"
-        multiple
-        variant="outlined"
-    />
+    <v-row>
+      <v-col :cols="colsComputed">
+        <v-select
+            v-model="selectedFilters.kategorien"
+            clearable
+            chips
+            color="primary"
+            density="compact"
+            label="Kategorie"
+            :items="kategorien"
+            multiple
+            variant="outlined"
+        />
+        <v-select
+            v-model="selectedFilters.altersstufen"
+            clearable
+            chips
+            color="primary"
+            density="compact"
+            label="Alter"
+            :items="altersstufen"
+            multiple
+            variant="outlined"
+        />
+        <v-select
+            v-model="selectedFilters.kurslaengen"
+            clearable
+            chips
+            color="primary"
+            density="compact"
+            label="Kursdauer"
+            :items="kurslaengen"
+            multiple
+            variant="outlined"
+        />
+      </v-col>
+      <v-col :cols="colsComputed">
+        <v-select
+            v-model="selectedFilters.anwendungsfelder"
+            clearable
+            chips
+            color="primary"
+            density="compact"
+            label="Anwendungsfelder"
+            :items="anwendungsfelder"
+            multiple
+            variant="outlined"
+        />
+        <v-select
+            v-model="selectedFilters.aiLiteracyAspekte"
+            clearable
+            chips
+            color="primary"
+            density="compact"
+            label="AI Literacy Aspekte"
+            :items="aiLiteracyAspekte"
+            multiple
+            variant="outlined"
+        />
+        <v-select
+            v-model="selectedFilters.sprachen"
+            clearable
+            chips
+            color="primary"
+            density="compact"
+            label="Sprachen"
+            :items="SPRACHEN"
+            item-title="title"
+            item-value="value"
+            multiple
+            variant="outlined"
+        />
+
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
