@@ -25,14 +25,46 @@ const selectedFilters = ref<FilterState>({
 })
 
 const kategorien = [
-  {title: "Curriculum", props: { prependIcon: "mdi-format-list-bulleted" }},
-  {title: "Greifbar", props: { prependIcon: "mdi-hand-coin"}},
-  {title: "Kognitives Werkzeug", props: { prependIcon: "mdi-head-snowflake"}},
-  {title: "Lehrmaterialien", props: { prependIcon: "mdi-folder-information"}},
-  {title: "Ausstellung", props: { prependIcon: "mdi-bank"}},
-  {title: "Webanwendung", props: { prependIcon: "mdi-laptop"}},
-  {title: "Sammlung von KI Kursen", props: { prependIcon: "mdi-book-multiple"}},
-  {title: "Sonstige", props: { prependIcon: "mdi-page-next"}},
+  {
+    title: "Curriculum",
+    props: { prependIcon: "mdi-format-list-bulleted" },
+    text: "Die Kategorie Curriculum beschreibt Lehrpläne, in denen konkrete Lernziele festgelegt werden und dazu Maßnahmen beschrieben werden, wie diese Lernziele zu erreichen sind. Das übergeordnete Lernziel aller Curricula beinhaltet durch die vorhergehende Auswahl die Förderung von AI Literacy, doch um dieses Ziel zu erreichen gibt es verschiedene Möglichkeiten, die durch verschiedene kleinere Lernziele erreicht werden kann. "
+  },
+  {
+    title: "Greifbar",
+    props: { prependIcon: "mdi-hand-coin"},
+    text: "Die Kategorie Greifbar beschreibt alle Lernmethoden, die Aktivitäten mit greifbaren Dingen beschreiben. Das können beispielsweise Roboter aus bestimmter Hardware sein, Kartenspiele oder Bastelaufgaben. "
+  },
+  {
+    title: "Kognitives Werkzeug",
+    props: { prependIcon: "mdi-head-snowflake"},
+    text: "Kognitive Werkzeuge beschreiben abstrakte Gedankenspiele, die Schüler zum Verständnis von KI-Konzepten oder Konsequenzen von KI bewegen können. Das sind beispielsweise Metaphern, Analogien oder Design-Fiction Szenarien."
+  },
+  {
+    title: "Lehrmaterialien",
+    props: { prependIcon: "mdi-folder-information"},
+    text: "In der Kategorie Lehrmaterialien befinden sich konkrete Folien, Arbeitsblätter oder weitere Materialien, die zur Vermittlung von AI Literacy verwendet werden können. Curricula sind im Gegensatz zu Lehrmaterialien abstrakter und eine Hilfe zur Orientierung bei der Planung von Unterrichtsinhalten, während die Lehrmaterialien konkrete Vorschläge sind, die direkt übernommen werden könnten."
+  },
+  {
+    title: "Ausstellung",
+    props: { prependIcon: "mdi-bank"},
+    text: "Ausstellungen finden in einem anderen Kontext statt. Sie können in einem Museum, einer Messe oder eine andere Veranstaltung ausgestellt werden, und haben das Prinzip, dass die Ausstellung an einem Ort aufgebaut wird und Personen, die vor Ort sind, sich weiter mit dem Ausstellungsstück befassen können, wenn sie möchten. Hier ist der Kontext also kein Unterricht, sondern eine Veranstaltung, bei der Personen sich frei bewegen können und nach Interesse alles erkunden können. "
+  },
+  {
+    title: "Webanwendung",
+    props: { prependIcon: "mdi-laptop"},
+    text: "Die Kategorie Webanwendung beschreibt Anwendungen, die Spiele, Quizze, KI Assistenten oder Ähnliches enthalten. Sie sind entweder direkt über eine URL aufzurufen oder es gibt ein GitHub Repository, das den Code für die Anwendung enthält. "
+  },
+  {
+    title: "Sammlung von KI Kursen",
+    props: { prependIcon: "mdi-book-multiple"},
+    text: "Teilweise wurden keine einzelnen Kurse gefunden, sondern bereits Sammlungen, die verschiedene der anderen Kategorien beinhalten könnten. Eine Zuordnung von allen einzelnen Kursen mit nur einem Eintrag wäre verwirrend, weswegen diese Kategorie zustande gekommen ist."
+  },
+  {
+    title: "Sonstige",
+    props: { prependIcon: "mdi-page-next"},
+    text: "Die Kategorie Sonstige sammelt alle Einträge, die nicht zu den anderen Kategorien passen, weil sie zu einzigartig sind und darum eine Gruppierung nicht sinnvoll wäre."
+  },
 ]
 
 const altersstufen = [
@@ -88,6 +120,42 @@ watch(selectedFilters, (newFilters) => {
 
 <template>
   <v-container>
+    <v-row>
+      <v-col>
+        <v-expansion-panels
+            :rounded="[20, 8]"
+            gap="8"
+        >
+          <v-expansion-panel
+              class="border bg-light-blue-lighten-4"
+              text="test"
+          >
+            <template #title class="d-flex">
+              <v-icon
+                  class="mr-2"
+                  icon="mdi-information"
+                  color="#1E398F"
+              />
+              Du kennst die Kategorien noch nicht? Hier kannst du Erklärungen zu ihnen finden!
+            </template>
+            <template #text>
+              <v-row
+                  v-for="(kategorie, index) in kategorien"
+                  :key="index"
+              >
+                <v-col>
+                  <v-icon
+                      :icon="kategorie.props.prependIcon"
+                  />
+                  {{kategorie.title}}:
+                  {{kategorie.text}}
+                </v-col>
+              </v-row>
+            </template>
+          </v-expansion-panel>
+        </v-expansion-panels>
+      </v-col>
+    </v-row>
     <v-row>
       <v-col :cols="colsComputed">
         <v-select

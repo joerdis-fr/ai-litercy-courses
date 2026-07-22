@@ -23,6 +23,5 @@ import Uebersicht from '@/components/Uebersicht.vue'
 .ueberschrift {
   color: #1E398F;
   font-weight: bold;
-  //font-family: cargan, Consolas, Menlo, Monaco, Courier, monospace;
 }
 </style>
