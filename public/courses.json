@@ -93,7 +93,7 @@
     "tool":
     {
     "name": "Bandit Explorer",
-    "beschreibung": "Empfehlungssytsem-Kompromisse, eine Simulation des Erkundungs- und Ausbeutungskompromisses unter Verwendung der epsilon-greedy Policy. Schüler passen ϵ (epsilon) an, um zu sehen, wie Empfehlungen auf Grundlage ihrer Umgebung sich verändern.",
+    "beschreibung": "Empfehlungssystem-Kompromisse, eine Simulation des Erkundungs- und Ausbeutungskompromisses unter Verwendung der epsilon-greedy Policy. Schüler passen ϵ (epsilon) an, um zu sehen, wie Empfehlungen auf Grundlage ihrer Umgebung sich verändern.",
     "link": "https://github.com/saniavn/ai-literacy-tools"
     },
     "kategorie": ["Webanwendung"],
@@ -432,7 +432,7 @@
     ],
     "aiLiteracyAspekt": [2],
     "sprachen": ["en"],
-    "registration": false
+    "registration": true
   },
   {
     "id": 13,
@@ -573,7 +573,7 @@
     ],
     "aiLiteracyAspekt": [5],
     "sprachen": ["en"],
-    "registration": false
+    "registration": true
   },
   {
     "id": 17,
@@ -643,7 +643,7 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [5],
-    "sprachen": ["en"],
+    "sprachen": ["es"],
     "registration": false
   },
   {
@@ -751,7 +751,7 @@
       "ML", "Roboter"
     ],
     "aiLiteracyAspekt": [1, 2, 3],
-    "sprachen": ["en"],
+    "sprachen": ["en", "de", "da"],
     "registration": false
   },
   {
@@ -919,7 +919,7 @@
     ],
     "aiLiteracyAspekt": [1, 2, 4],
     "sprachen": ["en"],
-    "registration": false
+    "registration": true
   },
   {
     "id": 27,
@@ -1140,7 +1140,7 @@
       "Klassifizierung", "Daten"
     ],
     "aiLiteracyAspekt": [1],
-    "sprachen": ["en"],
+    "sprachen": ["en", "es"],
     "registration": false
   },
   {
@@ -1312,7 +1312,7 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [5],
-    "sprachen": ["en"],
+    "sprachen": ["en", "fr", "nl"],
     "registration": false
   },
   {
@@ -1342,7 +1342,7 @@
       "ML", "GenAI", "NLP", "NNs", "Computer Vision", "Sozialer Einfluss", "Kritik", "Grundlagen", "Empfehlungssysteme", "Klassifizierung", "LLMs"
     ],
     "aiLiteracyAspekt": [1, 2, 4],
-    "sprachen": ["en"],
+    "sprachen": ["en", "de", "hu"],
     "registration": false
   },
   {
@@ -1728,7 +1728,7 @@
     "tool": {
       "name": "PopBots",
       "beschreibung": "Um Kindern Konzepte der künstlichen Intelligenz näherzubringen, haben wir die Plattform für Vorschulkinder „Preschool-Oriented Programming“ (PopBots) entwickelt. Zu unseren wichtigsten Gestaltungszielen gehörte es, Kindern dabei zu helfen, Verbindungen zwischen den Aktivitäten und ihren eigenen Erfahrungen herzustellen, Kinder mit unterschiedlichen Hintergründen und Interessen anzusprechen und sie dazu zu befähigen, über künstliche Intelligenz nachzudenken und darüber zu diskutieren. Das Toolkit enthält ein Curriculum, einen sozialen und interaktiven Roboter und LEGO-Steine, die als Sensoren und Motoren dienen. Der Roboter dient sowohl als programmierbares Gerät als auch als Begleiter, der die Schülerinnen und Schüler Schritt für Schritt durch KI-Algorithmen führt und ihnen durch soziale Interaktion Kenntnisse über KI vermittelt. Die Zielgruppe dieses Toolkits sind Kinder im Alter von vier bis sechs Jahren. Das Toolkit verwendet kreative Lernaktivitäten, um Schülern drei KI-Konzepte beizubringen: wissensbasierte Systeme, GenAI und supervised ML. Diese Aktivitäten verwenden interaktive und projektorientierte Techniken, damit die Kinder die Freiheit haben diese Themen selbst zu erkunden.",
-      "link": "https://dl.acm.org/doi/suppl/10.1145/3290605.3300677/suppl_file/pn3787.zip 7"
+      "link": null
     },
     "kategorie": ["Curriculum"],
     "alter" : {
@@ -1798,7 +1798,7 @@
       "Grundlagen"
     ],
     "aiLiteracyAspekt": [1],
-    "sprachen": ["en"],
+    "sprachen": ["en", "ms", "es", "fr", "it", "pt", "he", "ar", "tr"],
     "registration": false
   },
   {
@@ -1820,7 +1820,7 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [5],
-    "sprachen": ["en"],
+    "sprachen": ["en", "de", "es", "fr", "it", "pt", "tr"],
     "registration": false
   },
   {
@@ -1856,7 +1856,7 @@
       "Klassifizierung", "Computer Vision", "ML", "NNs"
     ],
     "aiLiteracyAspekt": [1, 2],
-    "sprachen": ["en"],
+    "sprachen": ["en", "de", "es", "fr", "it", "pt", "nl"],
     "registration": false
   },
   {
@@ -1878,7 +1878,7 @@
       "ML"
     ],
     "aiLiteracyAspekt": [1, 2, 3],
-    "sprachen": ["en"],
+    "sprachen": ["en", "de", "es", "fr", "it", "pt", "nl", "tr", "ar"],
     "registration": false
   },
   {
@@ -1900,7 +1900,7 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [1,4],
-    "sprachen": ["en"],
+    "sprachen": ["de", "en", "ko", "pt", "es", "sv", "fr", "id"],
     "registration": false
   },
   {
@@ -1940,7 +1940,24 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [2,3],
-    "sprachen": ["en"],
+    "sprachen": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "it",
+      "da",
+      "nl",
+      "pt",
+      "hu",
+      "tr",
+      "ms",
+      "he",
+      "ar",
+      "ko",
+      "sv",
+      "id"
+    ],
     "registration": false
   },
   {
@@ -1976,7 +1993,7 @@
     "tool": {
       "name": "Cognimates",
       "beschreibung": "Cognimates ist ein Scratch add-on, das dem Nutzer Zugang zu APIs für Sprachproduktion, Spracherkennung, Textklassifizierung, Objektklassifizierung und Roboter Kontrolle gibt.",
-      "link": "https://docs.rapidminer.com/9.9/studio/installation/"
+      "link": "https://hackidemia.github.io/cognimates-website/home/"
     },
     "kategorie": ["Webanwendung"],
     "anwendungsfelder": [
@@ -2009,7 +2026,24 @@
       "NLP", "ML", "NNs", "Klassifizierung", "Roboter"
     ],
     "aiLiteracyAspekt": [2, 3],
-    "sprachen": ["en"],
+    "sprachen": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "it",
+      "da",
+      "nl",
+      "pt",
+      "hu",
+      "tr",
+      "ms",
+      "he",
+      "ar",
+      "ko",
+      "sv",
+      "id"
+    ],
     "registration": false
   },
   {
@@ -2045,7 +2079,17 @@
       "Grundlagen", "ML", "NNs", "Sozialer Einfluss"
     ],
     "aiLiteracyAspekt": [1],
-    "sprachen": ["en"],
+    "sprachen": [
+      "en",
+      "de",
+      "fr",
+      "es",
+      "it",
+      "da",
+      "nl",
+      "pt",
+      "sv"
+    ],
     "registration": false
   },
   {
@@ -2068,7 +2112,7 @@
     ],
     "aiLiteracyAspekt": [1, 5],
     "sprachen": ["en"],
-    "registration": false
+    "registration": true
   },
   {
     "id": 68,
@@ -2111,8 +2155,8 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [5],
-    "sprachen": ["en"],
-    "registration": false
+    "sprachen": ["en", "de"],
+    "registration": true
   },
   {
     "id": 40,
@@ -2133,7 +2177,7 @@
       "Verschiedene KI und Informatik Themen"
     ],
     "aiLiteracyAspekt": [5],
-    "sprachen": ["en"],
-    "registration": false
+    "sprachen": ["en", "de"],
+    "registration": true
   }
 ]

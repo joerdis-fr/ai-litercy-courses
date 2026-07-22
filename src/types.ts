@@ -7,6 +7,7 @@ export const KATEGORIEN = optionsData.kategorien;
 export const AnwendungsfeldSchema = z.enum(optionsData.anwendungsfelder as [string, ...string[]]);
 export const DatenbankSchema = z.enum(optionsData.datenbanken as [string, ...string[]]);
 export const KategorienSchema = z.enum(optionsData.kategorien as [string, ...string[]]);
+export const SprachenSchema = z.enum(optionsData.sprachen as [string, ...string[]]);
 
 export const LaengeSchema = z.object({
     anzahlSessions: z.number().optional().nullable(),
@@ -53,7 +54,7 @@ export const CourseSchema = z.object({
     alter: AltersspanneSchema.optional(),
     anwendungsfelder: z.array(AnwendungsfeldSchema),
     aiLiteracyAspekt: z.array(z.number()),
-    sprachen: z.array(z.string()),
+    sprachen: z.array(SprachenSchema),
     registration: z.boolean()
 })
 
