@@ -22,6 +22,7 @@ const activeFilters = ref({
   kurslaengen: [] as Kurslaenge[],
   anwendungsfelder: [] as string[],
   aiLiteracyAspekte: [] as number[],
+  sprachen: [] as string[],
 })
 const nurMitPaper = ref(false)
 
@@ -93,6 +94,7 @@ const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
   activeFilters.value.kurslaengen = newFilters.kurslaengen;
   activeFilters.value.anwendungsfelder = newFilters.anwendungsfelder;
   activeFilters.value.aiLiteracyAspekte = newFilters.aiLiteracyAspekte;
+  activeFilters.value.sprachen = newFilters.sprachen;
 }
 
 const gefilterteKurse = computed(() => {
@@ -139,12 +141,16 @@ const gefilterteKurse = computed(() => {
       const matchesAiLiteracyAspekt =
           activeFilters.value.aiLiteracyAspekte.length === 0 ||
           kurs.aiLiteracyAspekt.some(aspekt => activeFilters.value.aiLiteracyAspekte.includes(aspekt))
+      const matchesSprache =
+          activeFilters.value.sprachen.length === 0 ||
+          kurs.sprachen.some(lang => activeFilters.value.sprachen.includes(lang))
       return matchesKategorie &&
           matchesPaper &&
           matchesAlter &&
           matchesLength &&
           matchesAnwendungsfeld &&
-          matchesAiLiteracyAspekt;
+          matchesAiLiteracyAspekt &&
+          matchesSprache;
     })
 })
 

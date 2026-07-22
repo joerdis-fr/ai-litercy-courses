@@ -2,6 +2,7 @@
 
 import {ref, watch} from "vue";
 import type { FilterState } from "src/types.ts"
+import {SPRACHEN} from "@/types.ts";
 
 const emit = defineEmits<{
   (e: 'update:filters', value: FilterState): void
@@ -12,7 +13,8 @@ const selectedFilters = ref<FilterState>({
   altersstufen: [],
   kurslaengen: [],
   anwendungsfelder: [],
-  aiLiteracyAspekte: []
+  aiLiteracyAspekte: [],
+  sprachen: []
 })
 
 const kategorien = [
@@ -131,6 +133,19 @@ watch(selectedFilters, (newFilters) => {
         density="compact"
         label="AI Literacy Aspekte"
         :items="aiLiteracyAspekte"
+        multiple
+        variant="outlined"
+    />
+    <v-select
+        v-model="selectedFilters.sprachen"
+        clearable
+        chips
+        color="primary"
+        density="compact"
+        label="Sprachen"
+        :items="SPRACHEN"
+        item-title="title"
+        item-value="value"
         multiple
         variant="outlined"
     />

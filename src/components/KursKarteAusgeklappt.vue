@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type {CourseOptimiert} from "@/types.ts";
+import {SPRACHEN} from "@/types.ts";
 import acmLogo from "../assets/acm-logo.webp";
 import scienceDirectLogo from "../assets/elsevier-logo.svg";
 import springerLogo from "../assets/logo-springer-nature-link.svg";
@@ -37,11 +38,11 @@ const kursLink = () => {
 const kursLaenge = () => {
   if (kurs.laenge)
     if (kurs.laenge.zeitInMinutes)
-      return kurs.laenge.anzahlSessions.toString().concat("x ", kurs.laenge.zeitInMinutes.toString(), " min");
-    else if (kurs.laenge.anzahlSessions > 1)
-      return kurs.laenge.anzahlSessions.toString().concat(" Sessions")
+      return kurs.laenge.anzahlSessions?.toString().concat("x ", kurs.laenge.zeitInMinutes.toString(), " min");
+    else if (kurs.laenge.anzahlSessions && kurs.laenge.anzahlSessions > 1)
+      return kurs.laenge.anzahlSessions?.toString().concat(" Sessions")
     else
-      return kurs.laenge.anzahlSessions.toString().concat(" Session")
+      return kurs.laenge.anzahlSessions?.toString().concat(" Session")
   else return "Unbekannt"
 }
 
@@ -112,6 +113,25 @@ const getKategorieIcon = (kategorieTitle: string): string => {
   return kat ? kat.icon : 'mdi-help-circle';
 };
 
+const registrierungNotwendig = () => {
+  if (kurs.registration)
+      return "Registrierung notwendig";
+  else return "Keine Registrierung notwendig"
+}
+
+const sprachen = () => {
+  const gefundeneSprachen = kurs.sprachen.flatMap(spracheKuerzel => {
+    const gefundeSprache = SPRACHEN.find(s => s.value === spracheKuerzel);
+    return gefundeSprache ? [gefundeSprache.title] : [];
+  });
+
+  if (gefundeneSprachen.length === 0) {
+    return "Keine Sprache angegeben";
+  }
+  const praefix = gefundeneSprachen.length === 1 ? "Sprache" : "Sprachen";
+  return `${praefix}: ${gefundeneSprachen.join(', ')}`;
+};
+
 </script>
 
 <template>
@@ -160,6 +180,21 @@ const getKategorieIcon = (kategorieTitle: string): string => {
             {{ feld }}
           </li>
         </ul>
+      </div>
+      <div>
+        <v-icon
+            class="mr-2"
+            icon="mdi-account-voice"
+        />
+        {{ sprachen() }}
+      </div>
+      <div class="d-flex my-2">
+        <v-icon
+            :color="kurs.registration ? 'error' : 'success'"
+            class="mr-2"
+            icon="mdi-shield-account"
+        />
+        {{ registrierungNotwendig() }}
       </div>
       <div>
         <p class="text-title-medium">

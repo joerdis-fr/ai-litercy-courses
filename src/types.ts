@@ -3,6 +3,24 @@ import optionsData from './options.json';
 
 export const ANWENDUNGSFELDER = optionsData.anwendungsfelder;
 export const KATEGORIEN = optionsData.kategorien;
+export const SPRACHEN = [
+    {title: "Englisch", value: "en"},
+    {title: "Deutsch", value: "de"},
+    {title: "Französisch", value: "fr"},
+    {title: "Spanisch", value: "es"},
+    {title: "Italienisch", value: "it"},
+    {title: "Dänisch", value: "da"},
+    {title: "Niederländisch", value: "nl"},
+    {title: "Portugiesisch", value: "pt"},
+    {title: "Ungarisch", value: "hu"},
+    {title: "Türkisch", value: "tr"},
+    {title: "Malaiisch", value: "ms"},
+    {title: "Hebräisch", value: "he"},
+    {title: "Arabisch", value: "ar"},
+    {title: "Koreanisch", value: "ko"},
+    {title: "Schwedisch", value: "sv"},
+    {title: "Indonesisch", value: "id"}
+]
 
 export const AnwendungsfeldSchema = z.enum(optionsData.anwendungsfelder as [string, ...string[]]);
 export const DatenbankSchema = z.enum(optionsData.datenbanken as [string, ...string[]]);
@@ -67,6 +85,7 @@ export type Altersspanne = z.infer<typeof AltersspanneSchema>;
 export type Kurslaenge = z.infer<typeof KurslaengeSchema>;
 export type Course = z.infer<typeof CourseSchema>;
 export type Anwendungsfeld = z.infer<typeof AnwendungsfeldSchema>;
+export type Sprachen = z.infer<typeof SprachenSchema>;
 
 export interface FilterState {
     kategorien: string[]
@@ -74,4 +93,5 @@ export interface FilterState {
     kurslaengen: Kurslaenge[]
     anwendungsfelder: string[]
     aiLiteracyAspekte: number[]
+    sprachen: Sprachen[]
 }
