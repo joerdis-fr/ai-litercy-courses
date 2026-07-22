@@ -98,8 +98,6 @@ const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
 }
 
 const gefilterteKurse = computed(() => {
-    console.log("Filter-Zustand:", activeFilters.value);
-    console.log("Switch-Zustand (nurMitPaper):", nurMitPaper.value);
     return courses.value.filter(kurs => {
       const matchesKategorie =
           activeFilters.value.kategorien.length === 0 ||

@@ -25,14 +25,14 @@ const selectedFilters = ref<FilterState>({
 })
 
 const kategorien = [
-    'Curriculum',
-    'Greifbar',
-    'Kognitives Werkzeug',
-    'Lehrmaterialien',
-    'Ausstellung',
-    'Webanwendung',
-    'Sammlung von KI Kursen',
-    'Sonstige'
+  {title: "Curriculum", props: { prependIcon: "mdi-format-list-bulleted" }},
+  {title: "Greifbar", props: { prependIcon: "mdi-hand-coin"}},
+  {title: "Kognitives Werkzeug", props: { prependIcon: "mdi-head-snowflake"}},
+  {title: "Lehrmaterialien", props: { prependIcon: "mdi-folder-information"}},
+  {title: "Ausstellung", props: { prependIcon: "mdi-bank"}},
+  {title: "Webanwendung", props: { prependIcon: "mdi-laptop"}},
+  {title: "Sammlung von KI Kursen", props: { prependIcon: "mdi-book-multiple"}},
+  {title: "Sonstige", props: { prependIcon: "mdi-page-next"}},
 ]
 
 const altersstufen = [
@@ -99,8 +99,8 @@ watch(selectedFilters, (newFilters) => {
             label="Kategorie"
             :items="kategorien"
             multiple
-            variant="outlined"
-        />
+            variant="outlined">
+        </v-select>
         <v-select
             v-model="selectedFilters.altersstufen"
             clearable
