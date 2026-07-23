@@ -25,6 +25,7 @@ const activeFilters = ref({
   sprachen: [] as string[],
 })
 const nurMitPaper = ref(false)
+const registrierungNotwendig = ref(true)
 
 async function loadJson(): Promise<Course[]> {
   const response = await fetch("/courses.json");
@@ -40,21 +41,17 @@ onMounted(async () => {
 
     rawCourses.forEach((course: Course) => {
       const toolsArray = Array.isArray(course.tool) ? course.tool : [course.tool];
-
-    // 2. Für jedes Tool in diesem Kurs erstellen wir eine eigene Karte (ein eigenes Objekt)
+    // Für jedes Tool in diesem Kurs erstellen wir eine eigene Karte (ein eigenes Objekt)
     toolsArray.forEach((singleTool: Tool, index: number) => {
-
         if (singleTool.name === "/" && course.paper) {
           singleTool = { ...singleTool, name: course.paper.titel };
         }
         const uniqueId = course.id * 1000 + index;
-
         const newCourseCard: Course = {
           ...course,
           id: uniqueId,
           tool: singleTool
         };
-
         flattenedCourses.push(newCourseCard as CourseOptimiert);
       });
     });
@@ -103,6 +100,7 @@ const gefilterteKurse = computed(() => {
           activeFilters.value.kategorien.length === 0 ||
           kurs.kategorie.some(kat => activeFilters.value.kategorien.includes(kat))
       const matchesPaper = !nurMitPaper.value || (kurs.paper !== null && kurs.paper !== undefined)
+      const matchesRegistrierung = registrierungNotwendig.value || (kurs.registration !== null && kurs.registration !== undefined && !kurs.registration)
       const matchesAlter =
           activeFilters.value.altersstufen.length === 0 ||
           activeFilters.value.altersstufen.some(spanne => {
@@ -144,12 +142,18 @@ const gefilterteKurse = computed(() => {
           kurs.sprachen.some(lang => activeFilters.value.sprachen.includes(lang))
       return matchesKategorie &&
           matchesPaper &&
+          matchesRegistrierung &&
           matchesAlter &&
           matchesLength &&
           matchesAnwendungsfeld &&
           matchesAiLiteracyAspekt &&
           matchesSprache;
-    })
+    }).sort((a, b) => {
+          const nameA = a.tool?.name || '';
+          const nameB = b.tool?.name || '';
+          // localeCompare sorgt für korrekte alphabetische Sortierung inkl. Umlauten (Ä, Ö, Ü)
+          return nameA.localeCompare(nameB, 'de', { sensitivity: 'base' });
+        });
 })
 
 </script>
@@ -178,6 +182,14 @@ const gefilterteKurse = computed(() => {
             label="Nur Tools mit Paper anzeigen"
             true-icon="mdi-check"
             false-icon="mdi-close"
+        ></v-switch>
+        <v-switch
+            v-model="registrierungNotwendig"
+            color="error"
+            class="mt-n8"
+            label="Registrierung notwendig"
+            true-icon="mdi-shield-account"
+            false-icon="mdi-shield-account"
         ></v-switch>
       </v-col>
       <v-col cols="auto">

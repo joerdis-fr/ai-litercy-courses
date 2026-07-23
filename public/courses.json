@@ -1300,7 +1300,7 @@
     },
     "tool": {
       "name": "Artificial intelligence resource directory",
-      "beschreibung": "Ein Katalog mit Bildungsressourcen zum thema KI, weiterer Link: https://www.lascientotheque.be/pour-les-pros/nos-ressources-steam/intelligence-artificielle/",
+      "beschreibung": "Ein Katalog mit Bildungsressourcen zum thema KI",
       "link": "https://lascientotheque.shinyapps.io/ai-resources/"
     },
     "kategorie": ["Sammlung von KI Kursen"],
@@ -1830,7 +1830,7 @@
     "erwaehntIn": ["PP3 [84]"],
     "tool": {
       "name": "AI-VIS EthiCards",
-      "beschreibung": "Das ist ein Dialog-basierendes Kartenspiel. Es bietet ein strukturiertes Umfeld an, in dem Schülerinnen und Schüler über ethische Themen zusammenhängend mit KI, wie z. B. Gerechtigkeit, Verantwortung und Missbrauch von Daten, nachdenken und zwar durch eine geführte Interaktion anstelle einer direkten Exposition.",
+      "beschreibung": "Das ist ein Dialog-basierendes Kartenspiel. Es bietet ein strukturiertes Umfeld an, in dem Schülerinnen und Schüler über ethische Themen zusammenhängend mit KI, wie z. B. Gerechtigkeit, Verantwortung und Missbrauch von Daten nachdenken und zwar durch eine geführte Interaktion anstelle einer direkten Exposition.",
       "link": "https://aivisethicards.github.io/"
     },
     "kategorie": ["Greifbar"],
