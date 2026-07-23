@@ -155,7 +155,6 @@ const gefilterteKurse = computed(() => {
           return nameA.localeCompare(nameB, 'de', { sensitivity: 'base' });
         });
 })
-
 </script>
 
 <template>
