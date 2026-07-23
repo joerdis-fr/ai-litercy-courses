@@ -1,0 +1,54 @@
+{
+  "anwendungsfelder": [
+  "ChatGPT",
+  "Computer Vision",
+  "Daten",
+  "Empfehlungssysteme",
+  "GenAI",
+  "Grundlagen",
+  "Klassifizierung",
+  "Kritik",
+  "LLMs",
+  "ML",
+  "NLP",
+  "NNs",
+  "Roboter",
+  "Sozialer Einfluss",
+  "Verschiedene KI und Informatik Themen"
+  ],
+  "kategorien": [
+    "Curriculum",
+    "Greifbar",
+    "Kognitives Werkzeug",
+    "Lehrmaterialien",
+    "Ausstellung",
+    "Webanwendung",
+    "Sammlung von KI Kursen",
+    "Sonstige"
+  ],
+  "datenbanken": [
+    "ACM",
+    "Science Direct",
+    "Springer",
+    "MIT Media Lab",
+    "AAAI"
+  ],
+  "sprachen": [
+    "en",
+    "de",
+    "fr",
+    "es",
+    "it",
+    "da",
+    "nl",
+    "pt",
+    "hu",
+    "tr",
+    "ms",
+    "he",
+    "ar",
+    "ko",
+    "sv",
+    "id"
+  ]
+}

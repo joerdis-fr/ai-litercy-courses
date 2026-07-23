@@ -3,7 +3,14 @@ import Filter from "@/components/Filter.vue";
 import KursKarteEingeklappt from "./KursKarteEingeklappt.vue";
 import {computed, onMounted, ref} from "vue";
 import KursKarteAusgeklappt from "@/components/KursKarteAusgeklappt.vue";
-import type {Altersspanne, Course, CourseOptimiert, Kurslaenge, Tool} from "@/types.ts";
+import {
+  type Altersspanne,
+  type Course,
+  type CourseOptimiert,
+  CourseSchema,
+  type Kurslaenge, type Tool,
+} from "@/types.ts";
+import { z } from "zod";
 
 // Steuervariabeln
 const ausgeklappteKartenIds = ref<Array<number>>([]);
@@ -15,49 +22,50 @@ const activeFilters = ref({
   kurslaengen: [] as Kurslaenge[],
   anwendungsfelder: [] as string[],
   aiLiteracyAspekte: [] as number[],
+  sprachen: [] as string[],
 })
 const nurMitPaper = ref(false)
+const registrierungNotwendig = ref(true)
 
-// Einlesen der Daten
 async function loadJson(): Promise<Course[]> {
-  const content = await fetch("/courses.json");
-  return await content.json() as Course[];
+  const response = await fetch("/courses.json");
+  const rawData = await response.json();
+
+  return z.array(CourseSchema).parse(rawData);
 }
 
 onMounted(async () => {
-  const rawCourses = await loadJson();
-  const flattenedCourses: CourseOptimiert[] = [];
+  try {
+    const rawCourses = await loadJson();
+    const flattenedCourses: CourseOptimiert[] = [];
 
-  rawCourses.forEach((course: Course) => {
-    // 1. Vorbereiten: Wenn es ein einzelnes Tool ist, machen wir ein Array daraus,
-    // damit wir danach beide Fälle mit derselben Logik behandeln können.
-    const toolsArray = Array.isArray(course.tool) ? course.tool : [course.tool];
-
-    // 2. Für jedes Tool in diesem Kurs erstellen wir eine eigene Karte (ein eigenes Objekt)
+    rawCourses.forEach((course: Course) => {
+      const toolsArray = Array.isArray(course.tool) ? course.tool : [course.tool];
+    // Für jedes Tool in diesem Kurs erstellen wir eine eigene Karte (ein eigenes Objekt)
     toolsArray.forEach((singleTool: Tool, index: number) => {
-
-      // Bereinigungslogik
-      if (singleTool.name === "/") {
-        if (course.paper) {
-          // Wir kopieren das Tool-Objekt, um das Original nicht zu verändern
+        if (singleTool.name === "/" && course.paper) {
           singleTool = { ...singleTool, name: course.paper.titel };
         }
-      }
-      // Eindeutige ID generieren:
-      const uniqueId = course.id * 1000 + index;
-      // Wir erstellen eine flache Kopie des Kurses, ersetzen aber ID und Tool
-      const newCourseCard: Course = {
-        ...course,
-        id: uniqueId,
-        tool: singleTool
-      };
-      flattenedCourses.push(<CourseOptimiert>newCourseCard);
+        const uniqueId = course.id * 1000 + index;
+        const newCourseCard: Course = {
+          ...course,
+          id: uniqueId,
+          tool: singleTool
+        };
+        flattenedCourses.push(newCourseCard as CourseOptimiert);
+      });
     });
-  });
+    console.log("Erfolgreich geladen & geflattened:", flattenedCourses);
 
-  // Jetzt enthält `courses.value` für jedes Tool eine eigene Karte mit eindeutiger ID
-  courses.value = flattenedCourses;
-  loading.value = false;
+    courses.value = flattenedCourses;
+    loading.value = false;
+  } catch (error) {
+    if (error instanceof z.ZodError) {
+      console.error("Fehler in der courses.json Validierung:", error.issues);
+    } else {
+      console.error("Unbekannter Fehler beim Laden:", error);
+    }
+  }
 });
 
 // Karten Ein- und Ausklappen steuern
@@ -83,16 +91,16 @@ const handleFilterUpdate = (newFilters: typeof activeFilters.value) => {
   activeFilters.value.kurslaengen = newFilters.kurslaengen;
   activeFilters.value.anwendungsfelder = newFilters.anwendungsfelder;
   activeFilters.value.aiLiteracyAspekte = newFilters.aiLiteracyAspekte;
+  activeFilters.value.sprachen = newFilters.sprachen;
 }
 
 const gefilterteKurse = computed(() => {
-    console.log("Filter-Zustand:", activeFilters.value);
-    console.log("Switch-Zustand (nurMitPaper):", nurMitPaper.value);
     return courses.value.filter(kurs => {
       const matchesKategorie =
           activeFilters.value.kategorien.length === 0 ||
           kurs.kategorie.some(kat => activeFilters.value.kategorien.includes(kat))
       const matchesPaper = !nurMitPaper.value || (kurs.paper !== null && kurs.paper !== undefined)
+      const matchesRegistrierung = registrierungNotwendig.value || (kurs.registration !== null && kurs.registration !== undefined && !kurs.registration)
       const matchesAlter =
           activeFilters.value.altersstufen.length === 0 ||
           activeFilters.value.altersstufen.some(spanne => {
@@ -110,8 +118,15 @@ const gefilterteKurse = computed(() => {
             if ('generell' in spanne) {
               return kurs.laenge === null || kurs.laenge === undefined || kurs.laenge.zeitInMinutes === null || kurs.laenge.zeitInMinutes === undefined;
             }
-            if (kurs.laenge && kurs.laenge.anzahlSessions !== undefined && kurs.laenge.zeitInMinutes !== undefined) {
+            if (kurs.laenge && kurs.laenge.anzahlSessions !== undefined &&
+                kurs.laenge.zeitInMinutes !== undefined &&
+                kurs.laenge && kurs.laenge.anzahlSessions !== null &&
+                kurs.laenge.zeitInMinutes !== null
+            ) {
               const zeitInsgesamt = kurs.laenge.anzahlSessions * kurs.laenge.zeitInMinutes
+              if (spanne.max == null) {
+                return zeitInsgesamt >= spanne.min
+              }
               return zeitInsgesamt <= spanne.max && zeitInsgesamt >= spanne.min;
             }
             return false;
@@ -122,15 +137,24 @@ const gefilterteKurse = computed(() => {
       const matchesAiLiteracyAspekt =
           activeFilters.value.aiLiteracyAspekte.length === 0 ||
           kurs.aiLiteracyAspekt.some(aspekt => activeFilters.value.aiLiteracyAspekte.includes(aspekt))
+      const matchesSprache =
+          activeFilters.value.sprachen.length === 0 ||
+          kurs.sprachen.some(lang => activeFilters.value.sprachen.includes(lang))
       return matchesKategorie &&
           matchesPaper &&
+          matchesRegistrierung &&
           matchesAlter &&
           matchesLength &&
           matchesAnwendungsfeld &&
-          matchesAiLiteracyAspekt;
-    })
+          matchesAiLiteracyAspekt &&
+          matchesSprache;
+    }).sort((a, b) => {
+          const nameA = a.tool?.name || '';
+          const nameB = b.tool?.name || '';
+          // localeCompare sorgt für korrekte alphabetische Sortierung inkl. Umlauten (Ä, Ö, Ü)
+          return nameA.localeCompare(nameB, 'de', { sensitivity: 'base' });
+        });
 })
-
 </script>
 
 <template>
@@ -157,6 +181,14 @@ const gefilterteKurse = computed(() => {
             label="Nur Tools mit Paper anzeigen"
             true-icon="mdi-check"
             false-icon="mdi-close"
+        ></v-switch>
+        <v-switch
+            v-model="registrierungNotwendig"
+            color="error"
+            class="mt-n8"
+            label="Registrierung notwendig"
+            true-icon="mdi-shield-account"
+            false-icon="mdi-shield-account"
         ></v-switch>
       </v-col>
       <v-col cols="auto">
@@ -194,7 +226,6 @@ const gefilterteKurse = computed(() => {
             :kategorie="course.kategorie"
             @toggle-karte="karteAusklappen(course.id)"
         />
-
       </template>
     </div>
   </v-container>
