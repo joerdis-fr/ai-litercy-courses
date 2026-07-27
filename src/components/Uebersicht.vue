@@ -28,7 +28,7 @@ const nurMitPaper = ref(false)
 const registrierungNotwendig = ref(true)
 
 async function loadJson(): Promise<Course[]> {
-  const response = await fetch("/courses.json");
+  const response = await fetch("courses.json");
   const rawData = await response.json();
 
   return z.array(CourseSchema).parse(rawData);
