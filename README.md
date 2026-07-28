@@ -37,6 +37,8 @@ Um die Anwendung für die Produktion zu bauen und ein bereitstellbares Artefakt 
 npm run build
 ```
 
+Die index.html landet daraufhin im dist Ordner, zusammen mit allen wichtigen Ressourcen, auf die sie zugreift (assets, favicon und die courses.json). 
+
 ## Neue Einträge hinzufügen
 
 Um ein neues Tool oder einen neuen methodischen Ansatz in die Daten aufzunehmen, passe die Datei `public/courses.json` an. 
